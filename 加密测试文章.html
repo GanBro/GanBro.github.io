@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/iyYYscO.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/iyYYscO.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/iyYYscO.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/iyYYscO.ico">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -27,7 +27,7 @@
 <meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-27T08:10:51.000Z">
-<meta property="article:modified_time" content="2023-01-27T11:47:05.309Z">
+<meta property="article:modified_time" content="2023-01-27T13:06:51.765Z">
 <meta property="article:author" content="wubo">
 <meta property="article:tag" content="C++, 算法, Java, Python">
 <meta name="twitter:card" content="summary">
@@ -53,11 +53,119 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-<!-- hexo injector head_end start -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --></head>
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -197,7 +305,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-01-27 16:10:51 / 修改时间：19:47:05" itemprop="dateCreated datePublished" datetime="2023-01-27T16:10:51+08:00">2023-01-27</time>
+      <time title="创建时间：2023-01-27 16:10:51 / 修改时间：21:06:51" itemprop="dateCreated datePublished" datetime="2023-01-27T16:10:51+08:00">2023-01-27</time>
     </span>
 
   
@@ -211,7 +319,7 @@
     
     <div class="post-body" itemprop="articleBody">
         <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="e7d98523bbf7cf4ed08d1d8f8a10ee6fe975caedde614134fd0333a6e76b964d">3e8ff5d9782f3b0cc1fe20cbee9754e37ad6e0f9d13dfcbc4bc97d0467a5a709f09b5a34bc4945c2b2f3c66b7f42ea57586987ec25805bfafc52f56a461988c826cb49c43ce8a2cb52e69b911338b9dc75e431cab5be042ae52cde49f0898adaa2dca503723fa63a41da7b9aa27ca8e826e24061e46565806789475ce2001541abf852594dcf9195eb507fb0d1bf425cca625aca154223280665e345686da5af8ed957f2f93e4c431b02919d6a614096100dfd6d75a66cb0d0ab103080b70fe6639109665ed7a230b9326d87236777060d5db6c7caba55d8dac5c3eab64db7c6ef6197d5010c9bcd83d47b5b64186b4da888865d5899b0dcbb3ba32e67a71c3e7228bce54dda83bf6ef02401760e391824074b81dcfeda6ab9bfb85a8bafebe22a7d0916d061c6abb77b2815b1dd4187b1623dfd16631cb8819f44452283cb4f5673580842d1a55d99f3d0281a3fa15016860b02e2eb9d87e9f4e0d3ebaa1e37c60d68a13d14ee4e28411dc4693f7552257c2e5ede8b56801ce8a5bc5d34b4c2d7a6d0d2ebd2aeba70f400de425756147260c2a49fdb5c563063812452b6b1d9e19f91165b7aadcfbcc161ef90497002e6e0e1e069edbe277aa7f896a51d139b934fba85488fccbf5da12b96c2f13c5176498107987066bec4993c3950083f4eeea59d47e21dddab7557c5fa543a95fa003e47b10c88c6d799910c71d4b2f22b66943fcc4e68fe372f787f38092b3d152d3c0dfc94a9275252a6846da246be9d6fb80717725f2ac39ace31f511eca7b9eb570b3ffb0e1b15b9e7c62b81184f2e1d9a843322656fe0d55d299af8302dfe712d5bf9b7a151777d4130b140e56e2af18bf9acc21ab08281da3f727f537a02755decaddeec44e5560686f6be4188b7560221d259ac0e5cec351c1826e3f0b3631f78f4060501d58341fe6d32cabfa92702935a8bb5524762c6544fb89b1e702fc5712529b2a0b7cb7f369b7cf59a6dea7f4e5bb3acd2187664dfeef18e21221b9a8dc4cab0cd678d06ea2bca27f051dedd34b7c02bea96ae68def6afc7fba7b103ed212ce6d7a16df56e2b9bd905e3f9298eb92180d5d7216621b483e248aa72f01e6452da636e8a1ae9f614a66b86017fb17ad292a8b28499ed52ceb2e0090dfbb985aaff7bbff716802d44cf56410b4b71ec0e0ccee5c5e6239a90a97ac1604a61a58d9a5e3c0865a08b3a43e6e9f5596b6fc6ea0f287ea2210840c70f74dbf4cc05e4545779daf4b7cdd86eb511a09faa59aeae01bbb455b7b5ecc372985ffd1f09a2279a5e1d34e410845b3ee2ec8b3079ecfcb64a7ddabfef53de71ed674c9c995e1113846fe59fcc65a25925bac87115ab9f37027fd350c81ec2ea35dccba32a6037a7833a02636fbf59679fe68f8cefac0a7bcfb34cbf2320c493d3ff66befe6a4db32423657f2469ee450a1fbf27c028ad27bb321485f1aeff029fccc99b6f12454138175e0e36c311c6eba67fa9b7a5fa015059da04987d6549b01bce253df78020da47528d566463d9f83f26da80459cf250ab75f46383454249f2b1528d1b025a5ed688dcf6bf51593a04c3c94d61976b004763f8beb0aaf46e5579ff426afb61586bbdfa276b9360203422872e273e5f5871e2339ae4c56db7aece13a2925d232826a6583f40a2bd61a9d2fc99627a5377681e61745fa462b5e3d397d4e19d3a24f87f6f338c25fc7a01af774474c6226958f0deff8e2898567a2704e920e22feea1323713d9ac164f7b2900b146d0225a5d2979253749ce99d50fd1b6b1e84bfdb0922064ff61e05ce39a24a97391f756d2bec2922fe867e6235f931eb6d98bb78a6630ed67b80ab77bb0b583b2cc279799ffb0b169f0114e15ea56b7ded02abdfb1b5705936dd67ac699dbaae74be56a2923e4101a0c848c4e07bead8a2633b665a98dfab673cb9472523077c0ef30ae0960a5915453b603d83eb29d6a06178f80f90acbf36731d36e4908eaf6ee562fefd8aa2631c3bfeecf0108253cf18c5d904c4c02202e6892d2b79dcc3a3130268e8e35e28434a346a8a81edcdc6868479fca23d30ee67abc2ae91e8483eb0d65b5ae89d0db1f31de5c62ebd3d226caa4ca41dc71a4387a143899f0a55fd945d07d64c8e96bf9f460f1597e2dbf55a3aec431efaf0ab1b570f90b422dd0475c31ad587256e8827b1bbb51495e0c1e483ba859dbd12fbd7284</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="3dc8f992dad4453a1f37ceb6705e12aa704854e29daf851981926714f733ed8c">3e8ff5d9782f3b0cc1fe20cbee9754e37ad6e0f9d13dfcbc4bc97d0467a5a709f09b5a34bc4945c2b2f3c66b7f42ea57586987ec25805bfafc52f56a461988c826cb49c43ce8a2cb52e69b911338b9dc75e431cab5be042ae52cde49f0898adaa2dca503723fa63a41da7b9aa27ca8e826e24061e46565806789475ce2001541abf852594dcf9195eb507fb0d1bf425cca625aca154223280665e345686da5af8ed957f2f93e4c431b02919d6a614096100dfd6d75a66cb0d0ab103080b70fe6639109665ed7a230b9326d87236777060d5db6c7caba55d8dac5c3eab64db7c6ef6197d5010c9bcd83d47b5b64186b4da888865d5899b0dcbb3ba32e67a71c3e7228bce54dda83bf6ef02401760e391824074b81dcfeda6ab9bfb85a8bafebe22a7d0916d061c6abb77b2815b1dd4187b1623dfd16631cb8819f44452283cb4f5673580842d1a55d99f3d0281a3fa15016860b02e2eb9d87e9f4e0d3ebaa1e37c60d68a13d14ee4e28411dc4693f7552257c2e5ede8b56801ce8a5bc5d34b4c2d7a6d0d2ebd2aeba70f400de42575614a393085972e9145833a84e021eab4fc80c2add1652d8e9cbe2d818a841d328b9fe3218d6b43c0f64ad2f1b1884309f5bc2a870cded4019d52d7842a7fd1f4a88ccd101dbb64b63ac9f8dd4f9d525584d576b2489e58cc36fc7c56b5d74bb1f05b7e2309a1d22a82a169d5aaa57651a8a1d7eaa3663508e7ee336d6f20e304d451aff63953783a772da63f5add1b906400a4c06308e90ffb5147ce335763ea5855c8f9f33b06ea40c175825b31a07a8215c60e6bbd92ff80d5452e3796e496ce040e59b54a4e8ae001023d16f3ba67d49e22c29ae3d5d70c7844209d6450d1c48077315753d38931cd0352e1fc76abeee</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -298,7 +406,7 @@
 
   
 
-  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"per_page":true,"mhchem":true,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"cdn":"//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
 <script src="/js/third-party/math/mathjax.js"></script>
 
 
