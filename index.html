@@ -327,9 +327,15 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-01-29 13:49:41 / 修改时间：18:17:08" itemprop="dateCreated datePublished" datetime="2023-01-29T13:49:41+08:00">2023-01-29</time>
+      <time title="创建时间：2023-01-29 13:49:41" itemprop="dateCreated datePublished" datetime="2023-01-29T13:49:41+08:00">2023-01-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-01-30 00:05:49" itemprop="dateModified" datetime="2023-01-30T00:05:49+08:00">2023-01-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -356,7 +362,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.4k</span>
+      <span>1.5k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -378,13 +384,17 @@ mjx-container[display="true"] + br {
 <h2 id="格式对齐">格式对齐</h2>
 <p><code>Ctrl + Alt + L</code></p>
 <h1 id="正则表达式快速替换">正则表达式快速替换</h1>
-<h2 id="使用软件sublime">使用软件Sublime</h2>
+<h2 id="使用软件sublime一键替换">使用软件Sublime一键替换</h2>
 <p><strong>步骤</strong>：</p>
 <ol type="1">
 <li><p>使用快捷键 <strong>Ctrl + H</strong>，打开<strong>查找替换窗口</strong>。然后，按下 <strong>Alt + R</strong> 快捷键<strong>开启正则替换模式</strong>。</p></li>
 <li><p>在查找框输入<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=正则表达式&amp;spm=1001.2101.3001.7020">正则表达式</a>，替换框输入要替换的内容。</p></li>
 <li><p>点击 <strong>Replace All</strong> 即可。</p></li>
 </ol>
+<p>例: 如要爬取网页的请求头, 则</p>
+<p>Find What: <code>(.*): (.*)</code></p>
+<p>Replace With: <code>'\1': '\2',</code></p>
+<p><strong>注意: 空格不能删去</strong></p>
 <h1 id="案例">案例</h1>
 <h2 id="下载豆瓣前十页">下载豆瓣前十页</h2>
 <p>下载前10页的<code>json</code>数据
@@ -1068,7 +1078,7 @@ mjx-container[display="true"] + br {
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">4 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
