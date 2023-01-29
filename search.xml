@@ -24,6 +24,8 @@
     <url>/hexo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95.html</url>
     <content><![CDATA[<h1 id="简介">简介</h1>
 <p>这是我的第一篇<code>Hexo</code>博客文章。</p>
+<h3 id="写在前面">写在前面</h3>
+<p>美化参考自:<a href="https://blog.csdn.net/qq_40590778/article/details/104606611?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167498271516800182128778%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167498271516800182128778&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-104606611-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=hexo%20next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E7%BE%8E%E5%8C%96&amp;spm=1018.2226.3001.4187">here</a></p>
 <h3 id="运行本地hexo服务器">运行本地hexo服务器</h3>
 <p>在<code>Git Bash Here</code>输入<code>hexo s</code></p>
 <h3 id="创建一个.md文本文件">创建一个.md文本文件</h3>
@@ -36,7 +38,6 @@
 <li>先<code>hexo clean</code></li>
 <li>先使用<code>hexo -g</code>把本地代码更新，等同于写<code>hexo -generate</code></li>
 <li>使用<code>hexo -d</code>把本地代码部署到GitHub，等于于写<code>hexo -deploy</code></li>
-<li>或者直接把23步合成为hexo g -d</li>
 </ol>
 <p>推荐一个博客：https://cloud.tencent.com/developer/article/2063322</p>
 <h3 id="配置分类标签和关于">配置分类、标签和关于</h3>
@@ -62,6 +63,12 @@
     <title>MakeDown格式笔记</title>
     <url>/MakeDown%E6%A0%BC%E5%BC%8F%E8%AE%B0%E5%BD%95.html</url>
     <content><![CDATA[<h1 id="基本语法">基本语法</h1>
+<h2 id="写在前面">写在前面</h2>
+<h3 id="常用方法博客链接">常用方法博客链接</h3>
+<ul>
+<li><p><a href="https://blog.csdn.net/qq_43732429/article/details/108034518?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167498604716782429779685%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167498604716782429779685&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-108034518-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=makedown%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2&amp;spm=1018.2226.3001.4187">字体颜色大小及文字底色设置</a></p></li>
+<li><p>博客查询<a href="https://blog.csdn.net/jyfu2_12/article/details/79207643?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167481263716800192266470%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167481263716800192266470&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-79207643-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=makedown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%A4%A7%E5%85%A8&amp;spm=1018.2226.3001.4187">数学符号博客</a></p></li>
+</ul>
 <h2 id="快捷键">快捷键</h2>
 <ul>
 <li>加粗 <code>Ctrl + B</code></li>
@@ -107,8 +114,7 @@
 <h2 id="打空格">打空格</h2>
 <p><code>$~~~$</code> <strong>注:</strong>其中<code>~</code>根据需求添加</p>
 <h2 id="数学符号">数学符号</h2>
-<p>数学符号用<code>$$</code>上下包起来</p>
-<p>博客查询<a href="https://blog.csdn.net/jyfu2_12/article/details/79207643?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167481263716800192266470%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167481263716800192266470&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-79207643-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=makedown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%A4%A7%E5%85%A8&amp;spm=1018.2226.3001.4187">数学符号博客</a></p>
+<p>单行数学符号用<strong><span class="math inline">\(**左右包起来 多行数学符号用**\)</span>$</strong>上下包起来</p>
 ]]></content>
       <categories>
         <category>MakeDown</category>
