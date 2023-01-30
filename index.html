@@ -335,7 +335,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-01-30 00:05:49" itemprop="dateModified" datetime="2023-01-30T00:05:49+08:00">2023-01-30</time>
+      <time title="修改时间：2023-01-30 11:52:40" itemprop="dateModified" datetime="2023-01-30T11:52:40+08:00">2023-01-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -388,7 +388,7 @@ mjx-container[display="true"] + br {
 <p><strong>步骤</strong>：</p>
 <ol type="1">
 <li><p>使用快捷键 <strong>Ctrl + H</strong>，打开<strong>查找替换窗口</strong>。然后，按下 <strong>Alt + R</strong> 快捷键<strong>开启正则替换模式</strong>。</p></li>
-<li><p>在查找框输入<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=正则表达式&amp;spm=1001.2101.3001.7020">正则表达式</a>，替换框输入要替换的内容。</p></li>
+<li><p>在查找框输入<strong>正则表达式</strong>，替换框输入要替换的内容。</p></li>
 <li><p>点击 <strong>Replace All</strong> 即可。</p></li>
 </ol>
 <p>例: 如要爬取网页的请求头, 则</p>
@@ -467,7 +467,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-01-29 18:13:43" itemprop="dateModified" datetime="2023-01-29T18:13:43+08:00">2023-01-29</time>
+      <time title="修改时间：2023-01-30 11:48:00" itemprop="dateModified" datetime="2023-01-30T11:48:00+08:00">2023-01-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -494,14 +494,14 @@ mjx-container[display="true"] + br {
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>814</span>
+      <span>2.3k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -534,10 +534,26 @@ mjx-container[display="true"] + br {
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
 <h4 id="样例解释">样例解释</h4>
 <p>两个满足条件的数列分别是2 4 1 3和7 4 1 -2。</p>
+<h4 id="代码">代码：</h4>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1010</span>, MOD = <span class="number">100000007</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> f[N][N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">get_mod</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span>   <span class="comment">// 求a除以b的正余数</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="keyword">return</span> (a % b + b) % b;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="type">int</span> n, s, a, b;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; s &gt;&gt; a &gt;&gt; b;</span><br><span class="line"></span><br><span class="line">    f[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i ++ )</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j ++ )</span><br><span class="line">            f[i][j] = (f[i - <span class="number">1</span>][<span class="built_in">get_mod</span>(j - a * (n - i), n)] + f[i - <span class="number">1</span>][<span class="built_in">get_mod</span>(j + b * (n - i), n)]) % MOD;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; f[n - <span class="number">1</span>][<span class="built_in">get_mod</span>(s, n)] &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h4 id="题解">题解：</h4>
 <p><a target="_blank" rel="noopener" href="https://www.acwing.com/solution/content/9223/">参考题解</a></p>
 <hr>
+<h3 id="最大子阵原题链接">最大子阵<a target="_blank" rel="noopener" href="https://1.14.106.89/contest/1080/problem/F">(原题链接)</a></h3>
+<h4 id="描述">描述</h4>
+<p>给定一个n*m的矩阵A，求A中的一个非空子矩阵，使这个子矩阵中的元素和最大。 其中，A的子矩阵指在A中行和列均连续的一块。</p>
+<h4 id="输入描述">输入描述</h4>
+<p>输入的第一行包含两个整数n, m，分别表示矩阵A的行数和列数。 接下来n行，每行m个整数，表示矩阵A。 对于50%的数据，1&lt;=n, m&lt;=50； 对于100%的数据，1&lt;=n, m&lt;=500，A中每个元素的绝对值不超过5000。</p>
+<h4 id="输出描述">输出描述</h4>
+<p>输出一行，包含一个整数，表示A中最大的子矩阵中的元素和。</p>
+<p>用例输入 1</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">3 3</span><br><span class="line">-1 -4 3</span><br><span class="line">3 4 -1</span><br><span class="line">-5 -2 8</span><br></pre></td></tr></table></figure>
+<p>用例输出 1</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10</span><br></pre></td></tr></table></figure>
+<h4 id="思路">思路：</h4>
+<p>先用<code>f[i][j]</code>预处理出<strong>前i行第j列前缀和</strong>，再枚举每一个行区间，通过在线算法，得到每个行区间的前j列的最大值，最终得到答案</p>
+<h4 id="代码-1">代码：</h4>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stack&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"><span class="comment">//#define IOS ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LL long long</span></span><br><span class="line"><span class="comment">// # define PI acos(-1)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">double</span> PI = <span class="built_in">acos</span>(<span class="number">-1</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; PII;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">510</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// f[i][j] 前i行第j列前缀和</span></span><br><span class="line"><span class="type">int</span> w[N][N], f[N][N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>{</span><br><span class="line">    <span class="type">int</span> n, m;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="type">int</span> x;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">1</span>; j &lt;= m; j++) {</span><br><span class="line">            cin &gt;&gt; x;</span><br><span class="line">            f[i][j] = f[i - <span class="number">1</span>][j] + x;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> res = <span class="number">-0x3f3f3f3f</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i; j &lt;= n; j++) {</span><br><span class="line">            <span class="type">int</span> t = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> k = <span class="number">1</span>; k &lt;= m; k++) {</span><br><span class="line">                t += f[j][k] - f[i - <span class="number">1</span>][k];</span><br><span class="line">                res = <span class="built_in">max</span>(res, t);</span><br><span class="line">                <span class="keyword">if</span> (t &lt; <span class="number">0</span>) t = <span class="number">0</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    cout &lt;&lt; res &lt;&lt; endl;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="comment">// int T;</span></span><br><span class="line">    <span class="comment">// cin &gt;&gt; T;</span></span><br><span class="line">    <span class="comment">// while (T--) {</span></span><br><span class="line">    <span class="comment">//     solve();</span></span><br><span class="line">    <span class="comment">// }</span></span><br><span class="line">    <span class="built_in">solve</span>();</span><br><span class="line">	<span class="built_in">system</span>(<span class="string">"pause"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -714,7 +730,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-01-29 18:13:52" itemprop="dateModified" datetime="2023-01-29T18:13:52+08:00">2023-01-29</time>
+      <time title="修改时间：2023-01-30 11:53:12" itemprop="dateModified" datetime="2023-01-30T11:53:12+08:00">2023-01-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -733,7 +749,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>517</span>
+      <span>513</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -756,7 +772,7 @@ mjx-container[display="true"] + br {
 <h3 id="常用方法博客链接">常用方法博客链接</h3>
 <ul>
 <li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43732429/article/details/108034518?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167498604716782429779685%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167498604716782429779685&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-108034518-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=makedown%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2&amp;spm=1018.2226.3001.4187">字体颜色大小及文字底色设置</a></p></li>
-<li><p>博客查询<a target="_blank" rel="noopener" href="https://blog.csdn.net/jyfu2_12/article/details/79207643?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167481263716800192266470%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167481263716800192266470&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-79207643-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=makedown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%A4%A7%E5%85%A8&amp;spm=1018.2226.3001.4187">数学符号博客</a></p></li>
+<li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/jyfu2_12/article/details/79207643?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167481263716800192266470%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=167481263716800192266470&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-79207643-null-null.142%5Ev71%5Econtrol,201%5Ev4%5Eadd_ask&amp;utm_term=makedown%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%A4%A7%E5%85%A8&amp;spm=1018.2226.3001.4187">数学符号博客</a></p></li>
 </ul>
 <h2 id="快捷键">快捷键</h2>
 <ul>
@@ -1071,14 +1087,14 @@ mjx-container[display="true"] + br {
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">5k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4 分钟</span>
+    <span title="站点阅读时长">5 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
