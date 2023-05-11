@@ -944,6 +944,20 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
+    <title>Docker</title>
+    <url>/Docker.html</url>
+    <content><![CDATA[<h1 id="Docker基本操作命令"><a href="#Docker基本操作命令" class="headerlink" title="Docker基本操作命令"></a>Docker基本操作命令</h1><p>其实没什么记录必要，只需查看帮助文档就行了</p>
+<p>不知道的命令，可以去<strong>docker hub</strong>查看命令</p>
+<h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><p><code>systemctl start docker</code></p>
+<h2 id="查看帮助文档"><a href="#查看帮助文档" class="headerlink" title="查看帮助文档"></a>查看帮助文档</h2><p><code>docker --help</code></p>
+<h2 id="查看镜像"><a href="#查看镜像" class="headerlink" title="查看镜像"></a>查看镜像</h2><p><code>docker images</code></p>
+<h2 id="查看容器状态"><a href="#查看容器状态" class="headerlink" title="查看容器状态"></a>查看容器状态</h2><p><code>docker ps</code></p>
+]]></content>
+      <tags>
+        <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>题解备份</title>
     <url>/%E9%A2%98%E8%A7%A3%E5%A4%87%E4%BB%BD.html</url>
     <content><![CDATA[<h1 id="计科蓝桥杯第一场训练赛">2023计科蓝桥杯第一场训练赛</h1>
