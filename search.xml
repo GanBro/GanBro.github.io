@@ -944,6 +944,56 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
+    <title>学成在线</title>
+    <url>/%E5%AD%A6%E6%88%90%E5%9C%A8%E7%BA%BF.html</url>
+    <content><![CDATA[<h1 id="虚拟机centos配置">虚拟机Centos配置</h1>
+<figure>
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307072108107.png" alt="image-20230707210839013" /><figcaption>image-20230707210839013</figcaption>
+</figure>
+<h2 id="账号密码">账号密码</h2>
+<h2 id="虚拟机的mysql">虚拟机的MySQL</h2>
+<p>账号：root</p>
+<p>密码：mysql</p>
+<h2 id="gogs">gogs</h2>
+<p>账号：gogs</p>
+<p>密码：gogs</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>马克思主义基本原理</title>
+    <url>/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86.html</url>
+    <content><![CDATA[<h1 id="感性认识和理性认识的辩证关系">感性认识和理性认识的辩证关系</h1>
+]]></content>
+      <tags>
+        <tag>马克思主义基本原理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面试题</title>
+    <url>/%E9%9D%A2%E8%AF%95%E9%A2%98.html</url>
+    <content><![CDATA[<h1 id="redis">Redis</h1>
+<h2 id="使用场景">使用场景</h2>
+<h3 id="缓存穿透">缓存穿透</h3>
+<figure>
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202306031104412.png" alt="image-20230603110403357" /><figcaption>image-20230603110403357</figcaption>
+</figure>
+<h4 id="方案1">方案1</h4>
+<figure>
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202306031105576.png" alt="image-20230603110536524" /><figcaption>image-20230603110536524</figcaption>
+</figure>
+<h4 id="方案二">方案二</h4>
+<figure>
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202306031107017.png" alt="image-20230603110712925" /><figcaption>image-20230603110712925</figcaption>
+</figure>
+<figure>
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202306031110769.png" alt="image-20230603111024672" /><figcaption>image-20230603111024672</figcaption>
+</figure>
+]]></content>
+      <tags>
+        <tag>面试题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>软著论文备份</title>
     <url>/%E8%BD%AF%E8%91%97%E8%AE%BA%E6%96%87%E5%A4%87%E4%BB%BD.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -1066,6 +1116,59 @@
     <content><![CDATA[<h1 id="第一章">第一章</h1>
 <h2 id="isoosi参考模型">ISO/OSI参考模型</h2>
 <p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303152231242.jpg" /></p>
+<h1 id="期末笔记">期末笔记</h1>
+<ol type="1">
+<li>数据链路层传输的PDU是<strong>数据帧</strong></li>
+<li>常用的公钥密码体制是<strong>RSA</strong></li>
+<li><strong>RSA</strong>加密和解密都使用相同的算法，但使用不同的密钥</li>
+<li>无线局域网的标准是<strong>IEEE 802.11</strong></li>
+<li>无线城域网的标准是<strong>IEEE 802.16</strong></li>
+<li>常用的对称密钥体制是<strong>DES</strong></li>
+<li>IPSec VPN的安全技术用到了<strong>隧道技术、加密技术、身份认证技术</strong></li>
+<li>IPSec协议是一组协议，可以作为一个完整的VPN方案，工作在OSI的<strong>网络层</strong></li>
+<li>网络拓扑结构可分为<strong>总线型、星型、环形、树形、网状</strong></li>
+<li>第一次对路由器进行配置，应该通过<strong>console端口</strong>配置</li>
+<li>无线局域网中为实现传输媒体共享而采用的协议是<strong>CSMA/CA</strong></li>
+<li>在OSI/RM中，完成路径选择功能的是<strong>网络层</strong></li>
+<li>IEEE 802.3的物理层协议10BASE-T规定从网卡到集线器的最大传输距离是<strong>100m</strong></li>
+<li>IEEE 802.3标准规定的以太网的物理地址长度是<strong>48bit</strong></li>
+<li>交换机与双绞线进行连接的端口是<strong>RJ-45</strong></li>
+<li>EGP在<strong>自治系统</strong>之间传播路由</li>
+<li>以集线器为核心创建的网络，其物理拓扑结构是<strong>星型</strong></li>
+<li>同步传输中的同步是指<strong>时钟同步</strong></li>
+<li>从IPv4过渡到IPv6的技术有<strong>双协议栈、隧道技术、网络地址转换</strong></li>
+<li>属于宽带接入技术的有<strong>ADSL、HFC、光纤接入、以太网接入、无线接入</strong></li>
+<li>使用<strong>NET</strong>技术可以将私有的本地IP地址转换为合法的全球IP地址</li>
+<li>波分多路复用技术主要用于<strong>光纤通信</strong></li>
+<li>ICMP通常被认为是<strong>网络层</strong>的协议</li>
+<li>对付网络安全中的被动攻击可采用各种<strong>数据加密</strong>技术</li>
+<li>IPv6采用<strong>冒号十六进制</strong>法书写地址</li>
+<li>在OSI/RM的网络层中，数据以<strong>分组</strong>为单位进行传输</li>
+<li>声音属于<strong>模拟数据</strong></li>
+<li>串行通信中，PPP协议面向的是<strong>字符</strong></li>
+<li><strong>通信子网</strong>向端系统提供虚电路和数据报两种网络服务</li>
+<li>以太网使用MAC层协议的是<strong>CSMA/CD协议</strong></li>
+<li>Hash签名(MD5)生成的摘要长度是<strong>128bit</strong></li>
+<li>将网络互相连接起来要使用一些中间设备，在网络层以上使用的中间设备是<strong>网关</strong></li>
+<li>IP服务的主要特点是<strong>不可靠，无连接和尽最大努力投递</strong></li>
+<li>同一个VLAN中的两台主机<strong>可以跨越多台交换机</strong></li>
+<li>当<strong>没有专门申请的全局IP地址，只有一个连接ISP的全局IP地址</strong>时，需要使用<strong>NAPT</strong></li>
+<li>以太网的帧格式，其数据部分最大长度是<strong>1500B</strong>，去掉首部1480B</li>
+<li>IEEE 802.3或者Ethernet规定数据的传输必须使用<strong>曼彻斯特编码</strong>进行</li>
+<li>计算机网络中负责节点间通信任务的那一部分称为<strong>通信子网</strong></li>
+<li>ARP通常被认为是<strong>网络层</strong>的协议</li>
+<li>TCP的滑动窗口以<strong>字节</strong>为单位</li>
+<li>中继器的主要作用是<strong>延长通信距离</strong></li>
+<li>OSPF是基于<strong>链路状态</strong>的路由协议</li>
+<li>RIP是基于<strong>距离向量</strong>的路由选择协议</li>
+<li>高速以太网100BASE-T采用的是<strong>星型</strong>拓扑结构</li>
+<li>数据单元的点到点传递由<strong>数据链路</strong>层负责。</li>
+<li>在物理层扩展局域网需要使用设备是<strong>集线器</strong></li>
+<li>数据通信中举出的三种传输介质是<strong>双绞线 同轴电缆 光缆</strong></li>
+<li>发送时延=数据帧长度/发送速率</li>
+<li>传播时延=信道长度/电磁波在信道上的传播速率</li>
+<li>以太网的端到端来回时延2t称为<strong>争用期</strong>,又称为碰撞窗口。</li>
+</ol>
 ]]></content>
       <categories>
         <category>计算机网络</category>

@@ -19,16 +19,16 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.14.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="第一章 ISO&#x2F;OSI参考模型">
+    <meta name="description" content="第一章 ISO&#x2F;OSI参考模型  期末笔记  数据链路层传输的PDU是数据帧 常用的公钥密码体制是RSA RSA加密和解密都使用相同的算法，但使用不同的密钥 无线局域网的标准是IEEE 802.11 无线城域网的标准是IEEE 802.16 常用的对称密钥体制是DES IPSec VPN的安全技术用到了隧道技术、加密技术、身份认证技术 IPSec协议是一组协议，可以作为一个">
 <meta property="og:type" content="article">
 <meta property="og:title" content="计算机网络">
 <meta property="og:url" content="http://example.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">
 <meta property="og:site_name" content="GanBro的博客">
-<meta property="og:description" content="第一章 ISO&#x2F;OSI参考模型">
+<meta property="og:description" content="第一章 ISO&#x2F;OSI参考模型  期末笔记  数据链路层传输的PDU是数据帧 常用的公钥密码体制是RSA RSA加密和解密都使用相同的算法，但使用不同的密钥 无线局域网的标准是IEEE 802.11 无线城域网的标准是IEEE 802.16 常用的对称密钥体制是DES IPSec VPN的安全技术用到了隧道技术、加密技术、身份认证技术 IPSec协议是一组协议，可以作为一个">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/GanBro/imgs/main/202303152231242.jpg">
 <meta property="article:published_time" content="2023-03-15T14:29:51.000Z">
-<meta property="article:modified_time" content="2023-03-15T14:31:32.305Z">
+<meta property="article:modified_time" content="2023-07-03T08:23:43.847Z">
 <meta property="article:author" content="wubo">
 <meta property="article:tag" content="计算机网络">
 <meta name="twitter:card" content="summary">
@@ -142,7 +142,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0"><span class="nav-number">1.</span> <span class="nav-text">第一章</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#isoosi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.1.</span> <span class="nav-text">ISO&#x2F;OSI参考模型</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0"><span class="nav-number">1.</span> <span class="nav-text">第一章</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#isoosi%E5%8F%82%E8%80%83%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.1.</span> <span class="nav-text">ISO&#x2F;OSI参考模型</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%9F%E6%9C%AB%E7%AC%94%E8%AE%B0"><span class="nav-number">2.</span> <span class="nav-text">期末笔记</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -155,7 +155,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">24</span>
+          <span class="site-state-item-count">27</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -166,7 +166,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-count">29</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -221,9 +221,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-03-15 22:29:51 / 修改时间：22:31:32" itemprop="dateCreated datePublished" datetime="2023-03-15T22:29:51+08:00">2023-03-15</time>
+      <time title="创建时间：2023-03-15 22:29:51" itemprop="dateCreated datePublished" datetime="2023-03-15T22:29:51+08:00">2023-03-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-07-03 16:23:43" itemprop="dateModified" datetime="2023-07-03T16:23:43+08:00">2023-07-03</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -249,7 +255,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>14</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,6 +276,59 @@
         <h1 id="第一章">第一章</h1>
 <h2 id="isoosi参考模型">ISO/OSI参考模型</h2>
 <p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303152231242.jpg" /></p>
+<h1 id="期末笔记">期末笔记</h1>
+<ol type="1">
+<li>数据链路层传输的PDU是<strong>数据帧</strong></li>
+<li>常用的公钥密码体制是<strong>RSA</strong></li>
+<li><strong>RSA</strong>加密和解密都使用相同的算法，但使用不同的密钥</li>
+<li>无线局域网的标准是<strong>IEEE 802.11</strong></li>
+<li>无线城域网的标准是<strong>IEEE 802.16</strong></li>
+<li>常用的对称密钥体制是<strong>DES</strong></li>
+<li>IPSec VPN的安全技术用到了<strong>隧道技术、加密技术、身份认证技术</strong></li>
+<li>IPSec协议是一组协议，可以作为一个完整的VPN方案，工作在OSI的<strong>网络层</strong></li>
+<li>网络拓扑结构可分为<strong>总线型、星型、环形、树形、网状</strong></li>
+<li>第一次对路由器进行配置，应该通过<strong>console端口</strong>配置</li>
+<li>无线局域网中为实现传输媒体共享而采用的协议是<strong>CSMA/CA</strong></li>
+<li>在OSI/RM中，完成路径选择功能的是<strong>网络层</strong></li>
+<li>IEEE 802.3的物理层协议10BASE-T规定从网卡到集线器的最大传输距离是<strong>100m</strong></li>
+<li>IEEE 802.3标准规定的以太网的物理地址长度是<strong>48bit</strong></li>
+<li>交换机与双绞线进行连接的端口是<strong>RJ-45</strong></li>
+<li>EGP在<strong>自治系统</strong>之间传播路由</li>
+<li>以集线器为核心创建的网络，其物理拓扑结构是<strong>星型</strong></li>
+<li>同步传输中的同步是指<strong>时钟同步</strong></li>
+<li>从IPv4过渡到IPv6的技术有<strong>双协议栈、隧道技术、网络地址转换</strong></li>
+<li>属于宽带接入技术的有<strong>ADSL、HFC、光纤接入、以太网接入、无线接入</strong></li>
+<li>使用<strong>NET</strong>技术可以将私有的本地IP地址转换为合法的全球IP地址</li>
+<li>波分多路复用技术主要用于<strong>光纤通信</strong></li>
+<li>ICMP通常被认为是<strong>网络层</strong>的协议</li>
+<li>对付网络安全中的被动攻击可采用各种<strong>数据加密</strong>技术</li>
+<li>IPv6采用<strong>冒号十六进制</strong>法书写地址</li>
+<li>在OSI/RM的网络层中，数据以<strong>分组</strong>为单位进行传输</li>
+<li>声音属于<strong>模拟数据</strong></li>
+<li>串行通信中，PPP协议面向的是<strong>字符</strong></li>
+<li><strong>通信子网</strong>向端系统提供虚电路和数据报两种网络服务</li>
+<li>以太网使用MAC层协议的是<strong>CSMA/CD协议</strong></li>
+<li>Hash签名(MD5)生成的摘要长度是<strong>128bit</strong></li>
+<li>将网络互相连接起来要使用一些中间设备，在网络层以上使用的中间设备是<strong>网关</strong></li>
+<li>IP服务的主要特点是<strong>不可靠，无连接和尽最大努力投递</strong></li>
+<li>同一个VLAN中的两台主机<strong>可以跨越多台交换机</strong></li>
+<li>当<strong>没有专门申请的全局IP地址，只有一个连接ISP的全局IP地址</strong>时，需要使用<strong>NAPT</strong></li>
+<li>以太网的帧格式，其数据部分最大长度是<strong>1500B</strong>，去掉首部1480B</li>
+<li>IEEE 802.3或者Ethernet规定数据的传输必须使用<strong>曼彻斯特编码</strong>进行</li>
+<li>计算机网络中负责节点间通信任务的那一部分称为<strong>通信子网</strong></li>
+<li>ARP通常被认为是<strong>网络层</strong>的协议</li>
+<li>TCP的滑动窗口以<strong>字节</strong>为单位</li>
+<li>中继器的主要作用是<strong>延长通信距离</strong></li>
+<li>OSPF是基于<strong>链路状态</strong>的路由协议</li>
+<li>RIP是基于<strong>距离向量</strong>的路由选择协议</li>
+<li>高速以太网100BASE-T采用的是<strong>星型</strong>拓扑结构</li>
+<li>数据单元的点到点传递由<strong>数据链路</strong>层负责。</li>
+<li>在物理层扩展局域网需要使用设备是<strong>集线器</strong></li>
+<li>数据通信中举出的三种传输介质是<strong>双绞线 同轴电缆 光缆</strong></li>
+<li>发送时延=数据帧长度/发送速率</li>
+<li>传播时延=信道长度/电磁波在信道上的传播速率</li>
+<li>以太网的端到端来回时延2t称为<strong>争用期</strong>,又称为碰撞窗口。</li>
+</ol>
 
     </div>
 
@@ -327,14 +386,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">110k</span>
+    <span title="站点总字数">112k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:40</span>
+    <span title="站点阅读时长">1:42</span>
   </span>
 </div>
 <div class="busuanzi-count">
