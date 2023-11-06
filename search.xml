@@ -425,6 +425,15 @@
       </tags>
   </entry>
   <entry>
+    <title>JavaEE</title>
+    <url>/2023/09/03/2023-JavaEE/</url>
+    <content><![CDATA[<h1 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><p>1.如果不能创建.java文件，那么就是项目的src文件没有被当成sources文件，解决方法如下<br><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031942306.png" alt="img"></p>
+<ol start="2">
+<li></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>Docker</title>
     <url>/2023/05/11/2023-Docker/</url>
     <content><![CDATA[<h1 id="Docker基本操作命令"><a href="#Docker基本操作命令" class="headerlink" title="Docker基本操作命令"></a>Docker基本操作命令</h1><p>其实没什么记录必要，只需查看帮助文档就行了</p>
@@ -437,15 +446,6 @@
       <tags>
         <tag>Docker</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>JavaEE</title>
-    <url>/2023/09/03/2023-JavaEE/</url>
-    <content><![CDATA[<h1 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><p>1.如果不能创建.java文件，那么就是项目的src文件没有被当成sources文件，解决方法如下<br><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031942306.png" alt="img"></p>
-<ol start="2">
-<li></li>
-</ol>
-]]></content>
   </entry>
   <entry>
     <title>Java程序设计</title>
@@ -822,7 +822,7 @@
 <h1 id="Picgo"><a href="#Picgo" class="headerlink" title="Picgo"></a>Picgo</h1><h2 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h2><p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202310301721534.png" alt="image-20231030172154457"></p>
 <p><strong>cdn加速：</strong>添加前缀<a href="https://cdn.jsdelivr.net/gh/">https://cdn.jsdelivr.net/gh/</a></p>
 <h1 id="SSH连接配置"><a href="#SSH连接配置" class="headerlink" title="SSH连接配置"></a>SSH连接配置</h1><p><a href="https://blog.csdn.net/qq_30049011/article/details/121182065?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-121182065-blog-131951858.235%5Ev38%5Epc_relevant_anti_vip&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-3-121182065-blog-131951858.235%5Ev38%5Epc_relevant_anti_vip&utm_relevant_index=6">csdn</a></p>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+]]></content>
       <categories>
         <category>github</category>
       </categories>
@@ -857,6 +857,11 @@
 </ol>
 <h1 id="内容摘要"><a href="#内容摘要" class="headerlink" title="内容摘要"></a>内容摘要</h1><p>文章某一行输入<code>&lt;!--more--&gt;</code>，即可在首页只显示该行以上的文字</p>
 <h5 id="结语：停更了，下次再写。"><a href="#结语：停更了，下次再写。" class="headerlink" title="结语：停更了，下次再写。"></a>结语：停更了，下次再写。</h5><p><code>date: 2023/1/27 14:31</code></p>
+<h1 id="搜索功能"><a href="#搜索功能" class="headerlink" title="搜索功能"></a>搜索功能</h1><h2 id="algolia"><a href="#algolia" class="headerlink" title="algolia"></a>algolia</h2><p><a href="https://dashboard.algolia.com/">官网</a></p>
+<p><a href="https://www.npmjs.com/package/hexo-algolia#api-key">API</a></p>
+<p>参考博客：</p>
+<p><a href="https://blog.csdn.net/mulianju/article/details/129550258">https://blog.csdn.net/mulianju/article/details/129550258</a></p>
+<p><a href="https://werty.cn/2019/08/hexo/hexo%20algolia%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">https://werty.cn/2019/08/hexo/hexo%20algolia%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</a></p>
 <h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><p><code>&#123;&#123;&#125;&#125;</code>不能单独写在文档里，会报错，因为这是vue的语法，会被解析</p>
 ]]></content>
       <categories>
@@ -947,13 +952,6 @@
       </tags>
   </entry>
   <entry>
-    <title>密码</title>
-    <url>/2023/10/19/2023-%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="rhel-8-2-x86-64-dvd"><a href="#rhel-8-2-x86-64-dvd" class="headerlink" title="rhel-8.2-x86_64-dvd"></a>rhel-8.2-x86_64-dvd</h2><h3 id="登录密码"><a href="#登录密码" class="headerlink" title="登录密码"></a>登录密码</h3><p>1433223</p>
-<h3 id="用户密码"><a href="#用户密码" class="headerlink" title="用户密码"></a>用户密码</h3><p>1433223</p>
-]]></content>
-  </entry>
-  <entry>
     <title>学成在线</title>
     <url>/2023/07/07/2023-%E5%AD%A6%E6%88%90%E5%9C%A8%E7%BA%BF/</url>
     <content><![CDATA[<h1 id="虚拟机Centos配置"><a href="#虚拟机Centos配置" class="headerlink" title="虚拟机Centos配置"></a>虚拟机Centos配置</h1><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307072108107.png" alt="image-20230707210839013"></p>
@@ -964,6 +962,13 @@
 <h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><ol>
 <li>很奇怪，必须要用whale推送代码才能成功，不然连接不上git</li>
 </ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>密码</title>
+    <url>/2023/10/19/2023-%E5%AF%86%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="rhel-8-2-x86-64-dvd"><a href="#rhel-8-2-x86-64-dvd" class="headerlink" title="rhel-8.2-x86_64-dvd"></a>rhel-8.2-x86_64-dvd</h2><h3 id="登录密码"><a href="#登录密码" class="headerlink" title="登录密码"></a>登录密码</h3><p>1433223</p>
+<h3 id="用户密码"><a href="#用户密码" class="headerlink" title="用户密码"></a>用户密码</h3><p>1433223</p>
 ]]></content>
   </entry>
   <entry>
@@ -1582,13 +1587,6 @@
       </tags>
   </entry>
   <entry>
-    <title>软著论文备份</title>
-    <url>/2023/05/31/2023-%E8%BD%AF%E8%91%97%E8%AE%BA%E6%96%87%E5%A4%87%E4%BB%BD/</url>
-    <content><![CDATA[<h1 id="系统简介"><a href="#系统简介" class="headerlink" title="系统简介"></a>系统简介</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">“启橙”学习软件——基于昇思和大数据的校园学习平台提供了丰富的功能，其中包括二级子功能，例如：提醒事</span><br><span class="line">项管理、完成事项记录、添加事项等；还可以通过查看推荐课程、收藏课程、查看浏览历史，以及查看课表</span><br><span class="line">（本周、上周及下周）等功能，更好地管理自己的学习日程；同时，分类查看各科作业、完成作业、展开和折</span><br><span class="line">叠相应作业列表、添加作业等功能能够帮助用户更快、更好地完成学业；除此之外，还有学习单词、信息查</span><br><span class="line">询、查看动态等多种功能可供使用者探索和使用。在提醒事项管理及完成事项记录功能中，用户可以查看设置</span><br><span class="line">好的提醒事项，如果用户事项已完成，则可点击事项右侧的按钮可以使事项的状态变为完成，此时按钮将由绿</span><br><span class="line">色转为蓝色，给予用户以反馈。添加事项功能允许用户通过输入栏添加需要完成的任务，按回车键即可完成添</span><br><span class="line">加。界面将一并展示所有已添加的任务。推荐课程功能提供系统智能推荐的课程，并为每个课程提供介绍、适</span><br><span class="line">用人群和常见问题等详细信息。用户可以点击课程名称查看详细信息或点击目录浏览具体的课程内容。同时，</span><br><span class="line">用户可通过评价模块了解其他人对该课程的反馈和评价。若用户喜欢某个课程，亦可以使用收藏功能将其保存</span><br><span class="line">至收藏页以供今后复习学习。历史记录功能可记录用户浏览过的课程，方便查询相关信息内容。课表功能可让</span><br><span class="line">用户查看当天及未来的课程，并展示上课时间、课程名称、教师和教室等信息。用户可通过周数栏旁边的加减</span><br><span class="line">号切换至其它时间周期的课程信息。在分类查看各科作业功能中，用户可以分类查看每一科目的作业，列表根</span><br><span class="line">据不同的学科进行了分类展示。在作业完成后，用户可以通过完成作业功能，将完成后的页面事项变成绿色，</span><br><span class="line">按钮变成蓝色。同时可通过点击作业名字，使用展开和折叠相应作业列表功能以方便用户查看。在添加作业功</span><br><span class="line">能中，用户可以输入课程名和作业内容来添加作业，输入完成后可以点击绿色的按钮来完成作业的添加，返回</span><br><span class="line">到页面可以查看添加作业，如果用户想要取消，可以点击下方左侧的叉。在学习单词功能中，用户可以查看不</span><br><span class="line">同的单词并进行单词学习。该功能界面提供了单词释义、读音、变形、图文例句和英文释义等信息。通过点击</span><br><span class="line">音标旁边的蓝色按钮，用户可以听取单词的发音；而点击图文例句旁边的蓝色按钮，则可以聆听该段例句的发</span><br><span class="line">音。当完成当前单词的学习后，用户可通过点击“下一个”按钮继续学习下个单词，或通过点击“上一个”按钮</span><br><span class="line">复习之前所学的单词。在信息查询功能中，用户可以便捷地完成多种任务。例如，通过点击“考试报名”，用</span><br><span class="line">户可以进入考试报名界面。而通过点击“成绩查询”和“学分认定”，用户可以查询个人成绩和认定的学分，并</span><br><span class="line">跳转到相应的教务系统页面进行相关操作。此外，用户还可使用实训选择、教务咨询和自习预约等功能，只需</span><br><span class="line">点击对应按钮即可进入学校相应页面进行使用。在查询动态功能中，用户可以点击不同的动态以查看详细内</span><br><span class="line">容。</span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
     <title>面试题</title>
     <url>/2023/06/03/2023-%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
     <content><![CDATA[<h1 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h1><h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h2><h3 id="缓存穿透"><a href="#缓存穿透" class="headerlink" title="缓存穿透"></a>缓存穿透</h3><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202306031104412.png" alt="image-20230603110403357"></p>
@@ -1599,6 +1597,13 @@
       <tags>
         <tag>面试题</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>软著论文备份</title>
+    <url>/2023/05/31/2023-%E8%BD%AF%E8%91%97%E8%AE%BA%E6%96%87%E5%A4%87%E4%BB%BD/</url>
+    <content><![CDATA[<h1 id="系统简介"><a href="#系统简介" class="headerlink" title="系统简介"></a>系统简介</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">“启橙”学习软件——基于昇思和大数据的校园学习平台提供了丰富的功能，其中包括二级子功能，例如：提醒事</span><br><span class="line">项管理、完成事项记录、添加事项等；还可以通过查看推荐课程、收藏课程、查看浏览历史，以及查看课表</span><br><span class="line">（本周、上周及下周）等功能，更好地管理自己的学习日程；同时，分类查看各科作业、完成作业、展开和折</span><br><span class="line">叠相应作业列表、添加作业等功能能够帮助用户更快、更好地完成学业；除此之外，还有学习单词、信息查</span><br><span class="line">询、查看动态等多种功能可供使用者探索和使用。在提醒事项管理及完成事项记录功能中，用户可以查看设置</span><br><span class="line">好的提醒事项，如果用户事项已完成，则可点击事项右侧的按钮可以使事项的状态变为完成，此时按钮将由绿</span><br><span class="line">色转为蓝色，给予用户以反馈。添加事项功能允许用户通过输入栏添加需要完成的任务，按回车键即可完成添</span><br><span class="line">加。界面将一并展示所有已添加的任务。推荐课程功能提供系统智能推荐的课程，并为每个课程提供介绍、适</span><br><span class="line">用人群和常见问题等详细信息。用户可以点击课程名称查看详细信息或点击目录浏览具体的课程内容。同时，</span><br><span class="line">用户可通过评价模块了解其他人对该课程的反馈和评价。若用户喜欢某个课程，亦可以使用收藏功能将其保存</span><br><span class="line">至收藏页以供今后复习学习。历史记录功能可记录用户浏览过的课程，方便查询相关信息内容。课表功能可让</span><br><span class="line">用户查看当天及未来的课程，并展示上课时间、课程名称、教师和教室等信息。用户可通过周数栏旁边的加减</span><br><span class="line">号切换至其它时间周期的课程信息。在分类查看各科作业功能中，用户可以分类查看每一科目的作业，列表根</span><br><span class="line">据不同的学科进行了分类展示。在作业完成后，用户可以通过完成作业功能，将完成后的页面事项变成绿色，</span><br><span class="line">按钮变成蓝色。同时可通过点击作业名字，使用展开和折叠相应作业列表功能以方便用户查看。在添加作业功</span><br><span class="line">能中，用户可以输入课程名和作业内容来添加作业，输入完成后可以点击绿色的按钮来完成作业的添加，返回</span><br><span class="line">到页面可以查看添加作业，如果用户想要取消，可以点击下方左侧的叉。在学习单词功能中，用户可以查看不</span><br><span class="line">同的单词并进行单词学习。该功能界面提供了单词释义、读音、变形、图文例句和英文释义等信息。通过点击</span><br><span class="line">音标旁边的蓝色按钮，用户可以听取单词的发音；而点击图文例句旁边的蓝色按钮，则可以聆听该段例句的发</span><br><span class="line">音。当完成当前单词的学习后，用户可通过点击“下一个”按钮继续学习下个单词，或通过点击“上一个”按钮</span><br><span class="line">复习之前所学的单词。在信息查询功能中，用户可以便捷地完成多种任务。例如，通过点击“考试报名”，用</span><br><span class="line">户可以进入考试报名界面。而通过点击“成绩查询”和“学分认定”，用户可以查询个人成绩和认定的学分，并</span><br><span class="line">跳转到相应的教务系统页面进行相关操作。此外，用户还可使用实训选择、教务咨询和自习预约等功能，只需</span><br><span class="line">点击对应按钮即可进入学校相应页面进行使用。在查询动态功能中，用户可以点击不同的动态以查看详细内</span><br><span class="line">容。</span><br></pre></td></tr></table></figure>
+
+]]></content>
   </entry>
   <entry>
     <title>项目</title>
