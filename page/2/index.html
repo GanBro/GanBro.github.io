@@ -1,1890 +1,961 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/iyYYscO.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/iyYYscO.ico">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+    <!DOCTYPE html>
+    <html lang="en"
+            
+          
+    >
+    <head>
+    <meta charset="utf-8">
+    
 
-<link rel="stylesheet" href="/css/main.css">
+    
 
+    
+    <title>
+        
+        Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CUbuntu%20Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+    
+<link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/v4-font-face.min.css">
 
+    
+<link rel="stylesheet" href="/css/loader.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
-
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.14.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"show_result":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-
-    <meta name="description" content="本人做笔记或记录事情之用">
-<meta property="og:type" content="website">
-<meta property="og:title" content="GanBro的博客">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/page/2/index.html">
-<meta property="og:site_name" content="GanBro的博客">
-<meta property="og:description" content="本人做笔记或记录事情之用">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="wubo">
-<meta property="article:tag" content="C++, 算法, Java, Python">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+    
+        <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    
+    
+        <link rel="shortcut icon" href="/images/favicon.ico">
+    
+    
+        
+<link rel="stylesheet" href="https://unpkg.com/typeface-source-code-pro@1.1.13/index.css">
 
+    
+    
+<link rel="stylesheet" href="/css/style.css">
 
-<link rel="canonical" href="http://example.com/page/2/">
+    
+        
+<link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
+    
+    
+    
+    
+    
+<script src="https://unpkg.com/pace-js@1.2.4/pace.min.js"></script>
 
+    
+        
+<link rel="stylesheet" href="https://unpkg.com/wowjs@1.1.3/css/libs/animate.css">
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/2/index.html","title":""}</script>
+        
+<script src="https://unpkg.com/wowjs@1.1.3/dist/wow.min.js"></script>
 
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>GanBro的博客</title>
-  
+        <script>
+          new WOW({
+            offset: 0,
+            mobile: true,
+            live: false
+          }).init();
+        </script>
+    
+<meta name="generator" content="Hexo 7.0.0"></head>
 
-
-
-
-
-
-
-
-  <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
-<style>mjx-container[jax="SVG"] {
-  direction: ltr;
-}
-
-mjx-container[jax="SVG"] > svg {
-  overflow: visible;
-}
-
-mjx-container[jax="SVG"][display="true"] {
-  display: block;
-  text-align: center;
-  margin: 1em 0;
-}
-
-mjx-container[jax="SVG"][justify="left"] {
-  text-align: left;
-}
-
-mjx-container[jax="SVG"][justify="right"] {
-  text-align: right;
-}
-
-g[data-mml-node="merror"] > g {
-  fill: red;
-  stroke: red;
-}
-
-g[data-mml-node="merror"] > rect[data-background] {
-  fill: yellow;
-  stroke: none;
-}
-
-g[data-mml-node="mtable"] > line[data-line] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > rect[data-frame] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > .mjx-dashed {
-  stroke-dasharray: 140;
-}
-
-g[data-mml-node="mtable"] > .mjx-dotted {
-  stroke-linecap: round;
-  stroke-dasharray: 0,140;
-}
-
-g[data-mml-node="mtable"] > svg {
-  overflow: visible;
-}
-
-[jax="SVG"] mjx-tool {
-  display: inline-block;
-  position: relative;
-  width: 0;
-  height: 0;
-}
-
-[jax="SVG"] mjx-tool > mjx-tip {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-mjx-tool > mjx-tip {
-  display: inline-block;
-  padding: .2em;
-  border: 1px solid #888;
-  font-size: 70%;
-  background-color: #F8F8F8;
-  color: black;
-  box-shadow: 2px 2px 5px #AAAAAA;
-}
-
-g[data-mml-node="maction"][data-toggle] {
-  cursor: pointer;
-}
-
-mjx-status {
-  display: block;
-  position: fixed;
-  left: 1em;
-  bottom: 1em;
-  min-width: 25%;
-  padding: .2em .4em;
-  border: 1px solid #888;
-  font-size: 90%;
-  background-color: #F8F8F8;
-  color: black;
-}
-
-foreignObject[data-mjx-xml] {
-  font-family: initial;
-  line-height: normal;
-  overflow: visible;
-}
-
-.MathJax path {
-  stroke-width: 3;
-}
-
-mjx-container[display="true"] {
-  overflow: auto hidden;
-}
-
-mjx-container[display="true"] + br {
-  display: none;
-}
-</style></head>
-
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
-
-  <main class="main">
-    <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏" role="button">
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
+    <body>
+    
+<div id='loader'>
+  <div class="loading-left-bg"></div>
+  <div class="loading-right-bg"></div>
+  <div class="spinner-box">
+    <div class="loading-taichi">
+      <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+      <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="#ff6e6b" />
+      <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z" fill="#fd0d00" />
+      <path d="M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95" fill="#fd0d00" />
+    </svg>
     </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
-      <h1 class="site-title">GanBro的博客</h1>
-      <i class="logo-line"></i>
-    </a>
-      <p class="site-subtitle" itemprop="description"><br><font size="3" color="green">坚持自律，越自律越自由</font></p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger" aria-label="搜索" role="button">
-        <i class="fa fa-search fa-fw fa-lg"></i>
-    </div>
+    <div class="loading-word">少女祈祷中...</div>
   </div>
 </div>
+</div>
+
+<script>
+  const endLoading = function() {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loader').classList.add("loading");
+  }
+  window.addEventListener('load', endLoading);
+  document.getElementById('loader').addEventListener('click', endLoading);
+</script>
+
+
+    <div id="container">
+        <div id="wrap">
+            <header id="header">
+    
+        <img data-src="/images/banner.jpg" data-sizes="auto" alt="" class="lazyload">
+    
+    <div id="header-outer" class="outer">
+        <div id="header-title" class="inner">
+            <div id="logo-wrap">
+                
+                    
+                    
+                        <a href="/" id="logo"><h1>Hexo</h1></a>
+                    
+                
+            </div>
+            
+                
+                
+            
+        </div>
+        <div id="header-inner">
+            <nav id="main-nav">
+                <a id="main-nav-toggle" class="nav-icon"></a>
+                
+                    <span class="main-nav-link-wrap">
+                        <span class="main-nav-icon"></span>
+                        <a class="main-nav-link" href="/">Home</a>
+                    </span>
+                
+                    <span class="main-nav-link-wrap">
+                        <span class="main-nav-icon"></span>
+                        <a class="main-nav-link" href="/archives">Archives</a>
+                    </span>
+                
+                    <span class="main-nav-link-wrap">
+                        <span class="main-nav-icon"></span>
+                        <a class="main-nav-link" href="/about">About</a>
+                    </span>
+                
+                    <span class="main-nav-link-wrap">
+                        <span class="main-nav-icon"></span>
+                        <a class="main-nav-link" href="/friend">Friend</a>
+                    </span>
+                
+            </nav>
+            <nav id="sub-nav">
+                
+                    <a id="nav-rss-link" class="nav-icon" href="/atom.xml"
+                       title="RSS Feed"></a>
+                
+                
+                    <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search">
+                    </a>
+                
+            </nav>
+            <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+            </div>
+        </div>
+    </div>
+</header>
+
+            <div id="content" class="outer">
+                <section id="main">
+    
+        
+    <div class="post-wrap-left wow fadeInUp">
+        
+            <a class="post-link" href="/2023/07/23/2023-2023%E6%9A%91%E5%81%87%E6%97%A5%E7%A8%8B%E5%A4%87%E5%BF%98%E5%BD%95/"></a>
+        
+        
+        <div class="post-cover-left">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="2023暑假日程备忘录" class="lazyload">
+                
+            
+
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-07-23</a>
+                
+                    <a><span class="icon-pencil"></span>1.4k words</a>
+                
+                
+                    <a><span class="icon-clock"></span>5 mins</a>
+                
+            </div>
+            <h2 class="post-title">2023暑假日程备忘录</h2>
+            <article class="post-article">
+                
+                    高数第4讲4.10
+计算机三级进度第7套卷子18题
+笔记传输速度11. OC-1 对应 51.84 Mbps
+
+计算机四级进度真题试卷4
+操作系统笔记杂记1.
+2.
+3.
+中断
+串口数据到达说明中断
+
+并发
+并发程序执行结果不可再现
+并发程序与计算过程无法一一对应
+并发程序在执行期间具有相互制约关系
+并发程序在执行过程失去了封闭性
+
+系统调用
+函数fork()进程控制类系统调用
+
+PCB
+PCB内容
 
 
 
-<nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
-        </a>
-      </li>
-  </ul>
+
+
+调度算法
+
+
+
+
+
+
+平均周转时间
+
+
+
+多道程序设计
+特点：
+
+
+Linux
+linux进程状态有：运行状态、中断状态、不可中断状态、僵尸状态、停止状态。
+
+
+进程
+
+创建新进程过程：
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2023/07/07/2023-%E5%AD%A6%E6%88%90%E5%9C%A8%E7%BA%BF/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="学成在线" class="lazyload">
+                
+            
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-07-07</a>
+                
+                    <a><span class="icon-pencil"></span>53 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">学成在线</h2>
+            <article class="post-article">
+                
+                    虚拟机Centos配置
+账号密码虚拟机的MySQL账号：root	
+密码：mysql
+gogs账号：gogs
+密码：gogs
+笔记
+很奇怪，必须要用whale推送代码才能成功，不然连接不上git
+
+
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-left wow fadeInUp">
+        
+            <a class="post-link" href="/2023/06/03/2023-%E9%9D%A2%E8%AF%95%E9%A2%98/"></a>
+        
+        
+        <div class="post-cover-left">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="面试题" class="lazyload">
+                
+            
+
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-06-03</a>
+                
+                    <a><span class="icon-pencil"></span>15 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">面试题</h2>
+            <article class="post-article">
+                
+                    Redis使用场景缓存穿透
+方案1
+方案二
+
+
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2023/05/31/2023-%E8%BD%AF%E8%91%97%E8%AE%BA%E6%96%87%E5%A4%87%E4%BB%BD/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="软著论文备份" class="lazyload">
+                
+            
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-05-31</a>
+                
+                    <a><span class="icon-pencil"></span>1.1k words</a>
+                
+                
+                    <a><span class="icon-clock"></span>3 mins</a>
+                
+            </div>
+            <h2 class="post-title">软著论文备份</h2>
+            <article class="post-article">
+                
+                    系统简介12345678910111213141516171819202122232425“启橙”学习软件——基于昇思和大数据的校园学习平台提供了丰富的功能，其中包括二级子功能，例如：提醒事项管理、完成事项记录、添加事项等；还可以通过查看推荐课程、收藏课程、查看浏览历史，以及查看课表（本周、上周及下周）等功能，更好地管理自己的学习日程；同时，分类查看各科作业、完成作业、展开和折叠相应作业列表、添加作业等功能能够帮助用户更快、更好地完成学业；除此之外，还有学习单词、信息查询、查看动态等多种功能可供使用者探索和使用。在提醒事项管理及完成事项记录功能中，用户可以查看设置好的提醒事项，如果用户事项已完
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-left wow fadeInUp">
+        
+            <a class="post-link" href="/2023/05/11/2023-Docker/"></a>
+        
+        
+        <div class="post-cover-left">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="Docker" class="lazyload">
+                
+            
+
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-05-11</a>
+                
+                    <a><span class="icon-pencil"></span>69 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">Docker</h2>
+            <article class="post-article">
+                
+                    Docker基本操作命令其实没什么记录必要，只需查看帮助文档就行了
+不知道的命令，可以去docker hub查看命令
+启动systemctl start docker
+查看帮助文档docker --help
+查看镜像docker images
+查看容器状态docker ps
+
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2023/05/01/2023-redis/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="redis" class="lazyload">
+                
+            
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-05-01</a>
+                
+                    <a><span class="icon-pencil"></span>29 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">redis</h2>
+            <article class="post-article">
+                
+                    Redis常用命令字符创string操作命令
+哈希hash操作命令
+列表list常用命令
+set
+sorted set
+
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-left wow fadeInUp">
+        
+            <a class="post-link" href="/2023/04/29/2023-Linux/"></a>
+        
+        
+        <div class="post-cover-left">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="Linux" class="lazyload">
+                
+            
+
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-04-29</a>
+                
+                    <a><span class="icon-pencil"></span>101 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">Linux</h2>
+            <article class="post-article">
+                
+                    FinalShell准备工作csdn
+连接服务器步骤步骤1
+步骤2用ssh连接
+
+步骤3ip查看命令为 ip addr
+
+Linux常用命令cat
+more
+tail
+mkdir
+rmdir
+rm
+cp
+mv
+tar1. 
+
+2. 
+
+vi&amp;#x2F;vim
+
+
+
+
+
+
+
+3. 
+
+4. 
+
+5. 
+
+find
+grep
+防火墙
+Shell部署项目为用户授权
+设置静态ip
+Linux切换到root，并更改普通用户权限csdn
+步骤
+su - root
+chmod u+w &amp;#x2F;etc&amp;#x2F;sudoers
+vim &amp;#x2F;etc&amp;#x2F;sudoers
+
+
+
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2023/03/21/2023-%E9%A2%98%E8%A7%A3%E5%A4%87%E4%BB%BD/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="题解备份" class="lazyload">
+                
+            
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-03-21</a>
+                
+                    <a><span class="icon-pencil"></span>2.1k words</a>
+                
+                
+                    <a><span class="icon-clock"></span>10 mins</a>
+                
+            </div>
+            <h2 class="post-title">题解备份</h2>
+            <article class="post-article">
+                
+                    2023计科蓝桥杯第一场训练赛卡片思路：签到题，把每一个数字的每一位拆出来，用一位便把对应卡片数量减一，直到没有卡片便退出
+代码:123456789101112131415161718192021222324252627282930313233#include &amp;lt;iostream&amp;gt;#include &amp;lt;cstring&amp;gt;#include &amp;lt;algorithm&amp;gt;using namespace std;const int N = 26;int w[N];int main()&amp;#123;    // 卡片0~9的数量初始为2021张，共20210张    for (i
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-left wow fadeInUp">
+        
+            <a class="post-link" href="/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/"></a>
+        
+        
+        <div class="post-cover-left">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="天梯赛题" class="lazyload">
+                
+            
+
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-03-19</a>
+                
+                    <a><span class="icon-pencil"></span>399 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>2 mins</a>
+                
+            </div>
+            <h2 class="post-title">天梯赛题</h2>
+            <article class="post-article">
+                
+                    7-14 重排链表思路数组模拟大法即可，选拔赛时间紧脑抽了没做出来，方才做了10几分钟样例过了，只不过还没提交，正确性待定
+代码123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778#include &amp;lt;iostream&amp;gt;#include &amp;lt;cstring&amp;gt;#include &amp;lt;algorithm&amp;gt;#include &amp;lt;c
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="计算机网络" class="lazyload">
+                
+            
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-03-15</a>
+                
+                    <a><span class="icon-pencil"></span>961 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>3 mins</a>
+                
+            </div>
+            <h2 class="post-title">计算机网络</h2>
+            <article class="post-article">
+                
+                    第一章ISO&amp;#x2F;OSI参考模型
+期末笔记
+数据链路层传输的PDU是数据帧
+常用的公钥密码体制是RSA
+RSA加密和解密都使用相同的算法，但使用不同的密钥
+无线局域网的标准是IEEE 802.11
+无线城域网的标准是IEEE 802.16
+常用的对称密钥体制是DES
+IPSec VPN的安全技术用到了隧道技术、加密技术、身份认证技术
+IPSec协议是一组协议，可以作为一个完整的VPN方案，工作在OSI的网络层
+网络拓扑结构可分为总线型、星型、环形、树形、网状
+第一次对路由器进行配置，应该通过console端口配置
+无线局域网中为实现传输媒体共享而采用的协议是CSMA&amp;#x2F;CA
+在O
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+
+
+    <nav id="page-nav" class="wow fadeInUp">
+        
+        <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+    </nav>
+
+
+</section>
+                
+                    <aside id="sidebar">
+    <div class="sidebar-wrap wow fadeInRight">
+        <div class="sidebar-author">
+            <img data-src="/avatar/avatar.jpg" data-sizes="auto" alt="John Doe" class="lazyload">
+            <div class="sidebar-author-name">John Doe</div>
+            <div class="sidebar-description"></div>
+        </div>
+        <div class="sidebar-state">
+            <div class="sidebar-state-article">
+                <div>Posts</div>
+                <div class="sidebar-state-number">37</div>
+            </div>
+            <div class="sidebar-state-category">
+                <div>Categories</div>
+                <div class="sidebar-state-number">20</div>
+            </div>
+            <div class="sidebar-state-tag">
+                <div>Tags</div>
+                <div class="sidebar-state-number">34</div>
+            </div>
+        </div>
+        <div class="sidebar-social">
+            
+                <div class=icon-github>
+                    <a href=https://github.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+                <div class=icon-google>
+                    <a href=https://plus.google.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+                <div class=icon-twitter>
+                    <a href=https://twitter.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+                <div class=icon-facebook>
+                    <a href=https://www.facebook.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+        </div>
+        <div class="sidebar-menu">
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">Home</div>
+                </div>
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/archives"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">Archives</div>
+                </div>
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/about"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">About</div>
+                </div>
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/friend"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">Friend</div>
+                </div>
+            
+        </div>
+    </div>
+    
+        
+    <div class="widget-wrap wow fadeInRight">
+        <h3 class="widget-title">Categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/MakeDown/">MakeDown</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/codeforces/">codeforces</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/github/">github</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/">Mysql</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%80%83%E7%A0%94/">考研</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%80%83%E7%A0%94/%E9%AB%98%E6%95%B0/">高数</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%8B%B1%E8%AF%AD/">英语</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%8B%B1%E8%AF%AD/%E5%85%AD%E7%BA%A7/">六级</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/">蓝桥杯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%AD%E8%A8%80/">语言</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%AD%E8%A8%80/C/">C++</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%AD%E8%A8%80/C/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0/">程序设计笔记</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%AD%E8%A8%80/Python/">Python</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%AD%E8%A8%80/Python/%E7%88%AC%E8%99%AB/">爬虫</a></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E8%80%83/">软考</a></li></ul>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="widget-wrap wow fadeInRight">
+        <h3 class="widget-title">Tag Cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Docker/" style="font-size: 10px;">Docker</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/MakeDown/" style="font-size: 10px;">MakeDown</a> <a href="/tags/Mysql/" style="font-size: 10px;">Mysql</a> <a href="/tags/codeforces/" style="font-size: 20px;">codeforces</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ipad/" style="font-size: 10px;">ipad</a> <a href="/tags/others/" style="font-size: 10px;">others</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/springboot/" style="font-size: 10px;">springboot</a> <a href="/tags/%E5%85%AD%E7%BA%A7/" style="font-size: 10px;">六级</a> <a href="/tags/%E5%8D%95%E8%AF%8D/" style="font-size: 10px;">单词</a> <a href="/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/" style="font-size: 10px;">天梯赛</a> <a href="/tags/%E5%AE%9E%E9%AA%8C/" style="font-size: 10px;">实验</a> <a href="/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/" style="font-size: 10px;">快捷键</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 10px;">数据库</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%97%A5%E7%A8%8B%E8%A1%A8/" style="font-size: 10px;">日程表</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 10px;">服务器</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 10px;">爬虫</a> <a href="/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">程序设计</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 20px;">考研</a> <a href="/tags/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/" style="font-size: 10px;">考研英语</a> <a href="/tags/%E8%8B%B1%E8%AF%AD/" style="font-size: 10px;">英语</a> <a href="/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/" style="font-size: 10px;">蓝桥杯</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/tags/%E8%BD%AF%E8%80%83/" style="font-size: 10px;">软考</a> <a href="/tags/%E9%94%AE%E7%9B%98/" style="font-size: 10px;">键盘</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 10px;">面试题</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a> <a href="/tags/%E9%A2%98%E8%A7%A3/" style="font-size: 10px;">题解</a> <a href="/tags/%E9%AB%98%E6%95%B0/" style="font-size: 10px;">高数</a>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="widget-wrap wow fadeInRight">
+        <h3 class="widget-title">Archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">November 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/04/">April 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/02/">February 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li></ul>
+        </div>
+    </div>
+
+
+    
+</aside>
+
+                
+            </div>
+            <footer id="footer" class="wow fadeInUp">
+    <div style="width: 100%; overflow: hidden"><div class="footer-line"></div></div>
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            
+            <div>
+                <span class="icon-copyright"></span>
+                2020-2023
+                <span class="footer-info-sep"></span>
+                John Doe
+            </div>
+            
+                <div>
+                    Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>&nbsp;
+                    Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" target="_blank">Reimu</a>
+                </div>
+            
+            
+                <div>
+                    <span class="icon-brush"></span>
+                    38.2k
+                    &nbsp;|&nbsp;
+                    <span class="icon-coffee"></span>
+                    03:14
+                </div>
+            
+            
+                <div>
+                    <span class="icon-eye"></span>
+                    <span id="busuanzi_container_site_pv">Number of visits&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+                    &nbsp;|&nbsp;
+                    <span class="icon-user"></span>
+                    <span id="busuanzi_container_site_uv">Number of visitors&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+                </div>
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <nav id="mobile-nav">
+    <div class="sidebar-wrap">
+        <div class="sidebar-author">
+            <img data-src="/avatar/avatar.jpg" data-sizes="auto" alt="John Doe" class="lazyload">
+            <div class="sidebar-author-name">John Doe</div>
+            <div class="sidebar-description"></div>
+        </div>
+        <div class="sidebar-state">
+            <div class="sidebar-state-article">
+                <div>Posts</div>
+                <div class="sidebar-state-number">37</div>
+            </div>
+            <div class="sidebar-state-category">
+                <div>Categories</div>
+                <div class="sidebar-state-number">20</div>
+            </div>
+            <div class="sidebar-state-tag">
+                <div>Tags</div>
+                <div class="sidebar-state-number">34</div>
+            </div>
+        </div>
+        <div class="sidebar-social">
+            
+                <div class=icon-github>
+                    <a href=https://github.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+                <div class=icon-google>
+                    <a href=https://plus.google.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+                <div class=icon-twitter>
+                    <a href=https://twitter.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+                <div class=icon-facebook>
+                    <a href=https://www.facebook.com/yourname itemprop="url" target="_blank"></a>
+                </div>
+            
+        </div>
+        <div class="sidebar-menu">
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">Home</div>
+                </div>
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/archives"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">Archives</div>
+                </div>
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/about"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">About</div>
+                </div>
+            
+                <div class="sidebar-menu-link-wrap">
+                    <a class="sidebar-menu-link-dummy" href="/friend"></a>
+                    <span class="sidebar-menu-icon"></span>
+                    <div class="sidebar-menu-link">Friend</div>
+                </div>
+            
+        </div>
+    </div>
 </nav>
 
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup"><div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close" role="button">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div class="search-result-container no-result">
-  <div class="search-result-icon">
-    <i class="fa fa-spinner fa-pulse fa-5x"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</header>
         
-  
-  <aside class="sidebar">
+<script src="https://unpkg.com/jquery@3.7.0/dist/jquery.min.js"></script>
 
-    <div class="sidebar-inner sidebar-overview-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
 
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-        </div>
-        <!--/noindex-->
+<script src="https://unpkg.com/lazysizes@5.3.2/lazysizes.min.js"></script>
 
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">wubo</p>
-  <div class="site-description" itemprop="description">本人做笔记或记录事情之用</div>
-</div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">35</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">20</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">34</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
 
-        </div>
-      </div>
+<script src="https://unpkg.com/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+
+
+    
+<script src="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+    
+<script src="https://unpkg.com/busuanzi@2.3.0/bsz.pure.mini.js"></script>
+
+
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="https://unpkg.com/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"></script>
+
+    
+<script src="https://unpkg.com/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"></script>
+
+    
+<script src="/js/search.js"></script>
+
+    <script>
+        var CONFIG = {
+            root: '/',
+            algolia: {
+                applicationID: "OCARL0H9F0",
+                apiKey: "ff4658307bde5e7374d22ed4aed521d7",
+                indexName: "blog",
+                hits: {
+                    "per_page": parseInt("10")
+                },
+                labels: {
+                    "input_placeholder": "搜索.....",
+                    "hits_empty": "未发现与 「${query}」相关内容",
+                    "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+                }
+            }
+        };
+    </script>
+
+
     </div>
-
-    
-  </aside>
-
-
-    </div>
-
-    <div class="main-inner index posts-expand">
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/test.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/test.html" class="post-title-link" itemprop="url">测试文档</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-01-28 22:37:51" itemprop="dateCreated datePublished" datetime="2023-01-28T22:37:51+08:00">2023-01-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-01 19:32:22" itemprop="dateModified" datetime="2023-02-01T19:32:22+08:00">2023-02-01</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>22</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          Here's something encrypted, password is required to continue reading.
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/test.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+    <div class="site-search">
+        <div class="algolia-popup popup">
+            <div class="algolia-search">
+                <span class="algolia-search-input-icon"></span>
+                <div class="algolia-search-input" id="algolia-search-input"></div>
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%9C%8D%E5%8A%A1%E5%99%A8.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%9C%8D%E5%8A%A1%E5%99%A8.html" class="post-title-link" itemprop="url">服务器</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-10-29 16:44:03 / 修改时间：23:33:51" itemprop="dateCreated datePublished" datetime="2023-10-29T16:44:03+08:00">2023-10-29</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>219</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          Here's something encrypted, password is required to continue reading.
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E6%9C%8D%E5%8A%A1%E5%99%A8.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+            <div class="algolia-results">
+                <div id="algolia-stats"></div>
+                <div id="algolia-hits"></div>
+                <div id="algolia-pagination" class="algolia-pagination"></div>
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025%E8%80%83%E7%A0%94.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025%E8%80%83%E7%A0%94.html" class="post-title-link" itemprop="url">2025考研</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-10-27 15:28:51 / 修改时间：21:33:02" itemprop="dateCreated datePublished" datetime="2023-10-27T15:28:51+08:00">2023-10-27</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>9</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
+            <span class="popup-btn-close"></span>
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="进度">进度</h1>
-<h2 id="高数">高数</h2>
-<ol type="1">
-<li>武忠祥p2</li>
-</ol>
-
-      
     </div>
+    <!-- hexo injector body_end start -->
+<script src="/js/insertHighlight.js"></script>
+<!-- hexo injector body_end end --></body>
+    </html>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/springboot%E7%AC%94%E8%AE%B0.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/springboot%E7%AC%94%E8%AE%B0.html" class="post-title-link" itemprop="url">springboot笔记</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-10-20 15:39:50" itemprop="dateCreated datePublished" datetime="2023-10-20T15:39:50+08:00">2023-10-20</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-10-27 14:44:23" itemprop="dateModified" datetime="2023-10-27T14:44:23+08:00">2023-10-27</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>190</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <ol type="1">
-<li>sprintboot的启动类所管理的Bean是它所在包下面的所有Bean</li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310201541912.png" alt="image-20231020154140758" /><figcaption>image-20231020154140758</figcaption>
-</figure>
-<p>​ 这里启动类就是管理<strong>itheima</strong>下面的类</p>
-<ol start="2" type="1">
-<li><p>当项目要上线时，如果要修改配置，可以在resource下创建config包，并添加一个application.yml文件。这里的配置文件优先级更高 <img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310261654842.png" alt="image-20231026165423612" /></p></li>
-<li><p><strong><span class="citation" data-cites="ConfigurationProperties">@ConfigurationProperties</span></strong>绑定属性支持属性名宽松绑定 <img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310271444299.png" alt="image-20231027144408175" /></p></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%AF%86%E7%A0%81.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%AF%86%E7%A0%81.html" class="post-title-link" itemprop="url">密码</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-10-19 14:26:14 / 修改时间：14:29:22" itemprop="dateCreated datePublished" datetime="2023-10-19T14:26:14+08:00">2023-10-19</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>46</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          Here's something encrypted, password is required to continue reading.
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E5%AF%86%E7%A0%81.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024%E5%94%90%E8%BF%9F%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024%E5%94%90%E8%BF%9F%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD.html" class="post-title-link" itemprop="url">2024唐迟考研英语</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-10-04 10:35:05" itemprop="dateCreated datePublished" datetime="2023-10-04T10:35:05+08:00">2023-10-04</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-10-15 11:04:04" itemprop="dateModified" datetime="2023-10-15T11:04:04+08:00">2023-10-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%8B%B1%E8%AF%AD/" itemprop="url" rel="index"><span itemprop="name">英语</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>122</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="好句">好句</h1>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310041035654.png" alt="image-20231004103551500" /></p>
-<h1 id="笔记">笔记</h1>
-<ol type="1">
-<li>当真题看到一个不会的词时，去有道翻译看牛津的<strong>英英释义</strong></li>
-<li><strong>come to</strong>现在开始....。代表以前的不重要 <img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310081444061.png" alt="image-20231008144451977" /></li>
-<li>关注<strong>代词</strong>，获取充分信息</li>
-<li><img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20231010203035052.png" title="fig:" alt="image-20231010203035052" /></li>
-</ol>
-<p>例子在前，<strong>yet</strong>说明前后意思相反，答案是yet后意思的相反的意思</p>
-<ol start="5" type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310141928665.png" title="fig:" alt="image-20231014192820339" /></li>
-</ol>
-<p>有<strong>But</strong>取反</p>
-<ol start="6" type="1">
-<li>考研文章中的斜体字表示书名，<strong>尽量读懂</strong></li>
-<li></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E9%A1%B9%E7%9B%AE.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E9%A1%B9%E7%9B%AE.html" class="post-title-link" itemprop="url">项目</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-09-05 23:19:13" itemprop="dateCreated datePublished" datetime="2023-09-05T23:19:13+08:00">2023-09-05</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-10-29 23:59:39" itemprop="dateModified" datetime="2023-10-29T23:59:39+08:00">2023-10-29</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>629</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          Here's something encrypted, password is required to continue reading.
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E9%A1%B9%E7%9B%AE.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/JavaEE.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/JavaEE.html" class="post-title-link" itemprop="url">JavaEE</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-09-03 19:27:43 / 修改时间：19:42:11" itemprop="dateCreated datePublished" datetime="2023-09-03T19:27:43+08:00">2023-09-03</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>59</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="spring">Spring</h1>
-<h2 id="环境配置">环境配置</h2>
-<p>1.如果不能创建.java文件，那么就是项目的src文件没有被当成sources文件，解决方法如下 <img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031942306.png" alt="img" /></p>
-<ol start="2" type="1">
-<li></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E5%8D%95%E8%AF%8D.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E5%8D%95%E8%AF%8D.html" class="post-title-link" itemprop="url">英语六级单词</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-08-25 10:46:55" itemprop="dateCreated datePublished" datetime="2023-08-25T10:46:55+08:00">2023-08-25</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-10-17 23:13:06" itemprop="dateModified" datetime="2023-10-17T23:13:06+08:00">2023-10-17</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>883</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="名词">名词</h1>
-<ol type="1">
-<li>offspring 后代，子女</li>
-<li>commitment 承诺</li>
-<li>marvel 奇迹;成就;不平凡的成果;令人惊异的人(或事)</li>
-<li>infrastructure (国家或机构的)基础设施，基础建设</li>
-<li>verdict 判决;(陪审团的)裁定，裁决，裁断;(经过检验或认真考虑后的)决定，结论，意见</li>
-<li>arrogance 傲慢;自大</li>
-<li>grievance 不满，不平；委屈，冤情；投诉</li>
-<li>byprpduct 副产品</li>
-<li>slavery 奴隶制，蓄奴；奴隶身份，奴役；过分依赖，过分投入</li>
-<li>intuitive 直觉的；有直觉力的；易懂的，使用简便的</li>
-<li>quirk 怪癖， 怪异的性格（或行为）；（偶然发生的）怪事，奇事；急转，急弯；（建筑）狭凹槽，深槽；<美>借口</li>
-</ol>
-<h1 id="动词">动词</h1>
-<ol type="1">
-<li>designates 把……定名为；任命，指派</li>
-<li>incorporates 融合，合并，包含</li>
-<li>sneaked 偷偷地走，潜行</li>
-<li>marvel 感到惊奇;大为赞叹</li>
-<li>misplace 放错地方；忘记把……放在什么地方；错误地信任某人</li>
-<li>nurture 培养，促进；养育，培育；抱有，怀有；扶持，帮助；滋养，滋生</li>
-</ol>
-<h1 id="形容词">形容词</h1>
-<ol type="1">
-<li>legitimate（小孩）合法婚姻所生的；正当的，合理的；</li>
-<li>identical 相同的;完全相同的;同一的;完全同样的</li>
-<li>unanimous (决定或意见)一致的;一致同意的</li>
-<li>contemptuous 轻蔑的;蔑视的;鄙视的</li>
-<li>susceptible 易得病的，易受影响的；（人）易受感动的，易动感情的；</li>
-<li>limbic 边的；缘的</li>
-<li>counterintuitive 违反直觉的</li>
-<li>slim 苗条的，纤细的；单薄的；（物）狭长的；（衣服）修长的，紧身的；（数量或数字）微小的；（公司或其他组织）精简的；<南非>诡计多端的，狡猾的</li>
-<li>pronounced 明显的，显著的；讲出来的</li>
-<li>astrological 占星的；占星学的，占星术的</li>
-<li>startling 令人吃惊的，不寻常的；极鲜亮的</li>
-<li>subtile 微妙的；狡猾的；敏锐的；隐约的</li>
-</ol>
-<h1 id="副词">副词</h1>
-<ol type="1">
-<li>principally 主要地；大部分；</li>
-<li>rhetorically 讲究修辞地；在修辞学上</li>
-</ol>
-<h1 id="搭配">搭配</h1>
-<ol type="1">
-<li>yield to 屈从于</li>
-<li>could do worse than 不妨试试：表示建议或推荐某事物，虽然可能不是最好的选择，但也不会有什么坏处。</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023%E6%9A%91%E5%81%87%E6%97%A5%E7%A8%8B%E5%A4%87%E5%BF%98%E5%BD%95.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wubo">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GanBro的博客">
-      <meta itemprop="description" content="本人做笔记或记录事情之用">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | GanBro的博客">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023%E6%9A%91%E5%81%87%E6%97%A5%E7%A8%8B%E5%A4%87%E5%BF%98%E5%BD%95.html" class="post-title-link" itemprop="url">2023暑假日程备忘录</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-07-23 21:41:24" itemprop="dateCreated datePublished" datetime="2023-07-23T21:41:24+08:00">2023-07-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-16 12:22:30" itemprop="dateModified" datetime="2023-09-16T12:22:30+08:00">2023-09-16</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>2.9k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="高数">高数</h1>
-<p><strong>第4讲</strong>4.10</p>
-<h1 id="计算机三级">计算机三级</h1>
-<h2 id="进度">进度</h2>
-<p>第7套卷子18题</p>
-<h2 id="笔记">笔记</h2>
-<h3 id="传输速度">传输速度</h3>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. OC-1 对应 51.84 Mbps</span><br></pre></td></tr></table></figure>
-<h1 id="计算机四级">计算机四级</h1>
-<h2 id="进度-1">进度</h2>
-<p>真题试卷4</p>
-<h2 id="操作系统笔记">操作系统笔记</h2>
-<h3 id="杂记">杂记</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308151610196.png" alt="image-20230815161045108" /></p>
-<p>2.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230820150129121.png" alt="image-20230820150129121" /></p>
-<p>3.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230820150216880.png" alt="image-20230820150216880" /></p>
-<h3 id="中断">中断</h3>
-<ol type="1">
-<li>串口数据到达说明中断</li>
-</ol>
-<h3 id="并发">并发</h3>
-<ol type="1">
-<li>并发程序执行结果不可再现</li>
-<li>并发程序与计算过程无法一一对应</li>
-<li>并发程序在执行期间具有相互制约关系</li>
-<li>并发程序在执行过程失去了封闭性</li>
-</ol>
-<h3 id="系统调用">系统调用</h3>
-<ol type="1">
-<li>函数fork()<strong>进程控制类</strong>系统调用</li>
-</ol>
-<h3 id="pcb">PCB</h3>
-<ol type="1">
-<li>PCB内容</li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241121124.png" alt="image-20230724112156055" /><figcaption>image-20230724112156055</figcaption>
-</figure>
-<ol start="2" type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241629029.png" title="fig:" alt="image-20230724162957947" /></li>
-</ol>
-<h3 id="调度算法">调度算法</h3>
-<ol type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241612970.png" alt="image-20230724161251867" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241614023.png" alt="image-20230724161440935" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308171028068.png" alt="image-20230817102837957" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308171031774.png" alt="image-20230817103104681" /></li>
-<li><img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230819120840584.png" /></li>
-</ol>
-<h3 id="平均周转时间">平均周转时间</h3>
-<ol type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241617747.png" alt="image-20230724161756677" /></li>
-<li></li>
-</ol>
-<h3 id="多道程序设计">多道程序设计</h3>
-<ol type="1">
-<li>特点：</li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241624300.png" alt="image-20230724162435250" /><figcaption>image-20230724162435250</figcaption>
-</figure>
-<h3 id="linux">Linux</h3>
-<ol type="1">
-<li>linux进程状态有：运行状态、中断状态、不可中断状态、僵尸状态、停止状态。</li>
-<li></li>
-</ol>
-<h3 id="进程">进程</h3>
-<ol type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307241858000.png" alt="image-20230724185823922" /></li>
-<li>创建新进程过程：</li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307251843824.png" alt="image-20230725184331728" /><figcaption>image-20230725184331728</figcaption>
-</figure>
-<ol start="3" type="1">
-<li>进程间制约关系</li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307261938159.png" alt="image-20230726193802100" /><figcaption>image-20230726193802100</figcaption>
-</figure>
-<ol start="4" type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271807751.png" alt="image-20230727180758648" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308161040757.png" alt="image-20230816104018629" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308161507748.png" alt="image-20230816150739661" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308161509517.png" alt="image-20230816150942427" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308161515084.png" alt="image-20230816151508996" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308161525307.png" alt="image-20230816152558204" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308171425662.png" title="fig:" alt="image-20230817142543573" /></li>
-</ol>
-<h3 id="fork函数">fork函数</h3>
-<ol type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307261406944.png" alt="image-20230726140645835" /></li>
-<li><figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307261419007.png" alt="image-20230726141940922" /><figcaption>image-20230726141940922</figcaption>
-</figure></li>
-<li><figure>
-<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230726142008834.png" alt="image-20230726142008834" /><figcaption>image-20230726142008834</figcaption>
-</figure></li>
-</ol>
-<h3 id="计算公式">计算公式</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307261944884.png" alt="image-20230726194413789" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271355354.png" alt="image-20230727135559270" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271358795.png" alt="image-20230727135837704" /></p>
-<p>4.LRU缺页率</p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271812045.png" alt="image-20230727181212974" /><figcaption>image-20230727181212974</figcaption>
-</figure>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271822587.png" alt="image-20230727182223511" /><figcaption>image-20230727182223511</figcaption>
-</figure>
-<p>5.缺页中断</p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271829541.png" alt="image-20230727182948458" /><figcaption>image-20230727182948458</figcaption>
-</figure>
-<p>6.缺页次数</p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307272013385.png" alt="image-20230727201308280" /><figcaption>image-20230727201308280</figcaption>
-</figure>
-<p>7.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281001896.png" alt="image-20230728100148788" /></p>
-<p>8.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281010172.png" alt="image-20230728101026070" /></p>
-<p>9.缺页中断</p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281145136.png" alt="image-20230728114559043" /><figcaption>image-20230728114559043</figcaption>
-</figure>
-<p>10.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307312000669.png" alt="image-20230731200028554" /></p>
-<ol start="11" type="1">
-<li></li>
-</ol>
-<blockquote>
-<p>后和前不一样</p>
-</blockquote>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307312003821.png" alt="image-20230731200359729" /><figcaption>image-20230731200359729</figcaption>
-</figure>
-<p>12.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307312045328.png" alt="image-20230731204540227" /></p>
-<h3 id="页面置换算法">页面置换算法</h3>
-<h4 id="nru">NRU</h4>
-<ol type="1">
-<li><figure>
-<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230727133203093.png" alt="image-20230727133203093" /><figcaption>image-20230727133203093</figcaption>
-</figure>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271332061.png" alt="image-20230727133220006" /><figcaption>image-20230727133220006</figcaption>
-</figure></li>
-</ol>
-<h4 id="fifo">FIFO</h4>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281013112.png" alt="image-20230728101336020" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281027959.png" alt="image-20230728102700897" /></p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281027616.png" alt="image-20230728102723540" /><figcaption>image-20230728102723540</figcaption>
-</figure>
-<h4 id="clock">CLOCK</h4>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281014228.png" alt="image-20230728101437160" /></p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281014411.png" alt="image-20230728101452339" /><figcaption>image-20230728101452339</figcaption>
-</figure>
-<h4 id="opt">OPT</h4>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281019007.png" alt="image-20230728101919935" /></p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281019612.png" alt="image-20230728101937547" /><figcaption>image-20230728101937547</figcaption>
-</figure>
-<h3 id="寄存器">寄存器</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307271346156.png" alt="image-20230727134638072" /></p>
-<h3 id="磁盘">磁盘</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281515768.png" alt="image-20230728151553682" /></p>
-<h3 id="文件">文件</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281655506.png" alt="image-20230728165544415" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281720310.png" alt="image-20230728172052224" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281727380.png" alt="image-20230728172738286" /></p>
-<p>4.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230820201241949.png" alt="image-20230820201241949" /></p>
-<h3 id="外存储设备">外存储设备</h3>
-<ol type="1">
-<li>存取过程<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307281704835.png" alt="image-20230728170446755" /></li>
-</ol>
-<h3 id="生产者与消费者">生产者与消费者</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308151134788.png" alt="image-20230815113408668" /></p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308151134364.png" alt="image-20230815113427311" /><figcaption>image-20230815113427311</figcaption>
-</figure>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308151149106.png" alt="image-20230815114936007" /></p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308151149158.png" alt="image-20230815114952105" /><figcaption>image-20230815114952105</figcaption>
-</figure>
-<h3 id="外碎片">外碎片</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308171437827.png" alt="image-20230817143729738" /></p>
-<h3 id="可变分区">可变分区</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230819104326606.png" alt="image-20230819104326606" /></p>
-<h3 id="fat">FAT</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230820175108120.png" alt="image-20230820175108120" /></p>
-<p>2.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230820175215199.png" alt="image-20230820175215199" /></p>
-<h3 id="spooling">SPOOLing</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230821100631823.png" alt="image-20230821100631823" /></p>
-<h3 id="通道">通道</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230821115022788.png" alt="image-20230821115022788" /></p>
-<h3 id="sdt">SDT</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230821150343582.png" alt="image-20230821150343582" /></p>
-<h3 id="dct">DCT</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230821150434947.png" alt="image-20230821150434947" /></p>
-<h3 id="coct">COCT</h3>
-<p>1.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230821150540413.png" alt="image-20230821150540413" /></p>
-<h2 id="计算机网络笔记">计算机网络笔记</h2>
-<h3 id="协议标准">协议标准</h3>
-<h4 id="ieee-802.1">IEEE 802.1</h4>
-<p>定义局域网体系结构、网络互联、网络管理与性能测试。</p>
-<h4 id="ieee-802.3">IEEE 802.3</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 定义CSMA/CD总线介质访问控制子层与物理层标准。</span><br><span class="line">2. 传统以太网(Ethernet)采用IEEE 802.3标准。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.4">IEEE 802.4</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. 定义了总线拓扑结构的令牌总线介质访问控制方法与相应的物理规范。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.5">IEEE 802.5</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. 定义了总线型Token Ring介质访问控制方法与相应的物理规范。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.3u">IEEE 802.3u</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 快速以太网(Fast Ethernet)采用IEEE 802.3u标准。其最大传输速率是传统以太网的10倍，支持的传输介质为双绞线和光纤。</span><br><span class="line">2. 100Base-FX是快速以太网(Fast Ethernet, 采用IEEE802.3u)相关传输介质中的一种，它支持2芯的多模或单模光纤，提供高速主干网使用，它是一个全双工系统。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.3z">IEEE 802.3z</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 千兆以太网(Gigabit Ethernet)采用IEEE 802.3z标准。</span><br><span class="line">2. 1000 BASE-T使用5类非屏蔽双绞线作为传输介质，双绞线长度可达100m，它是IEEE 802.3z的以太网物理层标准之一。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.ae">IEEE 802.ae</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. 万兆以太网(10 Gigabit Ethernet)采用IEEE 802.ae标准</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.11">IEEE 802.11</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 无线局域网(WLAN)的介质访问控制协议及物理层技术规范。</span><br><span class="line">2. IEEE 802.11主要用于解决办公室局域网和校园网中用户与用户终端的无线接入。</span><br><span class="line">3. IEEE 802.11协议的帧头有4个地址字段，这4个地址共同表示基本服务集BSS的ID、源地址、目的地址、发送结点地址与接受结点地址。这里面的地址是硬件地址。</span><br><span class="line">4. IEEE 802.11的MAC层采用一种虚拟监听(VCS)机制，用于进一步减少发生冲突的概率。</span><br><span class="line">5. IEEE 802.11数据帧最特殊的地方是帧头有4个地址字段，但这4个地址字段并不是都出现在所有帧中。</span><br></pre></td></tr></table></figure>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301435216.png" alt="image-20230730143514164" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308081114057.png" alt="image-20230808111401943" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308101023294.png" alt="image-20230810102316185" /></p>
-<h4 id="ieee-802.11a">IEEE 802.11a</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. IEEE 802.11a将传输速率提高到54Mbps。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.11b">IEEE 802.11b</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. 采用2.4GHz频段，数据传输速率为11Mbps，是无线局域网协议标准。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.11g">IEEE 802.11g</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. 在2.4GHz频段使用正交频分复用(OFDM)调制技术，使数据传输速率提高到20Mbps以上；能够与IEEE 802.11b的Wi-Fi系统互联互通，可共存于同一AP的网络里，从而保障了后向兼容性。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.11n">IEEE 802.11n</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. IEEE 802.11n是无线局域网传输标准，工作在5GHz波段，最大传送速率达600Mbps，采用无线局域网物理层与介质访问控制层规范。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.12">IEEE 802.12</h4>
-<p>需求优先的介质访问控制协议</p>
-<h4 id="ieee-802.15">IEEE 802.15</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 定义近距离个人无线网络访问控制子层与物理层标准。</span><br><span class="line">2. 采用蓝牙技术的无线个人网技术规范。</span><br></pre></td></tr></table></figure>
-<h4 id="ieee-802.16">IEEE 802.16</h4>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 定义宽带无线局域网访问控制子层与物理层标准。</span><br><span class="line">2. 宽带无线连接工作组，开发2~66GHz的无线接入系统空中接口。</span><br></pre></td></tr></table></figure>
-<h3 id="缩写">缩写</h3>
-<ol type="1">
-<li>WSN(Wireless Sensor Network) 无线传感网</li>
-<li>WAN(Wide Area Network) 广域网</li>
-<li>WMN(Wiress Mesh Network) 无线网状网络</li>
-<li>LAN(Local Area Network) 局域网</li>
-<li>Ad hoc 无线自组网</li>
-</ol>
-<h3 id="杂记-1">杂记</h3>
-<ol type="1">
-<li>IEEE802.3u的最大传输速率</li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307292212669.png" alt="image-20230729221213560" /><figcaption>image-20230729221213560</figcaption>
-</figure>
-<p>2.<strong>Unix操作系统</strong>主要包括:IBM公司的<strong>AIX</strong>系统、Sun公司的<strong>Solaris</strong>系统、HP公司的<strong>HP-UX</strong>等</p>
-<p>3.在 <strong>Ethernet</strong>帧中，前导码由<strong>64位(8字节)</strong>的比特序列组成</p>
-<p>4.以太网帧中的前导码与帧前定界符字段的长度之和是<strong>8字节</strong></p>
-<p>5.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301131334.png" alt="image-20230730113116253" /></p>
-<p>6.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301227946.png" alt="image-20230730122739899" /></p>
-<p>7.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301340895.png" alt="image-20230730134045831" /></p>
-<p>8.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301342805.png" alt="image-20230730134202757" /></p>
-<ol start="9" type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301353017.png" alt="image-20230730135315958" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301355188.png" alt="image-20230730135534104" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307301558517.png" title="fig:" alt="image-20230730155838468" /></li>
-</ol>
-<p>12.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307302325733.png" alt="image-20230730232509660" /></p>
-<p>13.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307302327376.png" alt="image-20230730232758318" /></p>
-<p>14.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307302350242.png" alt="image-20230730235008194" /></p>
-<p>15.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307302355933.png" alt="image-20230730235519872" /></p>
-<p>16.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307310008317.png" alt="image-20230731000833259" /></p>
-<p>17.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307311807536.png" alt="image-20230731180746485" /></p>
-<p>18.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011006241.png" alt="image-20230801100611133" /></p>
-<p>19.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011029817.png" alt="image-20230801102909739" /></p>
-<p>20.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011138703.png" alt="image-20230801113812598" /></p>
-<p>21.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011139543.png" alt="image-20230801113948433" /></p>
-<p>22.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308012101163.png" alt="image-20230801210125070" /></p>
-<p>23.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308012117860.png" alt="image-20230801211724799" /></p>
-<p>24.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021032144.png" alt="image-20230802103235053" /></p>
-<p>25.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021208354.png" alt="image-20230802120831309" /></p>
-<p>26.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062126791.png" alt="image-20230806212601701" /></p>
-<p>27.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062129249.png" alt="image-20230806212919177" /></p>
-<p>28.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062300417.png" alt="image-20230806230056331" /></p>
-<p>29.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122242065.png" alt="image-20230812224215965" /></p>
-<p>30.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122249043.png" alt="image-20230812224939942" /></p>
-<h3 id="协议">协议</h3>
-<p>1.OSI和TCP/IP模型</p>
-<p>​ <img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307291945686.png" alt="image-20230729194532595" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308111149770.png" alt="image-20230811114919670" /></p>
-<h3 id="wsn">WSN</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307291602219.png" alt="image-20230729160214092" /></p>
-<h3 id="计算公式-1">计算公式</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307291648662.png" alt="image-20230729164820560" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307311425240.png" alt="image-20230731142517133" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307311518586.png" alt="image-20230731151823494" /></p>
-<h3 id="icmp">ICMP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307311246603.png" alt="image-20230731124623513" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308111157822.png" alt="image-20230811115702726" /></p>
-<h3 id="igmp">IGMP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202307311429218.png" alt="image-20230731142950117" /></p>
-<h3 id="ftp">FTP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011147806.png" alt="image-20230801114708709" /></p>
-<h3 id="pop3">POP3</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011153660.png" alt="image-20230801115349592" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011442060.png" alt="image-20230801144246994" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308012002191.png" alt="image-20230801200241090" /></p>
-<p>4.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308111835296.png" alt="image-20230811183514199" /></p>
-<h3 id="im系统">IM系统</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011952792.png" alt="image-20230801195219685" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308011953969.png" alt="image-20230801195333883" /></p>
-<h3 id="sip">SIP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021012360.png" alt="image-20230802101228218" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021040145.png" alt="image-20230802104037053" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021131162.png" alt="image-20230802113137075" /></p>
-<p>4.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230802113555962.png" alt="image-20230802113555962" /></p>
-<h3 id="xmpp">XMPP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021037803.png" alt="image-20230802103701717" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021154953.png" alt="image-20230802115432877" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021543300.png" alt="image-20230802154351203" /></p>
-<p>4.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021545987.png" alt="image-20230802154551893" /></p>
-<p>5.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021555528.png" alt="image-20230802155543439" /></p>
-<h3 id="skype">Skype</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021038456.png" alt="image-20230802103846384" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031740717.png" alt="image-20230803174033632" /></p>
-<p>3.Skype是融合了VoIP技术和P2P技术，而不是Skype制定的标准</p>
-<p>4.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121714383.png" alt="image-20230812171422304" /></p>
-<p>5.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121715736.png" alt="image-20230812171532647" /></p>
-<p>6.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121719927.png" alt="image-20230812171901856" /></p>
-<p>7.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121724554.png" alt="image-20230812172400478" /></p>
-<p>8.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121725276.png" alt="image-20230812172558185" /></p>
-<h3 id="p2p">P2P</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021210571.png" alt="image-20230802121042495" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121659670.png" alt="image-20230812114607661" /></p>
-<h3 id="simple">SIMPLE</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308021558112.png" alt="image-20230802155813032" /></p>
-<h3 id="netbios">NetBIOS</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308030951034.png" alt="image-20230803095105927" /></p>
-<h3 id="iptv">IPTV</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031048490.png" alt="image-20230803104832388" /></p>
-<h3 id="nfs">NFS</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031050505.png" alt="image-20230803105029420" /></p>
-<h3 id="maze">Maze</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031353935.png" alt="image-20230803135342828" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031739457.png" alt="image-20230803173954365" /></p>
-<h3 id="edonkey2000">eDonkey2000</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031743310.png" alt="image-20230803174341229" /></p>
-<h3 id="vod">VOD</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308031747789.png" alt="image-20230803174716702" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121659797.png" alt="image-20230812165928714" /></p>
-<h3 id="x.509">X.509</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062131206.png" alt="image-20230806213147135" /></p>
-<h3 id="x.800">X.800</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308041206942.png" alt="image-20230804120645819" /></p>
-<h3 id="cmip">CMIP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308041212144.png" alt="image-20230804121234049" /></p>
-<h3 id="e1gamal">E1Gamal</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062120919.png" alt="image-20230806212021815" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122234282.png" alt="image-20230812223432188" /></p>
-<h3 id="blowfish">Blowfish</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062130163.png" alt="image-20230806213050093" /></p>
-<h3 id="kdc">KDC</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308062134490.png" alt="image-20230806213404395" /></p>
-<h3 id="ipsec">IPSec</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308071154673.png" alt="image-20230807115411555" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122232530.png" alt="image-20230812223205416" /></p>
-<h3 id="voip">VoIP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121144611.png" alt="image-20230812114411494" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121703827.png" alt="image-20230812170318734" /></p>
-<p>3.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308121720081.png" alt="image-20230812172045008" /></p>
-<h3 id="rtcp">RTCP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122046657.png" alt="image-20230812204645572" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122052065.png" alt="image-20230812205212973" /></p>
-<h3 id="smime">S/MIME</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122056698.png" alt="image-20230812205621607" /></p>
-<h3 id="aes">AES</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122232525.png" alt="image-20230812223251434" /></p>
-<h3 id="认证函数">认证函数</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122237891.png" alt="image-20230812223720782" /></p>
-<h3 id="认证中心">认证中心</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308122332981.png" alt="image-20230812233212893" /></p>
-<h3 id="身份认证">身份认证</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308131624559.png" alt="image-20230813162435448" /></p>
-<h3 id="pgp">PGP</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308131635990.png" alt="image-20230813163520898" /></p>
-<h1 id="四级错题">四级错题</h1>
-<ol type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291023951.png" alt="image-20230829100951887" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291023961.png" alt="image-20230829101933493" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291022685.png" alt="image-20230829102246796" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291026239.png" alt="image-20230829102600836" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291028796.png" alt="image-20230829102758407" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291030091.png" alt="image-20230829103026013" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291029768.png" alt="image-20230829102942692" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291036369.png" alt="image-20230829103651292" /></li>
-<li><img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230829104051756.png" alt="image-20230829104051756" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291048041.png" alt="image-20230829104820957" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308291052297.png" alt="image-20230829105220205" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011506001.png" alt="image-20230901150650889" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011508623.png" alt="image-20230901150845545" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011509339.png" alt="image-20230901150909271" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011510190.png" alt="image-20230901151024104" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011511197.png" alt="image-20230901151153121" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011513412.png" alt="image-20230901151302321" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011514970.png" alt="image-20230901151427888" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011515736.png" alt="image-20230901151519655" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011517569.png" alt="image-20230901151738479" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011518280.png" alt="image-20230901151843194" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011520711.png" alt="image-20230901152006625" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011522038.png" alt="image-20230901152231937" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011523492.png" alt="image-20230901152330409" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011525636.png" alt="image-20230901152533529" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011528233.png" alt="image-20230901152842129" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011530348.png" alt="image-20230901153027250" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309011533708.png" alt="image-20230901153329618" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309021744158.png" alt="image-20230902174439040" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309021745840.png" alt="image-20230902174500766" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309021745685.png" alt="image-20230902174554612" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309021746979.png" alt="image-20230902174639909" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309021747465.png" alt="image-20230902174718380" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031731347.png" alt="image-20230903173158219" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031738346.png" alt="image-20230903173834252" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031741801.png" alt="image-20230903174123723" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031742108.png" alt="image-20230903174230020" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031744530.png" alt="image-20230903174407435" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032126156.png" alt="image-20230903212611073" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032127596.png" alt="image-20230903212720512" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032129680.png" alt="image-20230903212925607" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032130186.png" alt="image-20230903213050111" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032132859.png" alt="image-20230903213218782" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032132025.png" alt="image-20230903213233958" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032132385.png" alt="image-20230903213247303" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032133571.png" alt="image-20230903213343495" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309032137761.png" alt="image-20230903213701687" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309042212895.png" alt="image-20230904221254780" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309042227216.png" alt="image-20230904222755128" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062151586.png" alt="image-20230906215134458" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062152612.png" alt="image-20230906215238516" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062202968.png" alt="image-20230906220257853" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062203005.png" alt="image-20230906220354898" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062204121.png" alt="image-20230906220412017" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062214457.png" alt="image-20230906221448327" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062216426.png" alt="image-20230906221618321" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309062317093.png" alt="image-20230906231731973" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141541938.png" alt="image-20230914154113824" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141543899.png" alt="image-20230914154304821" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141544444.png" alt="image-20230914154439366" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141546255.png" alt="image-20230914154615157" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141546797.png" alt="image-20230914154645718" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141855415.png" alt="image-20230914185546351" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141856431.png" alt="image-20230914185621367" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141903873.png" alt="image-20230914190330802" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141913026.png" alt="image-20230914191326952" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141914863.png" title="fig:" alt="image-20230914191409784" /></li>
-</ol>
-<h1 id="三级错题">三级错题</h1>
-<ol type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308302015307.png" alt="image-20230830201504175" /></li>
-<li></li>
-</ol>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308302019861.png" alt="image-20230830201948812" /><figcaption>image-20230830201948812</figcaption>
-</figure>
-<ol start="3" type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202308302022734.png" alt="image-20230830202242644" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309091635587.png" title="fig:" alt="image-20230909163506432" /></li>
-</ol>
-<p>5.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309091648697.png" alt="image-20230909164800581" /></p>
-<figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309091648164.png" alt="image-20230909164813100" /><figcaption>image-20230909164813100</figcaption>
-</figure>
-<ol start="6" type="1">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309091702797.png" alt="image-20230909170203709" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141851640.png" alt="image-20230914185107561" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141854457.png" alt="image-20230914185454384" /></li>
-<li>​ <img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309161219879.png" alt="image-20230916121954783" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309161222176.png" title="fig:" alt="image-20230916122225094" /></li>
-</ol>
-<h1 id="四级多选">四级多选</h1>
-<ol type="1">
-<li><figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141554662.png" alt="image-20230914155421575" /><figcaption>image-20230914155421575</figcaption>
-</figure></li>
-<li><figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141555826.png" alt="image-20230914155531719" /><figcaption>image-20230914155531719</figcaption>
-</figure></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141556596.png" alt="image-20230914155639509" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141558461.png" alt="image-20230914155844382" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141600999.png" alt="image-20230914160030926" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141601482.png" alt="image-20230914160106405" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141604576.png" alt="image-20230914160424493" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141914317.png" alt="image-20230914191440249" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141919770.png" alt="image-20230914191905688" /></li>
-<li><figure>
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309141921330.png" alt="image-20230914192134257" /><figcaption>image-20230914192134257</figcaption>
-</figure></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/3/"><i class="fa fa-angle-right"></i></a>
-  </nav>
-
-</div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-
-
-<div class="copyright">
-  &copy; 
-  <span itemprop="copyrightYear">2023</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">wubo</span>
-</div>
-<div class="wordcount">
-  <span class="post-meta-item">
-    <span class="post-meta-item-icon">
-      <i class="fa fa-chart-line"></i>
-    </span>
-      <span>站点总字数：</span>
-    <span title="站点总字数">117k</span>
-  </span>
-  <span class="post-meta-item">
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-      <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:46</span>
-  </span>
-</div>
-<div class="busuanzi-count">
-</div>
-
-<div>
-<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-<script>
-    var now = new Date(); 
-    function createtime() { 
-        var grt= new Date("01/27/2023 14:00:00");//在此处修改你的建站时间
-        now.setTime(now.getTime()+250); 
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "已运行 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-    } 
-setInterval("createtime()",250);
-</script>
-</div>
-
-    </div>
-  </footer>
-
-  
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up fa-lg"></i>
-    <span>0%</span>
-  </div>
-
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
-
-
-  
-  <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
-<script src="/js/third-party/search/local-search.js"></script>
-
-
-
-
-
-  
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
-
-
-  
-
-  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"mhchem":false,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
-<script src="/js/third-party/math/mathjax.js"></script>
-
-
-<script src="/js/third-party/comments/livere.js"></script>
-
-</body>
-</html>
