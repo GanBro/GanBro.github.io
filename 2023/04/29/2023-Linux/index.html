@@ -23,12 +23,12 @@
     
 <link rel="stylesheet" href="/css/loader.css">
 
-    <meta name="description" content="FinalShell准备工作csdn 连接服务器步骤步骤1 步骤2用ssh连接  步骤3ip查看命令为 ip addr  Linux常用命令cat more tail mkdir rmdir rm cp mv tar      vi&#x2F;vim                  find grep 防火墙 Shell部署项目为用户授权 设置静态ip Linux切换到root，并更改普通用户权限csdn">
+    <meta name="description" content="FinalShell  准备工作 csdn  连接服务器步骤  步骤1   步骤2 用ssh连接   步骤3 ip查看命令为 ip addr   Linux常用命令  cat   more   tail   mkdir   rmdir   rm   cp   mv   tar          vi&#x2F;vim                      find   grep   防火墙   She">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux">
 <meta property="og:url" content="https://ganbro.github.io/2023/04/29/2023-Linux/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="FinalShell准备工作csdn 连接服务器步骤步骤1 步骤2用ssh连接  步骤3ip查看命令为 ip addr  Linux常用命令cat more tail mkdir rmdir rm cp mv tar      vi&#x2F;vim                  find grep 防火墙 Shell部署项目为用户授权 设置静态ip Linux切换到root，并更改普通用户权限csdn">
+<meta property="og:description" content="FinalShell  准备工作 csdn  连接服务器步骤  步骤1   步骤2 用ssh连接   步骤3 ip查看命令为 ip addr   Linux常用命令  cat   more   tail   mkdir   rmdir   rm   cp   mv   tar          vi&#x2F;vim                      find   grep   防火墙   She">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://raw.githubusercontent.com/GanBro/imgs/main/202304291608049.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/GanBro/imgs/main/202304291608230.png">
@@ -79,6 +79,10 @@
 <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
     
+    
+        
+<link rel="stylesheet" href="https://unpkg.com/katex@0.16.7/dist/katex.min.css">
+
     
     
     
@@ -217,61 +221,92 @@
 
         <div class="e-content article-entry" itemprop="articleBody">
             
-                <h1 id="FinalShell"><a href="#FinalShell" class="headerlink" title="FinalShell"></a>FinalShell</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_57349957/article/details/125103677?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169889151516800227424303%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169889151516800227424303&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-125103677-null-null.142^v96^pc_search_result_base7&amp;utm_term=%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%AE%BE%E7%BD%AEip&amp;spm=1018.2226.3001.4187">csdn</a></p>
-<h2 id="连接服务器步骤"><a href="#连接服务器步骤" class="headerlink" title="连接服务器步骤"></a>连接服务器步骤</h2><h3 id="步骤1"><a href="#步骤1" class="headerlink" title="步骤1"></a>步骤1</h3><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291608049.png" alt="image-20230429160825573"></p>
-<h3 id="步骤2"><a href="#步骤2" class="headerlink" title="步骤2"></a>步骤2</h3><p>用<strong>ssh</strong>连接</p>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291608230.png" alt="image-20230429160853178"></p>
-<h3 id="步骤3"><a href="#步骤3" class="headerlink" title="步骤3"></a>步骤3</h3><p>ip查看命令为 <code>ip addr</code></p>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291615991.png" alt="image-20230429161516931"></p>
-<h1 id="Linux常用命令"><a href="#Linux常用命令" class="headerlink" title="Linux常用命令"></a>Linux常用命令</h1><h2 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291630467.png" alt="image-20230429163048404"></p>
-<h2 id="more"><a href="#more" class="headerlink" title="more"></a>more</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291632142.png" alt="image-20230429163213076"></p>
-<h2 id="tail"><a href="#tail" class="headerlink" title="tail"></a>tail</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291633780.png" alt="image-20230429163335709"></p>
-<h2 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291635349.png" alt="image-20230429163545273"></p>
-<h2 id="rmdir"><a href="#rmdir" class="headerlink" title="rmdir"></a>rmdir</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291636915.png" alt="image-20230429163607837"></p>
-<h2 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291637686.png" alt="image-20230429163733620"></p>
-<h2 id="cp"><a href="#cp" class="headerlink" title="cp"></a>cp</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291639391.png" alt="image-20230429163915317"></p>
-<h2 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291641936.png" alt="image-20230429164150844"></p>
-<h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><ol>
-<li><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291645470.png" alt="image-20230429164544389"></p>
-</li>
-<li></li>
-</ol>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291651684.png" alt="image-20230429165135574"></p>
-<h2 id="vi-vim"><a href="#vi-vim" class="headerlink" title="vi/vim"></a>vi/vim</h2><ol>
-<li></li>
-</ol>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291703853.png" alt="image-20230429170302737"></p>
+                <h1 id="finalshell"><a class="markdownIt-Anchor" href="#finalshell"></a> FinalShell</h1>
+<h2 id="准备工作"><a class="markdownIt-Anchor" href="#准备工作"></a> 准备工作</h2>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_57349957/article/details/125103677?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169889151516800227424303%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169889151516800227424303&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-125103677-null-null.142%5Ev96%5Epc_search_result_base7&amp;utm_term=%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%AE%BE%E7%BD%AEip&amp;spm=1018.2226.3001.4187">csdn</a></p>
+<h2 id="连接服务器步骤"><a class="markdownIt-Anchor" href="#连接服务器步骤"></a> 连接服务器步骤</h2>
+<h3 id="步骤1"><a class="markdownIt-Anchor" href="#步骤1"></a> 步骤1</h3>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291608049.png" alt="image-20230429160825573" /></p>
+<h3 id="步骤2"><a class="markdownIt-Anchor" href="#步骤2"></a> 步骤2</h3>
+<p>用<strong>ssh</strong>连接</p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291608230.png" alt="image-20230429160853178" /></p>
+<h3 id="步骤3"><a class="markdownIt-Anchor" href="#步骤3"></a> 步骤3</h3>
+<p>ip查看命令为 <code>ip addr</code></p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291615991.png" alt="image-20230429161516931" /></p>
+<h1 id="linux常用命令"><a class="markdownIt-Anchor" href="#linux常用命令"></a> Linux常用命令</h1>
+<h2 id="cat"><a class="markdownIt-Anchor" href="#cat"></a> cat</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291630467.png" alt="image-20230429163048404" /></p>
+<h2 id="more"><a class="markdownIt-Anchor" href="#more"></a> more</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291632142.png" alt="image-20230429163213076" /></p>
+<h2 id="tail"><a class="markdownIt-Anchor" href="#tail"></a> tail</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291633780.png" alt="image-20230429163335709" /></p>
+<h2 id="mkdir"><a class="markdownIt-Anchor" href="#mkdir"></a> mkdir</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291635349.png" alt="image-20230429163545273" /></p>
+<h2 id="rmdir"><a class="markdownIt-Anchor" href="#rmdir"></a> rmdir</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291636915.png" alt="image-20230429163607837" /></p>
+<h2 id="rm"><a class="markdownIt-Anchor" href="#rm"></a> rm</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291637686.png" alt="image-20230429163733620" /></p>
+<h2 id="cp"><a class="markdownIt-Anchor" href="#cp"></a> cp</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291639391.png" alt="image-20230429163915317" /></p>
+<h2 id="mv"><a class="markdownIt-Anchor" href="#mv"></a> mv</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291641936.png" alt="image-20230429164150844" /></p>
+<h2 id="tar"><a class="markdownIt-Anchor" href="#tar"></a> tar</h2>
 <ol>
 <li></li>
 </ol>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291705972.png" alt="image-20230429170521895"></p>
-<ol>
-<li><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291705647.png" alt="image-20230429170557582"></p>
-</li>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291645470.png" alt="image-20230429164544389" /></p>
+<ol start="2">
 <li></li>
 </ol>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291707511.png" alt="image-20230429170720447"></p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291651684.png" alt="image-20230429165135574" /></p>
+<h2 id="vivim"><a class="markdownIt-Anchor" href="#vivim"></a> vi/vim</h2>
 <ol>
-<li><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291707178.png" alt="image-20230429170753103"></p>
-</li>
+<li></li>
 </ol>
-<h2 id="find"><a href="#find" class="headerlink" title="find"></a>find</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291710533.png" alt="image-20230429171024457"></p>
-<h2 id="grep"><a href="#grep" class="headerlink" title="grep"></a>grep</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291711246.png" alt="image-20230429171144151"></p>
-<h2 id="防火墙"><a href="#防火墙" class="headerlink" title="防火墙"></a>防火墙</h2><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304301450456.png" alt="image-20230430145023347"></p>
-<h1 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h1><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><h3 id="为用户授权"><a href="#为用户授权" class="headerlink" title="为用户授权"></a>为用户授权</h3><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304301536746.png" alt="image-20230430153655637"></p>
-<h3 id="设置静态ip"><a href="#设置静态ip" class="headerlink" title="设置静态ip"></a>设置静态ip</h3><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304301540239.png" alt="image-20230430154028133"></p>
-<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="切换到root，并更改普通用户权限"><a href="#切换到root，并更改普通用户权限" class="headerlink" title="切换到root，并更改普通用户权限"></a>切换到root，并更改普通用户权限</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_50589168/article/details/121576786?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169889067316777224436660%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169889067316777224436660&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-121576786-null-null.142^v96^pc_search_result_base7&amp;utm_term=student%20%E4%B8%8D%E5%9C%A8%20sudoers%20%E6%96%87%E4%BB%B6%E4%B8%AD%E3%80%82%E6%AD%A4%E4%BA%8B%E5%B0%86%E8%A2%AB%E6%8A%A5%E5%91%8A%E3%80%82&amp;spm=1018.2226.3001.4187">csdn</a></p>
-<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291703853.png" alt="image-20230429170302737" /></p>
+<ol start="2">
+<li></li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291705972.png" alt="image-20230429170521895" /></p>
+<ol start="3">
+<li></li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291705647.png" alt="image-20230429170557582" /></p>
+<ol start="4">
+<li></li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291707511.png" alt="image-20230429170720447" /></p>
+<ol start="5">
+<li></li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291707178.png" alt="image-20230429170753103" /></p>
+<h2 id="find"><a class="markdownIt-Anchor" href="#find"></a> find</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291710533.png" alt="image-20230429171024457" /></p>
+<h2 id="grep"><a class="markdownIt-Anchor" href="#grep"></a> grep</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291711246.png" alt="image-20230429171144151" /></p>
+<h2 id="防火墙"><a class="markdownIt-Anchor" href="#防火墙"></a> 防火墙</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304301450456.png" alt="image-20230430145023347" /></p>
+<h1 id="shell"><a class="markdownIt-Anchor" href="#shell"></a> Shell</h1>
+<h2 id="部署项目"><a class="markdownIt-Anchor" href="#部署项目"></a> 部署项目</h2>
+<h3 id="为用户授权"><a class="markdownIt-Anchor" href="#为用户授权"></a> 为用户授权</h3>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304301536746.png" alt="image-20230430153655637" /></p>
+<h3 id="设置静态ip"><a class="markdownIt-Anchor" href="#设置静态ip"></a> 设置静态ip</h3>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304301540239.png" alt="image-20230430154028133" /></p>
+<h1 id="linux"><a class="markdownIt-Anchor" href="#linux"></a> Linux</h1>
+<h2 id="切换到root并更改普通用户权限"><a class="markdownIt-Anchor" href="#切换到root并更改普通用户权限"></a> 切换到root，并更改普通用户权限</h2>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_50589168/article/details/121576786?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169889067316777224436660%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169889067316777224436660&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-121576786-null-null.142%5Ev96%5Epc_search_result_base7&amp;utm_term=student%20%E4%B8%8D%E5%9C%A8%20sudoers%20%E6%96%87%E4%BB%B6%E4%B8%AD%E3%80%82%E6%AD%A4%E4%BA%8B%E5%B0%86%E8%A2%AB%E6%8A%A5%E5%91%8A%E3%80%82&amp;spm=1018.2226.3001.4187">csdn</a></p>
+<h3 id="步骤"><a class="markdownIt-Anchor" href="#步骤"></a> 步骤</h3>
+<ol>
 <li>su - root</li>
 <li>chmod u+w /etc/sudoers</li>
 <li>vim /etc/sudoers</li>
-<li><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311021013959.png" alt="img"></li>
+<li><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311021013959.png" alt="img" /></li>
 </ol>
 
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/04/29/2023-Linux/" data-id="clonxymjt000a68sq4y1g41x8" data-title="Linux"
+            <a data-url="https://ganbro.github.io/2023/04/29/2023-Linux/" data-id="clonzhb8k000dsosq9dnc7x0o" data-title="Linux"
                class="article-share-link">Share</a>
             
             
@@ -462,10 +497,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    38.3k
+                    38.8k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    03:14
+                    03:17
                 </div>
             
             
