@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  <icon>https://ganbro.github.io/icon.png</icon>
+  
+  <link href="https://ganbro.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ganbro.github.io/"/>
+  <updated>2023-11-07T09:41:23.914Z</updated>
+  <id>https://ganbro.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ganbro.github.io/2023/11/06/hello-world/"/>
+    <id>https://ganbro.github.io/2023/11/06/hello-world/</id>
+    <published>2023-11-06T13:54:16.493Z</published>
+    <updated>2023-11-07T09:41:23.914Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Vue</title>
+    <link href="https://ganbro.github.io/2023/11/03/2023-Vue/"/>
+    <id>https://ganbro.github.io/2023/11/03/2023-Vue/</id>
+    <published>2023-11-03T05:29:37.000Z</published>
+    <updated>2023-11-04T09:55:01.014Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://cn.vuejs.org/&quot;&gt;Vue2官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue3官网&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;快速上手&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>服务器</title>
+    <link href="https://ganbro.github.io/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://ganbro.github.io/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <published>2023-10-29T08:44:03.000Z</published>
+    <updated>2023-11-06T16:09:19.767Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;服务器&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#服务器&quot;&gt;&lt;/a&gt; 服务器&lt;/h1&gt;
+&lt;h2 id=&quot;公网ip&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#公网ip&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="服务器" scheme="https://ganbro.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2025考研</title>
+    <link href="https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/"/>
+    <id>https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/</id>
+    <published>2023-10-27T07:28:51.000Z</published>
+    <updated>2023-11-05T07:18:55.652Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;进度&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#进度&quot;&gt;&lt;/a&gt; 进度&lt;/h1&gt;
+&lt;h2 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt; 高数&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="考研" scheme="https://ganbro.github.io/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>springboot笔记</title>
+    <link href="https://ganbro.github.io/2023/10/20/2023-springboot%E7%AC%94%E8%AE%B0/"/>
+    <id>https://ganbro.github.io/2023/10/20/2023-springboot%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-10-20T07:39:50.000Z</published>
+    <updated>2023-10-27T06:44:23.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;sprintboot的启动类所管理的Bean是它所在包下面的所有Bean&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="springboot" scheme="https://ganbro.github.io/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>密码</title>
+    <link href="https://ganbro.github.io/2023/10/19/2023-%E5%AF%86%E7%A0%81/"/>
+    <id>https://ganbro.github.io/2023/10/19/2023-%E5%AF%86%E7%A0%81/</id>
+    <published>2023-10-19T06:26:14.000Z</published>
+    <updated>2023-10-19T06:29:22.330Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;linux&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#linux&quot;&gt;&lt;/a&gt; Linux&lt;/h1&gt;
+&lt;h2 id=&quot;rhel-82-x86_64-dvd&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2024唐迟考研英语</title>
+    <link href="https://ganbro.github.io/2023/10/04/2023-2024%E5%94%90%E8%BF%9F%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/"/>
+    <id>https://ganbro.github.io/2023/10/04/2023-2024%E5%94%90%E8%BF%9F%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/</id>
+    <published>2023-10-04T02:35:05.000Z</published>
+    <updated>2023-10-15T03:04:04.059Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;好句&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#好句&quot;&gt;&lt;/a&gt; 好句&lt;/h1&gt;
+&lt;p&gt;1.&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="https://ganbro.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="考研英语" scheme="https://ganbro.github.io/tags/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目</title>
+    <link href="https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/</id>
+    <published>2023-09-05T15:19:13.000Z</published>
+    <updated>2023-10-29T15:59:39.301Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;苍穹外卖&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#苍穹外卖&quot;&gt;&lt;/a&gt; 苍穹外卖&lt;/h1&gt;
+&lt;h2 id=&quot;启动&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#启动&quot;&gt;&lt;/a&gt; 启动&lt;/h2&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    
+    <category term="项目" scheme="https://ganbro.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaEE</title>
+    <link href="https://ganbro.github.io/2023/09/03/2023-JavaEE/"/>
+    <id>https://ganbro.github.io/2023/09/03/2023-JavaEE/</id>
+    <published>2023-09-03T11:27:43.000Z</published>
+    <updated>2023-09-03T11:42:11.240Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;spring&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#spring&quot;&gt;&lt;/a&gt; Spring&lt;/h1&gt;
+&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#环境配置&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>英语六级单词</title>
+    <link href="https://ganbro.github.io/2023/08/25/2023-%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E5%8D%95%E8%AF%8D/"/>
+    <id>https://ganbro.github.io/2023/08/25/2023-%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E5%8D%95%E8%AF%8D/</id>
+    <published>2023-08-25T02:46:55.000Z</published>
+    <updated>2023-10-17T15:13:06.791Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;名词&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#名词&quot;&gt;&lt;/a&gt; 名词&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;offspring 后代，子女&lt;/li&gt;
+&lt;li&gt;commitment 承诺&lt;/li&gt;
+&lt;li&gt;marvel</summary>
+        
+      
+    
+    
+    
+    
+    <category term="单词" scheme="https://ganbro.github.io/tags/%E5%8D%95%E8%AF%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023暑假日程备忘录</title>
+    <link href="https://ganbro.github.io/2023/07/23/2023-2023%E6%9A%91%E5%81%87%E6%97%A5%E7%A8%8B%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+    <id>https://ganbro.github.io/2023/07/23/2023-2023%E6%9A%91%E5%81%87%E6%97%A5%E7%A8%8B%E5%A4%87%E5%BF%98%E5%BD%95/</id>
+    <published>2023-07-23T13:41:24.000Z</published>
+    <updated>2023-09-16T04:22:30.344Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt; 高数&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;第4讲&lt;/strong&gt;4.10&lt;/p&gt;
+&lt;h1 id=&quot;计算机三级&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日程表" scheme="https://ganbro.github.io/tags/%E6%97%A5%E7%A8%8B%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学成在线</title>
+    <link href="https://ganbro.github.io/2023/07/07/2023-%E5%AD%A6%E6%88%90%E5%9C%A8%E7%BA%BF/"/>
+    <id>https://ganbro.github.io/2023/07/07/2023-%E5%AD%A6%E6%88%90%E5%9C%A8%E7%BA%BF/</id>
+    <published>2023-07-07T12:42:19.000Z</published>
+    <updated>2023-07-09T14:13:10.002Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;虚拟机centos配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#虚拟机centos配置&quot;&gt;&lt;/a&gt; 虚拟机Centos配置&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>面试题</title>
+    <link href="https://ganbro.github.io/2023/06/03/2023-%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://ganbro.github.io/2023/06/03/2023-%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <published>2023-06-03T02:59:52.000Z</published>
+    <updated>2023-06-03T03:12:59.186Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;redis&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#redis&quot;&gt;&lt;/a&gt; Redis&lt;/h1&gt;
+&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用场景&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="面试题" scheme="https://ganbro.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软著论文备份</title>
+    <link href="https://ganbro.github.io/2023/05/31/2023-%E8%BD%AF%E8%91%97%E8%AE%BA%E6%96%87%E5%A4%87%E4%BB%BD/"/>
+    <id>https://ganbro.github.io/2023/05/31/2023-%E8%BD%AF%E8%91%97%E8%AE%BA%E6%96%87%E5%A4%87%E4%BB%BD/</id>
+    <published>2023-05-31T15:13:39.000Z</published>
+    <updated>2023-05-31T15:19:55.225Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;系统简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#系统简介&quot;&gt;&lt;/a&gt; 系统简介&lt;/h1&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Docker</title>
+    <link href="https://ganbro.github.io/2023/05/11/2023-Docker/"/>
+    <id>https://ganbro.github.io/2023/05/11/2023-Docker/</id>
+    <published>2023-05-11T02:56:58.000Z</published>
+    <updated>2023-05-11T13:24:38.892Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;docker基本操作命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#docker基本操作命令&quot;&gt;&lt;/a&gt; Docker基本操作命令&lt;/h1&gt;
+&lt;p&gt;其实没什么记录必要，只需查看帮助文档就行了&lt;/p&gt;
+&lt;p&gt;不知道的命令，可以去&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Docker" scheme="https://ganbro.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis</title>
+    <link href="https://ganbro.github.io/2023/05/01/2023-redis/"/>
+    <id>https://ganbro.github.io/2023/05/01/2023-redis/</id>
+    <published>2023-05-01T01:03:52.000Z</published>
+    <updated>2023-05-01T01:18:07.567Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;redis常用命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#redis常用命令&quot;&gt;&lt;/a&gt; Redis常用命令&lt;/h1&gt;
+&lt;h2 id=&quot;字符创string操作命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="redis" scheme="https://ganbro.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://ganbro.github.io/2023/04/29/2023-Linux/"/>
+    <id>https://ganbro.github.io/2023/04/29/2023-Linux/</id>
+    <published>2023-04-29T08:40:05.000Z</published>
+    <updated>2023-11-02T02:29:29.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;finalshell&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#finalshell&quot;&gt;&lt;/a&gt; FinalShell&lt;/h1&gt;
+&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解备份</title>
+    <link href="https://ganbro.github.io/2023/03/21/2023-%E9%A2%98%E8%A7%A3%E5%A4%87%E4%BB%BD/"/>
+    <id>https://ganbro.github.io/2023/03/21/2023-%E9%A2%98%E8%A7%A3%E5%A4%87%E4%BB%BD/</id>
+    <published>2023-03-21T12:26:19.000Z</published>
+    <updated>2023-03-28T11:49:27.131Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;2023计科蓝桥杯第一场训练赛&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#2023计科蓝桥杯第一场训练赛&quot;&gt;&lt;/a&gt; 2023计科蓝桥杯第一场训练赛&lt;/h1&gt;
+&lt;h2 id=&quot;卡片&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="题解" scheme="https://ganbro.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>天梯赛题</title>
+    <link href="https://ganbro.github.io/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/"/>
+    <id>https://ganbro.github.io/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/</id>
+    <published>2023-03-19T06:16:31.000Z</published>
+    <updated>2023-03-19T06:19:13.550Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;7-14-重排链表&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#7-14-重排链表&quot;&gt;&lt;/a&gt; &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="天梯赛" scheme="https://ganbro.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="https://ganbro.github.io/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>https://ganbro.github.io/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2023-03-15T14:29:51.000Z</published>
+    <updated>2023-07-03T08:23:43.847Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一章&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章&quot;&gt;&lt;/a&gt; 第一章&lt;/h1&gt;
+&lt;h2 id=&quot;isoosi参考模型&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机网络" scheme="https://ganbro.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="计算机网络" scheme="https://ganbro.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+</feed>
