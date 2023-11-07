@@ -231,8 +231,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/" data-id="clonzhb8y001fsosq902za1bz" data-title="服务器"
+            <a data-url="https://ganbro.github.io/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/" data-id="clonzxiwe001fp8sq0s0634zo" data-title="服务器"
                class="article-share-link">Share</a>
+            
+                <a href="/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -287,6 +293,10 @@
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -541,6 +551,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "vHrvy1muWb7CaxWosAj1vjxZ-gzGzoHsz",
+            appKey: "xHFMcFySYVgFxF1lTJhtFJVu",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

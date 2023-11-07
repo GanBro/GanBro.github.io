@@ -209,8 +209,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/11/06/hello-world/" data-id="clonzhb9j0048sosqakqyazxj" data-title="Hello World"
+            <a data-url="https://ganbro.github.io/2023/11/06/hello-world/" data-id="clonzxiwz0048p8sqcf0n8ub2" data-title="Hello World"
                class="article-share-link">Share</a>
+            
+                <a href="/2023/11/06/hello-world/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2023/11/06/hello-world/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -246,6 +252,10 @@
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -500,6 +510,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "vHrvy1muWb7CaxWosAj1vjxZ-gzGzoHsz",
+            appKey: "xHFMcFySYVgFxF1lTJhtFJVu",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

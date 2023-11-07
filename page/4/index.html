@@ -535,7 +535,7 @@
             <div class="post-meta">
                 <a><span class="icon-calendar"></span>2023-01-27</a>
                 
-                    <a><span class="icon-pencil"></span>381 words</a>
+                    <a><span class="icon-pencil"></span>393 words</a>
                 
                 
                     <a><span class="icon-clock"></span>1 min</a>
@@ -551,11 +551,12 @@
 美化
 主题
 评论系统
+npm版本问题就删了重下依赖
  语法
  加搜索的运行
 hexo cl &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo algolia &amp;amp;&amp;amp; hexo d
  插入视频
-&amp;lt;video src=&amp;quot;视频链接&amp;quot; controls=&amp;quot;controls&amp;quot; width=&amp;quot;500&amp;quot; height=&amp;quot;300&amp;quot;&amp;gt;您的浏览器不支持播放该视频！&amp;lt;/
+&amp;lt;video src=&amp;quot;视频链接&amp;quot; controls=&amp;quot;controls&amp;quot; width=&amp;quot;500&amp;quot; height=&amp;quot;300&amp;quot;&amp;gt;您的浏览
                 
             </article>
         </div>
@@ -815,6 +816,30 @@ hexo cl &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo algolia &amp;amp;&amp;
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "vHrvy1muWb7CaxWosAj1vjxZ-gzGzoHsz",
+            appKey: "xHFMcFySYVgFxF1lTJhtFJVu",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

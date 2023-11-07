@@ -258,8 +258,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" data-id="clonzhb940022sosq61f677g7" data-title="计算机网络"
+            <a data-url="https://ganbro.github.io/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" data-id="clonzxiwj0022p8sq79wvbueg" data-title="计算机网络"
                class="article-share-link">Share</a>
+            
+                <a href="/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -314,6 +320,10 @@
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -568,6 +578,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "vHrvy1muWb7CaxWosAj1vjxZ-gzGzoHsz",
+            appKey: "xHFMcFySYVgFxF1lTJhtFJVu",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 
