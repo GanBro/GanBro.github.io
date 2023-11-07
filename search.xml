@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2024唐迟考研英语</title>
+    <url>/2023/10/04/2023-2024%E5%94%90%E8%BF%9F%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/</url>
+    <content><![CDATA[<h1 id="好句"><a class="markdownIt-Anchor" href="#好句"></a> 好句</h1>
+<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310041035654.png" alt="image-20231004103551500" /></p>
+<h1 id="笔记"><a class="markdownIt-Anchor" href="#笔记"></a> 笔记</h1>
+<ol>
+<li>当真题看到一个不会的词时，去有道翻译看牛津的<strong>英英释义</strong></li>
+<li><strong>come to</strong>现在开始…。代表以前的不重要<br />
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310081444061.png" alt="image-20231008144451977" /></li>
+<li>关注<strong>代词</strong>，获取充分信息</li>
+<li><img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20231010203035052.png" alt="image-20231010203035052" /></li>
+</ol>
+<p>例子在前，<strong>yet</strong>说明前后意思相反，答案是yet后意思的相反的意思</p>
+<ol start="5">
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310141928665.png" alt="image-20231014192820339" /></li>
+</ol>
+<p>有<strong>But</strong>取反</p>
+<ol start="6">
+<li>考研文章中的斜体字表示书名，<strong>尽量读懂</strong></li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>考研英语</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2023暑假日程备忘录</title>
     <url>/2023/07/23/2023-2023%E6%9A%91%E5%81%87%E6%97%A5%E7%A8%8B%E5%A4%87%E5%BF%98%E5%BD%95/</url>
     <content><![CDATA[<h1 id="高数"><a class="markdownIt-Anchor" href="#高数"></a> 高数</h1>
@@ -479,36 +509,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024唐迟考研英语</title>
-    <url>/2023/10/04/2023-2024%E5%94%90%E8%BF%9F%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/</url>
-    <content><![CDATA[<h1 id="好句"><a class="markdownIt-Anchor" href="#好句"></a> 好句</h1>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310041035654.png" alt="image-20231004103551500" /></p>
-<h1 id="笔记"><a class="markdownIt-Anchor" href="#笔记"></a> 笔记</h1>
-<ol>
-<li>当真题看到一个不会的词时，去有道翻译看牛津的<strong>英英释义</strong></li>
-<li><strong>come to</strong>现在开始…。代表以前的不重要<br />
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310081444061.png" alt="image-20231008144451977" /></li>
-<li>关注<strong>代词</strong>，获取充分信息</li>
-<li><img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20231010203035052.png" alt="image-20231010203035052" /></li>
-</ol>
-<p>例子在前，<strong>yet</strong>说明前后意思相反，答案是yet后意思的相反的意思</p>
-<ol start="5">
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202310141928665.png" alt="image-20231014192820339" /></li>
-</ol>
-<p>有<strong>But</strong>取反</p>
-<ol start="6">
-<li>考研文章中的斜体字表示书名，<strong>尽量读懂</strong></li>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>考研英语</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2025考研</title>
     <url>/2023/10/27/2023-2025%E8%80%83%E7%A0%94/</url>
     <content><![CDATA[<h1 id="进度"><a class="markdownIt-Anchor" href="#进度"></a> 进度</h1>
@@ -518,6 +518,18 @@
       <tags>
         <tag>考研</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>JavaEE</title>
+    <url>/2023/09/03/2023-JavaEE/</url>
+    <content><![CDATA[<h1 id="spring"><a class="markdownIt-Anchor" href="#spring"></a> Spring</h1>
+<h2 id="环境配置"><a class="markdownIt-Anchor" href="#环境配置"></a> 环境配置</h2>
+<p>1.如果不能创建.java文件，那么就是项目的src文件没有被当成sources文件，解决方法如下<br />
+<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031942306.png" alt="img" /></p>
+<ol start="2">
+<li></li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>Docker</title>
@@ -537,18 +549,6 @@
       <tags>
         <tag>Docker</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>JavaEE</title>
-    <url>/2023/09/03/2023-JavaEE/</url>
-    <content><![CDATA[<h1 id="spring"><a class="markdownIt-Anchor" href="#spring"></a> Spring</h1>
-<h2 id="环境配置"><a class="markdownIt-Anchor" href="#环境配置"></a> 环境配置</h2>
-<p>1.如果不能创建.java文件，那么就是项目的src文件没有被当成sources文件，解决方法如下<br />
-<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202309031942306.png" alt="img" /></p>
-<ol start="2">
-<li></li>
-</ol>
-]]></content>
   </entry>
   <entry>
     <title>Java程序设计</title>
@@ -790,27 +790,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Mysql</title>
-    <url>/2023/03/10/2023-Mysql/</url>
-    <content><![CDATA[<h1 id="mysql常用操作"><a class="markdownIt-Anchor" href="#mysql常用操作"></a> MySQL常用操作</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. show character set;				- 查看MySQL支持的字符集以及对应的校对规则</span><br><span class="line">2. show variables like &#x27;char%&#x27;;  	- 查看当前连接系统的参数</span><br><span class="line">3. status;							- 查看MySQL的状态信息</span><br><span class="line">4. show engines \G;					- 查看该版本支持的数据库存储引擎</span><br><span class="line">5. show create database 数据库名\G;	  - 显示数据库的创建信息</span><br></pre></td></tr></table></figure>
-<h1 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h1>
-<ol>
-<li>主键字段的值不允许为<strong>null</strong>,而UNIQUE字段的值可取null，但是必须使用null声明，只是null值最多有一个。</li>
-<li>WHERE操作是从数据表中获取数据符合条件的数据，而HAVING是根据条件对已分组的数据进行操作</li>
-<li>HAVING位于GROUPBY BY子句后，而WHERE位于GROUP BY子句前</li>
-</ol>
-]]></content>
-      <categories>
-        <category>数据库</category>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>数据库</tag>
-        <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue</title>
     <url>/2023/11/03/2023-Vue/</url>
     <content><![CDATA[<p><a href="https://cn.vuejs.org/">Vue2官网</a></p>
@@ -881,6 +860,27 @@
 <p><code>unshift()</code>方法接受一个或多个参数，在数组的开头插入这些参数，并将已有的元素向后移动。插入的元素的顺序与它们在参数列表中的顺序相同。</p>
 </blockquote>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Mysql</title>
+    <url>/2023/03/10/2023-Mysql/</url>
+    <content><![CDATA[<h1 id="mysql常用操作"><a class="markdownIt-Anchor" href="#mysql常用操作"></a> MySQL常用操作</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. show character set;				- 查看MySQL支持的字符集以及对应的校对规则</span><br><span class="line">2. show variables like &#x27;char%&#x27;;  	- 查看当前连接系统的参数</span><br><span class="line">3. status;							- 查看MySQL的状态信息</span><br><span class="line">4. show engines \G;					- 查看该版本支持的数据库存储引擎</span><br><span class="line">5. show create database 数据库名\G;	  - 显示数据库的创建信息</span><br></pre></td></tr></table></figure>
+<h1 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h1>
+<ol>
+<li>主键字段的值不允许为<strong>null</strong>,而UNIQUE字段的值可取null，但是必须使用null声明，只是null值最多有一个。</li>
+<li>WHERE操作是从数据表中获取数据符合条件的数据，而HAVING是根据条件对已分组的数据进行操作</li>
+<li>HAVING位于GROUPBY BY子句后，而WHERE位于GROUP BY子句前</li>
+</ol>
+]]></content>
+      <categories>
+        <category>数据库</category>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+        <tag>Mysql</tag>
+      </tags>
   </entry>
   <entry>
     <title>codeforces做题记录</title>
@@ -1039,6 +1039,17 @@
       </tags>
   </entry>
   <entry>
+    <title>ipad键盘快捷键</title>
+    <url>/2023/03/14/2023-ipad%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303141526777.jpg" alt="" /></p>
+]]></content>
+      <tags>
+        <tag>ipad</tag>
+        <tag>键盘</tag>
+        <tag>快捷键</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo常用操作记录</title>
     <url>/2023/01/27/2023-hexo%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1>
@@ -1099,17 +1110,6 @@
       <tags>
         <tag>hexo</tag>
         <tag>others</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ipad键盘快捷键</title>
-    <url>/2023/03/14/2023-ipad%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
-    <content><![CDATA[<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303141526777.jpg" alt="" /></p>
-]]></content>
-      <tags>
-        <tag>ipad</tag>
-        <tag>键盘</tag>
-        <tag>快捷键</tag>
       </tags>
   </entry>
   <entry>
@@ -1177,19 +1177,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>天梯赛题</title>
-    <url>/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/</url>
-    <content><![CDATA[<h1 id="7-14-重排链表"><a class="markdownIt-Anchor" href="#7-14-重排链表"></a> <a href="https://pintia.cn/problem-sets/1635630784604745728/exam/problems/1635648710732869633">7-14 重排链表</a></h1>
-<h1 id="思路"><a class="markdownIt-Anchor" href="#思路"></a> 思路</h1>
-<p>数组模拟大法即可，选拔赛时间紧脑抽了没做出来，方才做了10几分钟样例过了，只不过还没提交，正确性待定</p>
-<h2 id="代码"><a class="markdownIt-Anchor" href="#代码"></a> 代码</h2>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stack&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> fi first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> se second</span></span><br><span class="line"><span class="comment">//#define IOS ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LL long long</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; PII;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e5</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Node</span>&#123;</span><br><span class="line">	string address;</span><br><span class="line">	<span class="type">int</span> val;</span><br><span class="line">	string next;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">map&lt;string, pair&lt;<span class="type">int</span>, string&gt; &gt; mp;</span><br><span class="line"></span><br><span class="line">Node node1[N], node2[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	string start;</span><br><span class="line">	<span class="type">int</span> n;</span><br><span class="line">	cin &gt;&gt; start &gt;&gt; n;</span><br><span class="line">	string address;</span><br><span class="line">	<span class="type">int</span> data;</span><br><span class="line">	string next;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">		cin &gt;&gt; address &gt;&gt; data &gt;&gt; next;</span><br><span class="line">		mp[address] = &#123;data, next&#125;;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">int</span> idx = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">		node1[idx++] = &#123;start, mp[start].fi, mp[start].se&#125;;</span><br><span class="line">		start = mp[start].se;</span><br><span class="line">		<span class="keyword">if</span> (start == <span class="string">&quot;-1&quot;</span>) <span class="keyword">break</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// for (int i = 0; i &lt; n; i++) &#123;</span></span><br><span class="line">	<span class="comment">// 	cout &lt;&lt; node1[i].address &lt;&lt; &quot; &quot; &lt;&lt; node1[i].val &lt;&lt; &quot; &quot; &lt;&lt; node1[i].next &lt;&lt; endl;</span></span><br><span class="line">	<span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">	<span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = idx - <span class="number">1</span>; i &gt;= n / <span class="number">2</span>; i--) &#123;</span><br><span class="line">		cout &lt;&lt; node1[i].address &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[i].val &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[cnt].address &lt;&lt; endl;</span><br><span class="line">		<span class="keyword">if</span> (cnt != n / <span class="number">2</span> - <span class="number">1</span>) cout &lt;&lt; node1[cnt].address &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[cnt].val &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[i - <span class="number">1</span>].address &lt;&lt; endl;</span><br><span class="line">		<span class="keyword">else</span> cout &lt;&lt; node1[cnt].address &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[cnt].val &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; <span class="string">&quot;-1&quot;</span> &lt;&lt; endl;</span><br><span class="line">		cnt++;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//IOS ;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">// int T;</span></span><br><span class="line">	<span class="comment">// cin &gt;&gt; T;</span></span><br><span class="line">	<span class="comment">// while (T--) &#123;</span></span><br><span class="line">	<span class="comment">// 	solve();</span></span><br><span class="line">	<span class="comment">// &#125;</span></span><br><span class="line">	<span class="built_in">solve</span>();</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>天梯赛</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>学成在线</title>
     <url>/2023/07/07/2023-%E5%AD%A6%E6%88%90%E5%9C%A8%E7%BA%BF/</url>
     <content><![CDATA[<h1 id="虚拟机centos配置"><a class="markdownIt-Anchor" href="#虚拟机centos配置"></a> 虚拟机Centos配置</h1>
@@ -1206,6 +1193,19 @@
 <li>很奇怪，必须要用whale推送代码才能成功，不然连接不上git</li>
 </ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>天梯赛题</title>
+    <url>/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/</url>
+    <content><![CDATA[<h1 id="7-14-重排链表"><a class="markdownIt-Anchor" href="#7-14-重排链表"></a> <a href="https://pintia.cn/problem-sets/1635630784604745728/exam/problems/1635648710732869633">7-14 重排链表</a></h1>
+<h1 id="思路"><a class="markdownIt-Anchor" href="#思路"></a> 思路</h1>
+<p>数组模拟大法即可，选拔赛时间紧脑抽了没做出来，方才做了10几分钟样例过了，只不过还没提交，正确性待定</p>
+<h2 id="代码"><a class="markdownIt-Anchor" href="#代码"></a> 代码</h2>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stack&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> fi first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> se second</span></span><br><span class="line"><span class="comment">//#define IOS ios::sync_with_stdio(false),cin.tie(0),cout.tie(0)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LL long long</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> pair&lt;<span class="type">int</span>, <span class="type">int</span>&gt; PII;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e5</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Node</span>&#123;</span><br><span class="line">	string address;</span><br><span class="line">	<span class="type">int</span> val;</span><br><span class="line">	string next;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">map&lt;string, pair&lt;<span class="type">int</span>, string&gt; &gt; mp;</span><br><span class="line"></span><br><span class="line">Node node1[N], node2[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	string start;</span><br><span class="line">	<span class="type">int</span> n;</span><br><span class="line">	cin &gt;&gt; start &gt;&gt; n;</span><br><span class="line">	string address;</span><br><span class="line">	<span class="type">int</span> data;</span><br><span class="line">	string next;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">		cin &gt;&gt; address &gt;&gt; data &gt;&gt; next;</span><br><span class="line">		mp[address] = &#123;data, next&#125;;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">int</span> idx = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">		node1[idx++] = &#123;start, mp[start].fi, mp[start].se&#125;;</span><br><span class="line">		start = mp[start].se;</span><br><span class="line">		<span class="keyword">if</span> (start == <span class="string">&quot;-1&quot;</span>) <span class="keyword">break</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// for (int i = 0; i &lt; n; i++) &#123;</span></span><br><span class="line">	<span class="comment">// 	cout &lt;&lt; node1[i].address &lt;&lt; &quot; &quot; &lt;&lt; node1[i].val &lt;&lt; &quot; &quot; &lt;&lt; node1[i].next &lt;&lt; endl;</span></span><br><span class="line">	<span class="comment">// &#125;</span></span><br><span class="line"></span><br><span class="line">	<span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = idx - <span class="number">1</span>; i &gt;= n / <span class="number">2</span>; i--) &#123;</span><br><span class="line">		cout &lt;&lt; node1[i].address &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[i].val &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[cnt].address &lt;&lt; endl;</span><br><span class="line">		<span class="keyword">if</span> (cnt != n / <span class="number">2</span> - <span class="number">1</span>) cout &lt;&lt; node1[cnt].address &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[cnt].val &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[i - <span class="number">1</span>].address &lt;&lt; endl;</span><br><span class="line">		<span class="keyword">else</span> cout &lt;&lt; node1[cnt].address &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; node1[cnt].val &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; <span class="string">&quot;-1&quot;</span> &lt;&lt; endl;</span><br><span class="line">		cnt++;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//IOS ;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">// int T;</span></span><br><span class="line">	<span class="comment">// cin &gt;&gt; T;</span></span><br><span class="line">	<span class="comment">// while (T--) &#123;</span></span><br><span class="line">	<span class="comment">// 	solve();</span></span><br><span class="line">	<span class="comment">// &#125;</span></span><br><span class="line">	<span class="built_in">solve</span>();</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>天梯赛</tag>
+      </tags>
   </entry>
   <entry>
     <title>密码</title>
