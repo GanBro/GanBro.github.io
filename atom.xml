@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-07T12:09:11.527Z</updated>
+  <updated>2023-11-09T09:05:59.793Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -17,17 +17,69 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
-    <link href="https://ganbro.github.io/2023/11/07/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://ganbro.github.io/2023/11/07/%E6%B5%8B%E8%AF%95/</id>
-    <published>2023-11-07T11:50:05.000Z</published>
-    <updated>2023-11-07T12:09:11.527Z</updated>
+    <title>密码</title>
+    <link href="https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/"/>
+    <id>https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/</id>
+    <published>2023-11-09T08:18:14.000Z</published>
+    <updated>2023-11-09T09:05:59.793Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>微服务</title>
+    <link href="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    <id>https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</id>
+    <published>2023-11-09T08:17:54.000Z</published>
+    <updated>2023-11-09T09:39:23.659Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基础信息&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#基础信息&quot;&gt;&lt;/a&gt; 基础信息&lt;/h1&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="JAVA" scheme="https://ganbro.github.io/categories/JAVA/"/>
+    
+    <category term="微服务" scheme="https://ganbro.github.io/categories/JAVA/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+    
+    <category term="微服务" scheme="https://ganbro.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode配置</title>
+    <link href="https://ganbro.github.io/2023/11/09/vscode%E9%85%8D%E7%BD%AE/"/>
+    <id>https://ganbro.github.io/2023/11/09/vscode%E9%85%8D%E7%BD%AE/</id>
+    <published>2023-11-09T01:51:30.000Z</published>
+    <updated>2023-11-09T03:01:45.719Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;插件作用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#插件作用&quot;&gt;&lt;/a&gt; 插件作用&lt;/h1&gt;
+&lt;h2 id=&quot;live-server&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vscode" scheme="https://ganbro.github.io/tags/vscode/"/>
     
   </entry>
   
@@ -97,7 +149,7 @@
     <link href="https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/"/>
     <id>https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/</id>
     <published>2023-10-27T07:28:51.000Z</published>
-    <updated>2023-11-05T07:18:55.652Z</updated>
+    <updated>2023-11-09T15:23:58.142Z</updated>
     
     
       
@@ -105,8 +157,7 @@
         
         
     <summary type="html">&lt;h1 id=&quot;进度&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#进度&quot;&gt;&lt;/a&gt; 进度&lt;/h1&gt;
-&lt;h2 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt; 高数&lt;/h2&gt;
-&lt;p&gt;&lt;img</summary>
+&lt;h2 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -408,53 +459,6 @@
     
     
     <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题解备份</title>
-    <link href="https://ganbro.github.io/2023/03/21/2023-%E9%A2%98%E8%A7%A3%E5%A4%87%E4%BB%BD/"/>
-    <id>https://ganbro.github.io/2023/03/21/2023-%E9%A2%98%E8%A7%A3%E5%A4%87%E4%BB%BD/</id>
-    <published>2023-03-21T12:26:19.000Z</published>
-    <updated>2023-03-28T11:49:27.131Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;2023计科蓝桥杯第一场训练赛&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#2023计科蓝桥杯第一场训练赛&quot;&gt;&lt;/a&gt; 2023计科蓝桥杯第一场训练赛&lt;/h1&gt;
-&lt;h2 id=&quot;卡片&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="题解" scheme="https://ganbro.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>天梯赛题</title>
-    <link href="https://ganbro.github.io/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/"/>
-    <id>https://ganbro.github.io/2023/03/19/2023-%E5%A4%A9%E6%A2%AF%E8%B5%9B%E9%A2%98/</id>
-    <published>2023-03-19T06:16:31.000Z</published>
-    <updated>2023-03-19T06:19:13.550Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;7-14-重排链表&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#7-14-重排链表&quot;&gt;&lt;/a&gt; &lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="天梯赛" scheme="https://ganbro.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
     
   </entry>
   
