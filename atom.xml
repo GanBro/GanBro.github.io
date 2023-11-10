@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-09T09:05:59.793Z</updated>
+  <updated>2023-11-10T08:43:46.601Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -17,11 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>测试</title>
+    <link href="https://ganbro.github.io/2023/11/10/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://ganbro.github.io/2023/11/10/%E6%B5%8B%E8%AF%95/</id>
+    <published>2023-11-10T08:43:46.000Z</published>
+    <updated>2023-11-10T08:43:46.601Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>密码</title>
     <link href="https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/"/>
     <id>https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/</id>
     <published>2023-11-09T08:18:14.000Z</published>
-    <updated>2023-11-09T09:05:59.793Z</updated>
+    <updated>2023-11-10T08:57:01.968Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -36,7 +49,7 @@
     <link href="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
     <id>https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</id>
     <published>2023-11-09T08:17:54.000Z</published>
-    <updated>2023-11-09T09:39:23.659Z</updated>
+    <updated>2023-11-10T08:37:47.299Z</updated>
     
     
       
@@ -433,32 +446,6 @@
     
     
     <category term="redis" scheme="https://ganbro.github.io/tags/redis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux</title>
-    <link href="https://ganbro.github.io/2023/04/29/2023-Linux/"/>
-    <id>https://ganbro.github.io/2023/04/29/2023-Linux/</id>
-    <published>2023-04-29T08:40:05.000Z</published>
-    <updated>2023-11-02T02:29:29.866Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;finalshell&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#finalshell&quot;&gt;&lt;/a&gt; FinalShell&lt;/h1&gt;
-&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Linux" scheme="https://ganbro.github.io/categories/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
     
   </entry>
   

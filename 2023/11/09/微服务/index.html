@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643455.png">
 <meta property="og:image" content="https://b11et3un53m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTExYmY5Y2FkYTViOWVjY2YxYzdiMzdhZmM4MWJlMmJfMlNxeWh5SXlzdDhON01jVklucGZnM3pGbXM2OXV6OGpfVG9rZW46QUNxOWJIem1nb0hrQ2p4TjBwamN2TFVFbmxjXzE2OTk1MTkzNjc6MTY5OTUyMjk2N19WNA">
 <meta property="article:published_time" content="2023-11-09T08:17:54.000Z">
-<meta property="article:modified_time" content="2023-11-09T09:39:23.659Z">
+<meta property="article:modified_time" content="2023-11-10T08:37:47.299Z">
 <meta property="article:author" content="GanBro">
 <meta property="article:tag" content="微服务">
 <meta name="twitter:card" content="summary">
@@ -119,7 +119,7 @@
         <div id="wrap">
             <header id="header">
     
-        <img data-src="/images/banner.jpg" data-sizes="auto" alt="微服务" class="lazyload">
+        <img data-src="https://hbimg.b0.upaiyun.com/fc78f79cfbc975b236db7cdfdabd8e269a1dde551869e-4TC92S_fw658" data-sizes="auto" alt="微服务" class="lazyload">
     
     <div id="header-outer" class="outer">
         <div id="header-title" class="inner">
@@ -252,10 +252,12 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建目录</span></span><br><span class="line"><span class="built_in">mkdir</span> -p /etc/docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 复制内容，注意把其中的镜像加速地址改成你自己的</span></span><br><span class="line"><span class="built_in">tee</span> /etc/docker/daemon.json &lt;&lt;-<span class="string">&#x27;EOF&#x27;</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [<span class="string">&quot;https://hq9hunxv.mirror.aliyuncs.com&quot;</span>]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新加载配置</span></span><br><span class="line">systemctl daemon-reload</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启Docker</span></span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
 <h2 id="命令"><a class="markdownIt-Anchor" href="#命令"></a> 命令</h2>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+<h1 id="nacos"><a class="markdownIt-Anchor" href="#nacos"></a> nacos</h1>
+
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" data-id="clorcb4qv0005wwsqfwny146l" data-title="微服务"
+            <a data-url="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" data-id="closdy2ui0006p0sqhr4b0ty5" data-title="微服务"
                class="article-share-link">Share</a>
             
                 <a href="/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/#comments" class="article-comment-link">
@@ -280,7 +282,7 @@
                 
                     
                     
-                        <img data-src="https://d-sketon.top/img/backimg/bg1.jpg" data-sizes="auto" alt="密码" class="lazyload">
+                        <img data-src="/covers/preview5.jpg" data-sizes="auto" alt="密码" class="lazyload">
                     
                 
                 <a href="/2023/11/09/%E5%AF%86%E7%A0%81/"></a>
@@ -297,7 +299,7 @@
                 
                     
                     
-                        <img data-src="https://d-sketon.top/img/backimg/bg1.jpg" data-sizes="auto" alt="vscode配置" class="lazyload">
+                        <img data-src="/covers/preview1.jpg" data-sizes="auto" alt="vscode配置" class="lazyload">
                     
                 
                 <a href="/2023/11/09/vscode%E9%85%8D%E7%BD%AE/"></a>
@@ -341,7 +343,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">40</div>
+                <div class="sidebar-state-number">41</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -452,7 +454,7 @@
                     38.3k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    03:21
+                    03:22
                 </div>
             
             
@@ -506,7 +508,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">40</div>
+                <div class="sidebar-state-number">41</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
