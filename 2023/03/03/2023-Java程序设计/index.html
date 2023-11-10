@@ -23,12 +23,12 @@
     
 <link rel="stylesheet" href="/css/loader.css">
 
-    <meta name="description" content="JavaSE  语法  散记  一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名 关键字中所有字母都为小写 Java中不能用0和非0来表示真和假   数据类型   基本数据类型转换  其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。 对其进行样例解释： 12Syste">
+    <meta name="description" content="JavaSE语法散记 一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名 关键字中所有字母都为小写 Java中不能用0和非0来表示真和假  数据类型 基本数据类型转换 其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。 对其进行样例解释： 12System.out.prin">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java程序设计">
 <meta property="og:url" content="https://ganbro.github.io/2023/03/03/2023-Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="JavaSE  语法  散记  一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名 关键字中所有字母都为小写 Java中不能用0和非0来表示真和假   数据类型   基本数据类型转换  其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。 对其进行样例解释： 12Syste">
+<meta property="og:description" content="JavaSE语法散记 一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名 关键字中所有字母都为小写 Java中不能用0和非0来表示真和假  数据类型 基本数据类型转换 其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。 对其进行样例解释： 12System.out.prin">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://raw.githubusercontent.com/GanBro/imgs/main/202303031047259.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/GanBro/imgs/main/202303031107093.png">
@@ -211,81 +211,55 @@
 
         <div class="e-content article-entry" itemprop="articleBody">
             
-                <h1 id="javase"><a class="markdownIt-Anchor" href="#javase"></a> JavaSE</h1>
-<h2 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h2>
-<h3 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h3>
-<ol>
+                <h1 id="JavaSE"><a href="#JavaSE" class="headerlink" title="JavaSE"></a>JavaSE</h1><h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><h3 id="散记"><a href="#散记" class="headerlink" title="散记"></a>散记</h3><ol>
 <li>一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名</li>
 <li>关键字中所有字母都为小写</li>
 <li>Java中不能用0和非0来表示真和假</li>
 </ol>
-<h3 id="数据类型"><a class="markdownIt-Anchor" href="#数据类型"></a> 数据类型</h3>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031047259.png" alt="" /></p>
-<h4 id="基本数据类型转换"><a class="markdownIt-Anchor" href="#基本数据类型转换"></a> 基本数据类型转换</h4>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031107093.png" alt="" /></p>
+<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031047259.png" alt=""></p>
+<h4 id="基本数据类型转换"><a href="#基本数据类型转换" class="headerlink" title="基本数据类型转换"></a>基本数据类型转换</h4><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031107093.png" alt=""></p>
 <p>其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。</p>
 <p>对其进行样例解释：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="string">&#x27;a&#x27;</span> + <span class="number">1</span> + <span class="string">&quot;Hello&quot;</span>); <span class="comment">// 98Hello</span></span><br><span class="line">System.out.println(<span class="string">&quot;Hello!&quot;</span> + <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>); <span class="comment">// Hello!a1</span></span><br></pre></td></tr></table></figure>
-<h4 id="强制类型转换"><a class="markdownIt-Anchor" href="#强制类型转换"></a> 强制类型转换</h4>
-<ol>
-<li>boolean类型不可以转换为其它的数据类型。</li>
+<h4 id="强制类型转换"><a href="#强制类型转换" class="headerlink" title="强制类型转换"></a>强制类型转换</h4><ol>
+<li>boolean类型不可以转换为其它的数据类型。 </li>
 </ol>
-<h4 id="数组"><a class="markdownIt-Anchor" href="#数组"></a> 数组</h4>
-<ol>
+<h4 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h4><ol>
 <li>数组是引用类型</li>
 <li>对于基本数据类型而言，默认初始化值各有不同</li>
 <li>对于引用数据类型而言，默认初始化值为null(注意与0不同)</li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303310832353.png" alt="" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303310832353.png" alt=""></li>
 <li>特殊写法情况：int[] x,y[]; x是一维数组，y是二维数组。</li>
 <li>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</li>
 </ol>
-<h3 id="static"><a class="markdownIt-Anchor" href="#static"></a> Static</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120829731.png" alt="image-20230512082941627" /></p>
-<h3 id="初始化块"><a class="markdownIt-Anchor" href="#初始化块"></a> 初始化块</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120858659.png" alt="image-20230512085802559" /></p>
-<h3 id="final"><a class="markdownIt-Anchor" href="#final"></a> Final</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120909328.png" alt="image-20230512090910259" /></p>
-<h3 id="abstract"><a class="markdownIt-Anchor" href="#abstract"></a> abstract</h3>
-<ol>
-<li></li>
-</ol>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120916994.png" alt="image-20230512091604925" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120918302.png" alt="image-20230512091849225" /></p>
-<p>3.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230512091920488.png" alt="image-20230512091920488" /></p>
-<h2 id="面向对象"><a class="markdownIt-Anchor" href="#面向对象"></a> 面向对象</h2>
-<ol>
-<li>
-<p>static方法访问非static,编译不通过</p>
+<h3 id="Static"><a href="#Static" class="headerlink" title="Static"></a>Static</h3><p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120829731.png" alt="image-20230512082941627"></p>
+<h3 id="初始化块"><a href="#初始化块" class="headerlink" title="初始化块"></a>初始化块</h3><p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120858659.png" alt="image-20230512085802559"></p>
+<h3 id="Final"><a href="#Final" class="headerlink" title="Final"></a>Final</h3><p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120909328.png" alt="image-20230512090910259"></p>
+<h3 id="abstract"><a href="#abstract" class="headerlink" title="abstract"></a>abstract</h3><p>1.</p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120916994.png" alt="image-20230512091604925"></p>
+<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120918302.png" alt="image-20230512091849225"></p>
+<p>3.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230512091920488.png" alt="image-20230512091920488"></p>
+<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><ol>
+<li>static方法访问非static,编译不通过</li>
+<li>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</li>
+<li>类里面有属性和方法，不能有单独的语句</li>
+<li><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070858050.png" alt=""></p>
 </li>
-<li>
-<p>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</p>
+<li><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070941164.png" alt=""></p>
 </li>
-<li>
-<p>类里面有属性和方法，不能有单独的语句</p>
-</li>
-<li>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070858050.png" alt="" /></p>
-</li>
-<li>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070941164.png" alt="" /></p>
-</li>
-<li>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304071048269.png" alt="" /></p>
+<li><p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304071048269.png" alt=""></p>
 </li>
 </ol>
-<h2 id="高级特性"><a class="markdownIt-Anchor" href="#高级特性"></a> 高级特性</h2>
-<h3 id="散记-2"><a class="markdownIt-Anchor" href="#散记-2"></a> 散记</h3>
-<p>1.Java只支持<strong>单继承</strong>,不允许多继承</p>
+<h2 id="高级特性"><a href="#高级特性" class="headerlink" title="高级特性"></a>高级特性</h2><h3 id="散记-1"><a href="#散记-1" class="headerlink" title="散记"></a>散记</h3><p>1.Java只支持<strong>单继承</strong>,不允许多继承</p>
 <p>2.方法的重写</p>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304101542067.png" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304101542067.png" alt=""></p>
 <p>3.接口也可以继承另一个接口，使用extends关键字。</p>
-<h3 id="接口"><a class="markdownIt-Anchor" href="#接口"></a> 接口</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305121050303.png" alt="image-20230512105057220" /></p>
+<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305121050303.png" alt="image-20230512105057220"></p>
 
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/03/03/2023-Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" data-id="closdy2uo000ip0sq6e2zetbk" data-title="Java程序设计"
+            <a data-url="https://ganbro.github.io/2023/03/03/2023-Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" data-id="close1rj5000n7ksqd93hfri3" data-title="Java程序设计"
                class="article-share-link">Share</a>
             
                 <a href="/2023/03/03/2023-Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/#comments" class="article-comment-link">
@@ -327,7 +301,7 @@
                 
                     
                     
-                        <img data-src="/covers/preview9.jpg" data-sizes="auto" alt="数据结构实验" class="lazyload">
+                        <img data-src="/covers/preview8.jpg" data-sizes="auto" alt="数据结构实验" class="lazyload">
                     
                 
                 <a href="/2023/02/27/2023-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%AE%9E%E9%AA%8C/"></a>
@@ -479,10 +453,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    38.3k
+                    37.8k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    03:22
+                    03:19
                 </div>
             
             
