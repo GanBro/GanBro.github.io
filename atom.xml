@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-10T08:43:46.601Z</updated>
+  <updated>2023-11-10T08:57:01.968Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>测试</title>
-    <link href="https://ganbro.github.io/2023/11/10/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://ganbro.github.io/2023/11/10/%E6%B5%8B%E8%AF%95/</id>
-    <published>2023-11-10T08:43:46.000Z</published>
-    <updated>2023-11-10T08:43:46.601Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>密码</title>
@@ -56,7 +43,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;基础信息&quot;&gt;&lt;a href=&quot;#基础信息&quot; class=&quot;headerlink&quot; title=&quot;基础信息&quot;&gt;&lt;/a&gt;基础信息&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;基础信息&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#基础信息&quot;&gt;&lt;/a&gt; 基础信息&lt;/h1&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
@@ -83,7 +71,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;插件作用&quot;&gt;&lt;a href=&quot;#插件作用&quot; class=&quot;headerlink&quot; title=&quot;插件作用&quot;&gt;&lt;/a&gt;插件作用&lt;/h1&gt;&lt;h2 id=&quot;Live-Server&quot;&gt;&lt;a href=&quot;#Live-Server&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;插件作用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#插件作用&quot;&gt;&lt;/a&gt; 插件作用&lt;/h1&gt;
+&lt;h2 id=&quot;live-server&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -129,7 +118,7 @@
         
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://cn.vuejs.org/&quot;&gt;Vue2官网&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue3官网&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;快速上手&quot;&gt;&lt;a href=&quot;#快速上手&quot;</summary>
+&lt;h1 id=&quot;快速上手&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -167,7 +156,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;进度&quot;&gt;&lt;a href=&quot;#进度&quot; class=&quot;headerlink&quot; title=&quot;进度&quot;&gt;&lt;/a&gt;进度&lt;/h1&gt;&lt;h2 id=&quot;高数&quot;&gt;&lt;a href=&quot;#高数&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;进度&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#进度&quot;&gt;&lt;/a&gt; 进度&lt;/h1&gt;
+&lt;h2 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -231,7 +221,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;好句&quot;&gt;&lt;a href=&quot;#好句&quot; class=&quot;headerlink&quot; title=&quot;好句&quot;&gt;&lt;/a&gt;好句&lt;/h1&gt;&lt;p&gt;1.&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;好句&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#好句&quot;&gt;&lt;/a&gt; 好句&lt;/h1&gt;
+&lt;p&gt;1.&lt;img</summary>
         
       
     
@@ -273,7 +264,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Spring&quot;&gt;&lt;a href=&quot;#Spring&quot; class=&quot;headerlink&quot; title=&quot;Spring&quot;&gt;&lt;/a&gt;Spring&lt;/h1&gt;&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a href=&quot;#环境配置&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;spring&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#spring&quot;&gt;&lt;/a&gt; Spring&lt;/h1&gt;
+&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#环境配置&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -294,7 +286,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;名词&quot;&gt;&lt;a href=&quot;#名词&quot; class=&quot;headerlink&quot; title=&quot;名词&quot;&gt;&lt;/a&gt;名词&lt;/h1&gt;&lt;ol&gt;
+    <summary type="html">&lt;h1 id=&quot;名词&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#名词&quot;&gt;&lt;/a&gt; 名词&lt;/h1&gt;
+&lt;ol&gt;
 &lt;li&gt;offspring 后代，子女&lt;/li&gt;
 &lt;li&gt;commitment 承诺&lt;/li&gt;
 &lt;li&gt;marvel</summary>
@@ -320,8 +313,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;高数&quot;&gt;&lt;a href=&quot;#高数&quot; class=&quot;headerlink&quot; title=&quot;高数&quot;&gt;&lt;/a&gt;高数&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;第4讲&lt;/strong&gt;4.10&lt;/p&gt;
-&lt;h1 id=&quot;计算机三级&quot;&gt;&lt;a href=&quot;#计算机三级&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt; 高数&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;第4讲&lt;/strong&gt;4.10&lt;/p&gt;
+&lt;h1 id=&quot;计算机三级&quot;&gt;&lt;a</summary>
         
       
     
@@ -344,7 +338,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;虚拟机Centos配置&quot;&gt;&lt;a href=&quot;#虚拟机Centos配置&quot; class=&quot;headerlink&quot; title=&quot;虚拟机Centos配置&quot;&gt;&lt;/a&gt;虚拟机Centos配置&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;虚拟机centos配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#虚拟机centos配置&quot;&gt;&lt;/a&gt; 虚拟机Centos配置&lt;/h1&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -365,7 +360,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Redis&quot;&gt;&lt;a href=&quot;#Redis&quot; class=&quot;headerlink&quot; title=&quot;Redis&quot;&gt;&lt;/a&gt;Redis&lt;/h1&gt;&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a href=&quot;#使用场景&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;redis&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#redis&quot;&gt;&lt;/a&gt; Redis&lt;/h1&gt;
+&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用场景&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -403,7 +399,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Docker基本操作命令&quot;&gt;&lt;a href=&quot;#Docker基本操作命令&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;docker基本操作命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#docker基本操作命令&quot;&gt;&lt;/a&gt; Docker基本操作命令&lt;/h1&gt;
+&lt;p&gt;其实没什么记录必要，只需查看帮助文档就行了&lt;/p&gt;
+&lt;p&gt;不知道的命令，可以去&lt;a</summary>
         
       
     
@@ -426,7 +424,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Redis常用命令&quot;&gt;&lt;a href=&quot;#Redis常用命令&quot; class=&quot;headerlink&quot; title=&quot;Redis常用命令&quot;&gt;&lt;/a&gt;Redis常用命令&lt;/h1&gt;&lt;h2 id=&quot;字符创string操作命令&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;redis常用命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#redis常用命令&quot;&gt;&lt;/a&gt; Redis常用命令&lt;/h1&gt;
+&lt;h2 id=&quot;字符创string操作命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -434,6 +433,32 @@
     
     
     <category term="redis" scheme="https://ganbro.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://ganbro.github.io/2023/04/29/2023-Linux/"/>
+    <id>https://ganbro.github.io/2023/04/29/2023-Linux/</id>
+    <published>2023-04-29T08:40:05.000Z</published>
+    <updated>2023-11-02T02:29:29.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;finalshell&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#finalshell&quot;&gt;&lt;/a&gt; FinalShell&lt;/h1&gt;
+&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
     
   </entry>
   
