@@ -1415,87 +1415,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Java程序设计</title>
-    <url>/2023/03/03/2023-Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</url>
-    <content><![CDATA[<h1 id="javase"><a class="markdownIt-Anchor" href="#javase"></a> JavaSE</h1>
-<h2 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h2>
-<h3 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h3>
-<ol>
-<li>一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名</li>
-<li>关键字中所有字母都为小写</li>
-<li>Java中不能用0和非0来表示真和假</li>
-</ol>
-<h3 id="数据类型"><a class="markdownIt-Anchor" href="#数据类型"></a> 数据类型</h3>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031047259.png" alt="" /></p>
-<h4 id="基本数据类型转换"><a class="markdownIt-Anchor" href="#基本数据类型转换"></a> 基本数据类型转换</h4>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031107093.png" alt="" /></p>
-<p>其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。</p>
-<p>对其进行样例解释：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">&#x27;a&#x27;</span> + <span class="number">1</span> + <span class="string">&quot;Hello&quot;</span>); <span class="comment">// 98Hello</span></span><br><span class="line">System.out.println(<span class="string">&quot;Hello!&quot;</span> + <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>); <span class="comment">// Hello!a1</span></span><br></pre></td></tr></table></figure>
-<h4 id="强制类型转换"><a class="markdownIt-Anchor" href="#强制类型转换"></a> 强制类型转换</h4>
-<ol>
-<li>boolean类型不可以转换为其它的数据类型。</li>
-</ol>
-<h4 id="数组"><a class="markdownIt-Anchor" href="#数组"></a> 数组</h4>
-<ol>
-<li>数组是引用类型</li>
-<li>对于基本数据类型而言，默认初始化值各有不同</li>
-<li>对于引用数据类型而言，默认初始化值为null(注意与0不同)</li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303310832353.png" alt="" /></li>
-<li>特殊写法情况：int[] x,y[]; x是一维数组，y是二维数组。</li>
-<li>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</li>
-</ol>
-<h3 id="static"><a class="markdownIt-Anchor" href="#static"></a> Static</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120829731.png" alt="image-20230512082941627" /></p>
-<h3 id="初始化块"><a class="markdownIt-Anchor" href="#初始化块"></a> 初始化块</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120858659.png" alt="image-20230512085802559" /></p>
-<h3 id="final"><a class="markdownIt-Anchor" href="#final"></a> Final</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120909328.png" alt="image-20230512090910259" /></p>
-<h3 id="abstract"><a class="markdownIt-Anchor" href="#abstract"></a> abstract</h3>
-<ol>
-<li></li>
-</ol>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120916994.png" alt="image-20230512091604925" /></p>
-<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120918302.png" alt="image-20230512091849225" /></p>
-<p>3.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230512091920488.png" alt="image-20230512091920488" /></p>
-<h2 id="面向对象"><a class="markdownIt-Anchor" href="#面向对象"></a> 面向对象</h2>
-<ol>
-<li>
-<p>static方法访问非static,编译不通过</p>
-</li>
-<li>
-<p>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</p>
-</li>
-<li>
-<p>类里面有属性和方法，不能有单独的语句</p>
-</li>
-<li>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070858050.png" alt="" /></p>
-</li>
-<li>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070941164.png" alt="" /></p>
-</li>
-<li>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304071048269.png" alt="" /></p>
-</li>
-</ol>
-<h2 id="高级特性"><a class="markdownIt-Anchor" href="#高级特性"></a> 高级特性</h2>
-<h3 id="散记-2"><a class="markdownIt-Anchor" href="#散记-2"></a> 散记</h3>
-<p>1.Java只支持<strong>单继承</strong>,不允许多继承</p>
-<p>2.方法的重写</p>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304101542067.png" alt="" /></p>
-<p>3.接口也可以继承另一个接口，使用extends关键字。</p>
-<h3 id="接口"><a class="markdownIt-Anchor" href="#接口"></a> 接口</h3>
-<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305121050303.png" alt="image-20230512105057220" /></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux</title>
     <url>/2023/04/29/2023-Linux/</url>
     <content><![CDATA[<h1 id="finalshell"><a class="markdownIt-Anchor" href="#finalshell"></a> FinalShell</h1>
@@ -1588,6 +1507,108 @@
       </tags>
   </entry>
   <entry>
+    <title>Java程序设计</title>
+    <url>/2023/03/03/2023-Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</url>
+    <content><![CDATA[<h1 id="javase"><a class="markdownIt-Anchor" href="#javase"></a> JavaSE</h1>
+<h2 id="语法"><a class="markdownIt-Anchor" href="#语法"></a> 语法</h2>
+<h3 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h3>
+<ol>
+<li>一个源文件最多只有一个public类, 其他类的个数不限，如果一个源文件包含一个public类，那么该文件要以该public类名命名</li>
+<li>关键字中所有字母都为小写</li>
+<li>Java中不能用0和非0来表示真和假</li>
+</ol>
+<h3 id="数据类型"><a class="markdownIt-Anchor" href="#数据类型"></a> 数据类型</h3>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031047259.png" alt="" /></p>
+<h4 id="基本数据类型转换"><a class="markdownIt-Anchor" href="#基本数据类型转换"></a> 基本数据类型转换</h4>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303031107093.png" alt="" /></p>
+<p>其中,当把任何基本类型的值和字符串值进行连接运算时(+)，基本类型的值将自动转化为字符串类型。</p>
+<p>对其进行样例解释：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">&#x27;a&#x27;</span> + <span class="number">1</span> + <span class="string">&quot;Hello&quot;</span>); <span class="comment">// 98Hello</span></span><br><span class="line">System.out.println(<span class="string">&quot;Hello!&quot;</span> + <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>); <span class="comment">// Hello!a1</span></span><br></pre></td></tr></table></figure>
+<h4 id="强制类型转换"><a class="markdownIt-Anchor" href="#强制类型转换"></a> 强制类型转换</h4>
+<ol>
+<li>boolean类型不可以转换为其它的数据类型。</li>
+</ol>
+<h4 id="数组"><a class="markdownIt-Anchor" href="#数组"></a> 数组</h4>
+<ol>
+<li>数组是引用类型</li>
+<li>对于基本数据类型而言，默认初始化值各有不同</li>
+<li>对于引用数据类型而言，默认初始化值为null(注意与0不同)</li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303310832353.png" alt="" /></li>
+<li>特殊写法情况：int[] x,y[]; x是一维数组，y是二维数组。</li>
+<li>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</li>
+</ol>
+<h3 id="static"><a class="markdownIt-Anchor" href="#static"></a> Static</h3>
+<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120829731.png" alt="image-20230512082941627" /></p>
+<h3 id="初始化块"><a class="markdownIt-Anchor" href="#初始化块"></a> 初始化块</h3>
+<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120858659.png" alt="image-20230512085802559" /></p>
+<h3 id="final"><a class="markdownIt-Anchor" href="#final"></a> Final</h3>
+<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120909328.png" alt="image-20230512090910259" /></p>
+<h3 id="abstract"><a class="markdownIt-Anchor" href="#abstract"></a> abstract</h3>
+<ol>
+<li></li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120916994.png" alt="image-20230512091604925" /></p>
+<p>2.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305120918302.png" alt="image-20230512091849225" /></p>
+<p>3.<img src="C:/Users/wubo/AppData/Roaming/Typora/typora-user-images/image-20230512091920488.png" alt="image-20230512091920488" /></p>
+<h2 id="面向对象"><a class="markdownIt-Anchor" href="#面向对象"></a> 面向对象</h2>
+<ol>
+<li>
+<p>static方法访问非static,编译不通过</p>
+</li>
+<li>
+<p>局部变量声明时不指定权限修饰符，与所在方法修饰符一样</p>
+</li>
+<li>
+<p>类里面有属性和方法，不能有单独的语句</p>
+</li>
+<li>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070858050.png" alt="" /></p>
+</li>
+<li>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304070941164.png" alt="" /></p>
+</li>
+<li>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304071048269.png" alt="" /></p>
+</li>
+</ol>
+<h2 id="高级特性"><a class="markdownIt-Anchor" href="#高级特性"></a> 高级特性</h2>
+<h3 id="散记-2"><a class="markdownIt-Anchor" href="#散记-2"></a> 散记</h3>
+<p>1.Java只支持<strong>单继承</strong>,不允许多继承</p>
+<p>2.方法的重写</p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304101542067.png" alt="" /></p>
+<p>3.接口也可以继承另一个接口，使用extends关键字。</p>
+<h3 id="接口"><a class="markdownIt-Anchor" href="#接口"></a> 接口</h3>
+<p>1.<img src="https://raw.githubusercontent.com/GanBro/imgs/main/202305121050303.png" alt="image-20230512105057220" /></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mysql</title>
+    <url>/2023/03/10/2023-Mysql/</url>
+    <content><![CDATA[<h1 id="mysql常用操作"><a class="markdownIt-Anchor" href="#mysql常用操作"></a> MySQL常用操作</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. show character set;				- 查看MySQL支持的字符集以及对应的校对规则</span><br><span class="line">2. show variables like &#x27;char%&#x27;;  	- 查看当前连接系统的参数</span><br><span class="line">3. status;							- 查看MySQL的状态信息</span><br><span class="line">4. show engines \G;					- 查看该版本支持的数据库存储引擎</span><br><span class="line">5. show create database 数据库名\G;	  - 显示数据库的创建信息</span><br></pre></td></tr></table></figure>
+<h1 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h1>
+<ol>
+<li>主键字段的值不允许为<strong>null</strong>,而UNIQUE字段的值可取null，但是必须使用null声明，只是null值最多有一个。</li>
+<li>WHERE操作是从数据表中获取数据符合条件的数据，而HAVING是根据条件对已分组的数据进行操作</li>
+<li>HAVING位于GROUPBY BY子句后，而WHERE位于GROUP BY子句前</li>
+</ol>
+]]></content>
+      <categories>
+        <category>数据库</category>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MakeDown格式笔记</title>
     <url>/2023/01/27/2023-MakeDown%E6%A0%BC%E5%BC%8F%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="基本语法"><a class="markdownIt-Anchor" href="#基本语法"></a> 基本语法</h1>
@@ -1651,27 +1672,6 @@
       </categories>
       <tags>
         <tag>MakeDown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mysql</title>
-    <url>/2023/03/10/2023-Mysql/</url>
-    <content><![CDATA[<h1 id="mysql常用操作"><a class="markdownIt-Anchor" href="#mysql常用操作"></a> MySQL常用操作</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. show character set;				- 查看MySQL支持的字符集以及对应的校对规则</span><br><span class="line">2. show variables like &#x27;char%&#x27;;  	- 查看当前连接系统的参数</span><br><span class="line">3. status;							- 查看MySQL的状态信息</span><br><span class="line">4. show engines \G;					- 查看该版本支持的数据库存储引擎</span><br><span class="line">5. show create database 数据库名\G;	  - 显示数据库的创建信息</span><br></pre></td></tr></table></figure>
-<h1 id="散记"><a class="markdownIt-Anchor" href="#散记"></a> 散记</h1>
-<ol>
-<li>主键字段的值不允许为<strong>null</strong>,而UNIQUE字段的值可取null，但是必须使用null声明，只是null值最多有一个。</li>
-<li>WHERE操作是从数据表中获取数据符合条件的数据，而HAVING是根据条件对已分组的数据进行操作</li>
-<li>HAVING位于GROUPBY BY子句后，而WHERE位于GROUP BY子句前</li>
-</ol>
-]]></content>
-      <categories>
-        <category>数据库</category>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>数据库</tag>
-        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -1766,6 +1766,57 @@
       </tags>
   </entry>
   <entry>
+    <title>github笔记</title>
+    <url>/2023/01/31/2023-github%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="通过hosts访问github方法下载软件之后"><a class="markdownIt-Anchor" href="#通过hosts访问github方法下载软件之后"></a> 通过hosts访问github方法(下载软件之后)</h1>
+<ol>
+<li>进入<code>D:\SoftWare\hosts-server-pkg-win-x64</code></li>
+<li>在<code>cmd</code>窗口输入<code>.\hosts-server.exe --port=8888</code></li>
+<li>在浏览器输入<code>http://localhost:8888</code>查看最新hosts</li>
+<li>进入<code>C:\Windows\System32\drivers\etc</code></li>
+<li>在HOSTS中添加最新的hosts即可本地访问github</li>
+</ol>
+<h1 id="whale加速器"><a class="markdownIt-Anchor" href="#whale加速器"></a> Whale加速器</h1>
+<p>把<code>C:\ProgramData\Whale</code>里面的内容删除即可无限注册</p>
+<h1 id="github常用命令"><a class="markdownIt-Anchor" href="#github常用命令"></a> GitHub常用命令</h1>
+<p><a href="https://zhuanlan.zhihu.com/p/193140870">博客链接</a></p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304212232054.jpeg" alt="" /></p>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304211318815.png" alt="" /></p>
+<h1 id="git"><a class="markdownIt-Anchor" href="#git"></a> Git</h1>
+<blockquote>
+<p>来源于黑马程序员视频</p>
+</blockquote>
+<h2 id="常用操作步骤"><a class="markdownIt-Anchor" href="#常用操作步骤"></a> 常用操作步骤</h2>
+<ol>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290858644.png" alt="image-20230429085858530" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290908565.png" alt="image-20230429090848475" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290913300.png" alt="image-20230429091338219" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290920557.png" alt="image-20230429092012459" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290920494.png" alt="image-20230429092045403" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290930764.png" alt="image-20230429093022653" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290936814.png" alt="image-20230429093655725" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290939549.png" alt="image-20230429093928453" /></li>
+<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291007140.png" alt="image-20230429100703079" /></li>
+</ol>
+<h2 id="回滚"><a class="markdownIt-Anchor" href="#回滚"></a> 回滚</h2>
+<p><a href="https://blog.csdn.net/Heikepengmu/article/details/125801243">csdn</a></p>
+<h1 id="在idea上推送代码到github"><a class="markdownIt-Anchor" href="#在idea上推送代码到github"></a> 在IDEA上推送代码到github</h1>
+<p><a href="https://www.bilibili.com/video/BV13a411q753/?p=157&amp;spm_id_from=pageDriver&amp;vd_source=a76b9df816154c5c105a543f1d93bb5b">视频教程链接</a></p>
+<h1 id="picgo"><a class="markdownIt-Anchor" href="#picgo"></a> Picgo</h1>
+<h2 id="图床配置"><a class="markdownIt-Anchor" href="#图床配置"></a> 图床配置</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202310301721534.png" alt="image-20231030172154457" /></p>
+<p>**cdn加速：**添加前缀<a href="https://cdn.jsdelivr.net/gh/">https://cdn.jsdelivr.net/gh/</a></p>
+<h1 id="ssh连接配置"><a class="markdownIt-Anchor" href="#ssh连接配置"></a> SSH连接配置</h1>
+<p><a href="https://blog.csdn.net/qq_30049011/article/details/121182065?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-121182065-blog-131951858.235%5Ev38%5Epc_relevant_anti_vip&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-121182065-blog-131951858.235%5Ev38%5Epc_relevant_anti_vip&amp;utm_relevant_index=6">csdn</a></p>
+]]></content>
+      <categories>
+        <category>github</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>codeforces做题记录</title>
     <url>/2023/01/31/2023-codeforces%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="constructive-algorithms"><a class="markdownIt-Anchor" href="#constructive-algorithms"></a> constructive algorithms</h1>
@@ -1849,57 +1900,6 @@
       </categories>
       <tags>
         <tag>codeforces</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>github笔记</title>
-    <url>/2023/01/31/2023-github%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="通过hosts访问github方法下载软件之后"><a class="markdownIt-Anchor" href="#通过hosts访问github方法下载软件之后"></a> 通过hosts访问github方法(下载软件之后)</h1>
-<ol>
-<li>进入<code>D:\SoftWare\hosts-server-pkg-win-x64</code></li>
-<li>在<code>cmd</code>窗口输入<code>.\hosts-server.exe --port=8888</code></li>
-<li>在浏览器输入<code>http://localhost:8888</code>查看最新hosts</li>
-<li>进入<code>C:\Windows\System32\drivers\etc</code></li>
-<li>在HOSTS中添加最新的hosts即可本地访问github</li>
-</ol>
-<h1 id="whale加速器"><a class="markdownIt-Anchor" href="#whale加速器"></a> Whale加速器</h1>
-<p>把<code>C:\ProgramData\Whale</code>里面的内容删除即可无限注册</p>
-<h1 id="github常用命令"><a class="markdownIt-Anchor" href="#github常用命令"></a> GitHub常用命令</h1>
-<p><a href="https://zhuanlan.zhihu.com/p/193140870">博客链接</a></p>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304212232054.jpeg" alt="" /></p>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304211318815.png" alt="" /></p>
-<h1 id="git"><a class="markdownIt-Anchor" href="#git"></a> Git</h1>
-<blockquote>
-<p>来源于黑马程序员视频</p>
-</blockquote>
-<h2 id="常用操作步骤"><a class="markdownIt-Anchor" href="#常用操作步骤"></a> 常用操作步骤</h2>
-<ol>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290858644.png" alt="image-20230429085858530" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290908565.png" alt="image-20230429090848475" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290913300.png" alt="image-20230429091338219" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290920557.png" alt="image-20230429092012459" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290920494.png" alt="image-20230429092045403" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290930764.png" alt="image-20230429093022653" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290936814.png" alt="image-20230429093655725" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304290939549.png" alt="image-20230429093928453" /></li>
-<li><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202304291007140.png" alt="image-20230429100703079" /></li>
-</ol>
-<h2 id="回滚"><a class="markdownIt-Anchor" href="#回滚"></a> 回滚</h2>
-<p><a href="https://blog.csdn.net/Heikepengmu/article/details/125801243">csdn</a></p>
-<h1 id="在idea上推送代码到github"><a class="markdownIt-Anchor" href="#在idea上推送代码到github"></a> 在IDEA上推送代码到github</h1>
-<p><a href="https://www.bilibili.com/video/BV13a411q753/?p=157&amp;spm_id_from=pageDriver&amp;vd_source=a76b9df816154c5c105a543f1d93bb5b">视频教程链接</a></p>
-<h1 id="picgo"><a class="markdownIt-Anchor" href="#picgo"></a> Picgo</h1>
-<h2 id="图床配置"><a class="markdownIt-Anchor" href="#图床配置"></a> 图床配置</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202310301721534.png" alt="image-20231030172154457" /></p>
-<p>**cdn加速：**添加前缀<a href="https://cdn.jsdelivr.net/gh/">https://cdn.jsdelivr.net/gh/</a></p>
-<h1 id="ssh连接配置"><a class="markdownIt-Anchor" href="#ssh连接配置"></a> SSH连接配置</h1>
-<p><a href="https://blog.csdn.net/qq_30049011/article/details/121182065?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-121182065-blog-131951858.235%5Ev38%5Epc_relevant_anti_vip&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-121182065-blog-131951858.235%5Ev38%5Epc_relevant_anti_vip&amp;utm_relevant_index=6">csdn</a></p>
-]]></content>
-      <categories>
-        <category>github</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -2010,6 +2010,26 @@
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2023/01/28/2023-test/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="967f3dff6423c7545b79e11a109be8aaa29274ff6ef0c3b88ca7364b1e728f53">3e8ff5d9782f3b0cc1fe20cbee9754e31b4f9478b8b8db35c562861fc1ce7fa72dfb21f43cbd2b33915c8e6d495b973db8f37b83955bba35165a7e654d1c11fa366fa463098aa5e5caee8819429616b8f23eb30bb33bb535192f77f3b1dc00bf4df7750f5ae0d98622e63843c28c91e04a1eb269765dff919226ce768282242a4a20cd065e4bb7ce9018f8fe4c65dac96fa801ad51f84ae66354ea95b47b58071de4d623a71317763b1b8ed6ec603b0b6682e5ae54a306f81f19ed286b643925908ffb32e1e33c01cc38df11e821a300e15091ee2c1ba096119b2e5147834342b823e773a6b1c4990ad54330f8a58da09c59e351565e6f97fc1926ee6bb008ce7710dd93dbb90c033ae647f8fac27a008220b34852016db4ca4cd69e9118f7f34105a82230dc58694afc18cdddeb05a46db27206e2cde4cc49e79017388fec75b8a8206316071b01f53ec7ac73f536a54ae89fa99dbd26b2079e9056fa2e687347a54c55e90724e6a2c31afbb1b934e64a75c9d4e0b6d445b42fbc20add21be57f9a9aa69fc697db79e9e2111469bc9607c49ea31d71bdfe5a06303452719efafedbb62f8af2f25a2e71aa6951797679b2c8ca9cb0745635afd0e88aaa28d38080d9ff7b821b50c79436ba349475a76a014200c57103f4afb15b7b0b58ff8b7c788b729624ff4f0b454030877bb486ca55dd7abcc0b6e87561945468c6c8ed448feb0d3692592623dd7296c41f8dd359150f314fcb78ea282e91c7b574e2c920636391e6ef5418db814a719159f729f70c56a309c6e25785be522228dc0455af109560813f173a874a0fdd1eadb8be7912616c3f78ca38fbb8a95d951d41a5f7776e0eb987fa34b304e375a526b538c99baba94fa91bf39e3c7bb32abc684d2ef9f06d10c68695b5e0b17bdb997b23362b7371a62ae168d1d94411e8f38d80f4d5584ebd6dec1ac884a24dcfab1cec0fe27cd6cbff16333fd900fa08044e151d7bf9d01d5471b32a6a5bde2a93be7f2af126f1e8b9a11685a28c75b51ec268e9a015ecd54c87abd3d657d5123210ce9c8266959e8ce5013282316c424d6a4a41294f522d366c61c2ad8b2d31a9f6fa48e3d526bde6066318f8214e9db77bb61cb3f1b31162fd14d672200e2d7b55ec99479d6e16684ef47856a65e4044051de98fa70f9106db78b02cb5a69e9cf9602c5eca993bde2afb9beca76722eb699d22d18ec1f856645d7c77a59a0e8706b8eb16cc6325a0f24d27808c42a2d8b978a36b96fb29247ce49de57f19fe4bf2c8d204e01688c2481fec030fed87ff99c666143be37c8669e377d3ed19bfb6a3a1b274580735bb96e054e395352289739879ff8d0ed7f1f386e1c19d8c1aa1440edd69c84fa13f791ad0511bf22da96da4543eb9ec0d900331087ec8a0e5f5980fe467817d510ce5babfb0b191c109b617f2faf3f7d41eb5661a1b43e4a5edad581f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">请输入密码查看文章</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
     <title>springboot笔记</title>
     <url>/2023/10/20/2023-springboot%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<ol>
@@ -2031,26 +2051,6 @@
       <tags>
         <tag>springboot</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2023/01/28/2023-test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="967f3dff6423c7545b79e11a109be8aaa29274ff6ef0c3b88ca7364b1e728f53">3e8ff5d9782f3b0cc1fe20cbee9754e31b4f9478b8b8db35c562861fc1ce7fa72dfb21f43cbd2b33915c8e6d495b973db8f37b83955bba35165a7e654d1c11fa366fa463098aa5e5caee8819429616b8f23eb30bb33bb535192f77f3b1dc00bf4df7750f5ae0d98622e63843c28c91e04a1eb269765dff919226ce768282242a4a20cd065e4bb7ce9018f8fe4c65dac96fa801ad51f84ae66354ea95b47b58071de4d623a71317763b1b8ed6ec603b0b6682e5ae54a306f81f19ed286b643925908ffb32e1e33c01cc38df11e821a300e15091ee2c1ba096119b2e5147834342b823e773a6b1c4990ad54330f8a58da09c59e351565e6f97fc1926ee6bb008ce7710dd93dbb90c033ae647f8fac27a008220b34852016db4ca4cd69e9118f7f34105a82230dc58694afc18cdddeb05a46db27206e2cde4cc49e79017388fec75b8a8206316071b01f53ec7ac73f536a54ae89fa99dbd26b2079e9056fa2e687347a54c55e90724e6a2c31afbb1b934e64a75c9d4e0b6d445b42fbc20add21be57f9a9aa69fc697db79e9e2111469bc9607c49ea31d71bdfe5a06303452719efafedbb62f8af2f25a2e71aa6951797679b2c8ca9cb0745635afd0e88aaa28d38080d9ff7b821b50c79436ba349475a76a014200c57103f4afb15b7b0b58ff8b7c788b729624ff4f0b454030877bb486ca55dd7abcc0b6e87561945468c6c8ed448feb0d3692592623dd7296c41f8dd359150f314fcb78ea282e91c7b574e2c920636391e6ef5418db814a719159f729f70c56a309c6e25785be522228dc0455af109560813f173a874a0fdd1eadb8be7912616c3f78ca38fbb8a95d951d41a5f7776e0eb987fa34b304e375a526b538c99baba94fa91bf39e3c7bb32abc684d2ef9f06d10c68695b5e0b17bdb997b23362b7371a62ae168d1d94411e8f38d80f4d5584ebd6dec1ac884a24dcfab1cec0fe27cd6cbff16333fd900fa08044e151d7bf9d01d5471b32a6a5bde2a93be7f2af126f1e8b9a11685a28c75b51ec268e9a015ecd54c87abd3d657d5123210ce9c8266959e8ce5013282316c424d6a4a41294f522d366c61c2ad8b2d31a9f6fa48e3d526bde6066318f8214e9db77bb61cb3f1b31162fd14d672200e2d7b55ec99479d6e16684ef47856a65e4044051de98fa70f9106db78b02cb5a69e9cf9602c5eca993bde2afb9beca76722eb699d22d18ec1f856645d7c77a59a0e8706b8eb16cc6325a0f24d27808c42a2d8b978a36b96fb29247ce49de57f19fe4bf2c8d204e01688c2481fec030fed87ff99c666143be37c8669e377d3ed19bfb6a3a1b274580735bb96e054e395352289739879ff8d0ed7f1f386e1c19d8c1aa1440edd69c84fa13f791ad0511bf22da96da4543eb9ec0d900331087ec8a0e5f5980fe467817d510ce5babfb0b191c109b617f2faf3f7d41eb5661a1b43e4a5edad581f</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-xray">
-      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">请输入密码查看文章</span>
-      </label>
-      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
-      </svg>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>天梯赛题</title>
@@ -2580,73 +2580,6 @@
       </tags>
   </entry>
   <entry>
-    <title>计算机网络</title>
-    <url>/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
-    <content><![CDATA[<h1 id="第一章"><a class="markdownIt-Anchor" href="#第一章"></a> 第一章</h1>
-<h2 id="isoosi参考模型"><a class="markdownIt-Anchor" href="#isoosi参考模型"></a> ISO/OSI参考模型</h2>
-<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303152231242.jpg" alt="" /></p>
-<h1 id="期末笔记"><a class="markdownIt-Anchor" href="#期末笔记"></a> 期末笔记</h1>
-<ol>
-<li>数据链路层传输的PDU是<strong>数据帧</strong></li>
-<li>常用的公钥密码体制是<strong>RSA</strong></li>
-<li><strong>RSA</strong>加密和解密都使用相同的算法，但使用不同的密钥</li>
-<li>无线局域网的标准是<strong>IEEE 802.11</strong></li>
-<li>无线城域网的标准是<strong>IEEE 802.16</strong></li>
-<li>常用的对称密钥体制是<strong>DES</strong></li>
-<li>IPSec VPN的安全技术用到了<strong>隧道技术、加密技术、身份认证技术</strong></li>
-<li>IPSec协议是一组协议，可以作为一个完整的VPN方案，工作在OSI的<strong>网络层</strong></li>
-<li>网络拓扑结构可分为<strong>总线型、星型、环形、树形、网状</strong></li>
-<li>第一次对路由器进行配置，应该通过<strong>console端口</strong>配置</li>
-<li>无线局域网中为实现传输媒体共享而采用的协议是<strong>CSMA/CA</strong></li>
-<li>在OSI/RM中，完成路径选择功能的是<strong>网络层</strong></li>
-<li>IEEE 802.3的物理层协议10BASE-T规定从网卡到集线器的最大传输距离是<strong>100m</strong></li>
-<li>IEEE 802.3标准规定的以太网的物理地址长度是<strong>48bit</strong></li>
-<li>交换机与双绞线进行连接的端口是<strong>RJ-45</strong></li>
-<li>EGP在<strong>自治系统</strong>之间传播路由</li>
-<li>以集线器为核心创建的网络，其物理拓扑结构是<strong>星型</strong></li>
-<li>同步传输中的同步是指<strong>时钟同步</strong></li>
-<li>从IPv4过渡到IPv6的技术有<strong>双协议栈、隧道技术、网络地址转换</strong></li>
-<li>属于宽带接入技术的有<strong>ADSL、HFC、光纤接入、以太网接入、无线接入</strong></li>
-<li>使用<strong>NET</strong>技术可以将私有的本地IP地址转换为合法的全球IP地址</li>
-<li>波分多路复用技术主要用于<strong>光纤通信</strong></li>
-<li>ICMP通常被认为是<strong>网络层</strong>的协议</li>
-<li>对付网络安全中的被动攻击可采用各种<strong>数据加密</strong>技术</li>
-<li>IPv6采用<strong>冒号十六进制</strong>法书写地址</li>
-<li>在OSI/RM的网络层中，数据以<strong>分组</strong>为单位进行传输</li>
-<li>声音属于<strong>模拟数据</strong></li>
-<li>串行通信中，PPP协议面向的是<strong>字符</strong></li>
-<li><strong>通信子网</strong>向端系统提供虚电路和数据报两种网络服务</li>
-<li>以太网使用MAC层协议的是<strong>CSMA/CD协议</strong></li>
-<li>Hash签名(MD5)生成的摘要长度是<strong>128bit</strong></li>
-<li>将网络互相连接起来要使用一些中间设备，在网络层以上使用的中间设备是<strong>网关</strong></li>
-<li>IP服务的主要特点是<strong>不可靠，无连接和尽最大努力投递</strong></li>
-<li>同一个VLAN中的两台主机<strong>可以跨越多台交换机</strong></li>
-<li>当<strong>没有专门申请的全局IP地址，只有一个连接ISP的全局IP地址</strong>时，需要使用<strong>NAPT</strong></li>
-<li>以太网的帧格式，其数据部分最大长度是<strong>1500B</strong>，去掉首部1480B</li>
-<li>IEEE 802.3或者Ethernet规定数据的传输必须使用<strong>曼彻斯特编码</strong>进行</li>
-<li>计算机网络中负责节点间通信任务的那一部分称为<strong>通信子网</strong></li>
-<li>ARP通常被认为是<strong>网络层</strong>的协议</li>
-<li>TCP的滑动窗口以<strong>字节</strong>为单位</li>
-<li>中继器的主要作用是<strong>延长通信距离</strong></li>
-<li>OSPF是基于<strong>链路状态</strong>的路由协议</li>
-<li>RIP是基于<strong>距离向量</strong>的路由选择协议</li>
-<li>高速以太网100BASE-T采用的是<strong>星型</strong>拓扑结构</li>
-<li>数据单元的点到点传递由<strong>数据链路</strong>层负责。</li>
-<li>在物理层扩展局域网需要使用设备是<strong>集线器</strong></li>
-<li>数据通信中举出的三种传输介质是<strong>双绞线 同轴电缆 光缆</strong></li>
-<li>发送时延=数据帧长度/发送速率</li>
-<li>传播时延=信道长度/电磁波在信道上的传播速率</li>
-<li>以太网的端到端来回时延2t称为<strong>争用期</strong>,又称为碰撞窗口。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>计算机网络</category>
-      </categories>
-      <tags>
-        <tag>计算机网络</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>蓝桥杯备考记录</title>
     <url>/2023/02/07/2023-%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%87%E8%80%83%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="大纲"><a class="markdownIt-Anchor" href="#大纲"></a> <a href="https://blog.csdn.net/Sunny_Deer/article/details/123713345">大纲</a></h1>
@@ -2727,6 +2660,73 @@
       </categories>
       <tags>
         <tag>蓝桥杯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络</title>
+    <url>/2023/03/15/2023-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
+    <content><![CDATA[<h1 id="第一章"><a class="markdownIt-Anchor" href="#第一章"></a> 第一章</h1>
+<h2 id="isoosi参考模型"><a class="markdownIt-Anchor" href="#isoosi参考模型"></a> ISO/OSI参考模型</h2>
+<p><img src="https://raw.githubusercontent.com/GanBro/imgs/main/202303152231242.jpg" alt="" /></p>
+<h1 id="期末笔记"><a class="markdownIt-Anchor" href="#期末笔记"></a> 期末笔记</h1>
+<ol>
+<li>数据链路层传输的PDU是<strong>数据帧</strong></li>
+<li>常用的公钥密码体制是<strong>RSA</strong></li>
+<li><strong>RSA</strong>加密和解密都使用相同的算法，但使用不同的密钥</li>
+<li>无线局域网的标准是<strong>IEEE 802.11</strong></li>
+<li>无线城域网的标准是<strong>IEEE 802.16</strong></li>
+<li>常用的对称密钥体制是<strong>DES</strong></li>
+<li>IPSec VPN的安全技术用到了<strong>隧道技术、加密技术、身份认证技术</strong></li>
+<li>IPSec协议是一组协议，可以作为一个完整的VPN方案，工作在OSI的<strong>网络层</strong></li>
+<li>网络拓扑结构可分为<strong>总线型、星型、环形、树形、网状</strong></li>
+<li>第一次对路由器进行配置，应该通过<strong>console端口</strong>配置</li>
+<li>无线局域网中为实现传输媒体共享而采用的协议是<strong>CSMA/CA</strong></li>
+<li>在OSI/RM中，完成路径选择功能的是<strong>网络层</strong></li>
+<li>IEEE 802.3的物理层协议10BASE-T规定从网卡到集线器的最大传输距离是<strong>100m</strong></li>
+<li>IEEE 802.3标准规定的以太网的物理地址长度是<strong>48bit</strong></li>
+<li>交换机与双绞线进行连接的端口是<strong>RJ-45</strong></li>
+<li>EGP在<strong>自治系统</strong>之间传播路由</li>
+<li>以集线器为核心创建的网络，其物理拓扑结构是<strong>星型</strong></li>
+<li>同步传输中的同步是指<strong>时钟同步</strong></li>
+<li>从IPv4过渡到IPv6的技术有<strong>双协议栈、隧道技术、网络地址转换</strong></li>
+<li>属于宽带接入技术的有<strong>ADSL、HFC、光纤接入、以太网接入、无线接入</strong></li>
+<li>使用<strong>NET</strong>技术可以将私有的本地IP地址转换为合法的全球IP地址</li>
+<li>波分多路复用技术主要用于<strong>光纤通信</strong></li>
+<li>ICMP通常被认为是<strong>网络层</strong>的协议</li>
+<li>对付网络安全中的被动攻击可采用各种<strong>数据加密</strong>技术</li>
+<li>IPv6采用<strong>冒号十六进制</strong>法书写地址</li>
+<li>在OSI/RM的网络层中，数据以<strong>分组</strong>为单位进行传输</li>
+<li>声音属于<strong>模拟数据</strong></li>
+<li>串行通信中，PPP协议面向的是<strong>字符</strong></li>
+<li><strong>通信子网</strong>向端系统提供虚电路和数据报两种网络服务</li>
+<li>以太网使用MAC层协议的是<strong>CSMA/CD协议</strong></li>
+<li>Hash签名(MD5)生成的摘要长度是<strong>128bit</strong></li>
+<li>将网络互相连接起来要使用一些中间设备，在网络层以上使用的中间设备是<strong>网关</strong></li>
+<li>IP服务的主要特点是<strong>不可靠，无连接和尽最大努力投递</strong></li>
+<li>同一个VLAN中的两台主机<strong>可以跨越多台交换机</strong></li>
+<li>当<strong>没有专门申请的全局IP地址，只有一个连接ISP的全局IP地址</strong>时，需要使用<strong>NAPT</strong></li>
+<li>以太网的帧格式，其数据部分最大长度是<strong>1500B</strong>，去掉首部1480B</li>
+<li>IEEE 802.3或者Ethernet规定数据的传输必须使用<strong>曼彻斯特编码</strong>进行</li>
+<li>计算机网络中负责节点间通信任务的那一部分称为<strong>通信子网</strong></li>
+<li>ARP通常被认为是<strong>网络层</strong>的协议</li>
+<li>TCP的滑动窗口以<strong>字节</strong>为单位</li>
+<li>中继器的主要作用是<strong>延长通信距离</strong></li>
+<li>OSPF是基于<strong>链路状态</strong>的路由协议</li>
+<li>RIP是基于<strong>距离向量</strong>的路由选择协议</li>
+<li>高速以太网100BASE-T采用的是<strong>星型</strong>拓扑结构</li>
+<li>数据单元的点到点传递由<strong>数据链路</strong>层负责。</li>
+<li>在物理层扩展局域网需要使用设备是<strong>集线器</strong></li>
+<li>数据通信中举出的三种传输介质是<strong>双绞线 同轴电缆 光缆</strong></li>
+<li>发送时延=数据帧长度/发送速率</li>
+<li>传播时延=信道长度/电磁波在信道上的传播速率</li>
+<li>以太网的端到端来回时延2t称为<strong>争用期</strong>,又称为碰撞窗口。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
       </tags>
   </entry>
   <entry>
