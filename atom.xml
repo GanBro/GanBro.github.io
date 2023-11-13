@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-13T07:45:20.277Z</updated>
+  <updated>2023-11-13T08:47:19.631Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -21,14 +21,17 @@
     <link href="https://ganbro.github.io/2023/11/13/JavaScript/"/>
     <id>https://ganbro.github.io/2023/11/13/JavaScript/</id>
     <published>2023-11-13T06:40:06.000Z</published>
-    <updated>2023-11-13T07:45:20.277Z</updated>
+    <updated>2023-11-13T08:47:19.631Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;javascript-基础-第1天&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#javascript-基础-第1天&quot;&gt;&lt;/a&gt; JavaScript 基础 -</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;JavaScript 基础 - 第4天&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;javascript-基础-第1天&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -111,7 +114,7 @@
     <link href="https://ganbro.github.io/2023/11/06/hello-world/"/>
     <id>https://ganbro.github.io/2023/11/06/hello-world/</id>
     <published>2023-11-06T13:54:16.493Z</published>
-    <updated>2023-11-11T12:54:56.122Z</updated>
+    <updated>2023-11-13T12:37:37.839Z</updated>
     
     
       
@@ -270,7 +273,7 @@
     <link href="https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/"/>
     <id>https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/</id>
     <published>2023-09-05T15:19:13.000Z</published>
-    <updated>2023-10-29T15:59:39.301Z</updated>
+    <updated>2023-11-13T09:16:56.030Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
