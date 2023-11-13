@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-10T08:57:01.968Z</updated>
+  <updated>2023-11-13T07:45:20.277Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript</title>
+    <link href="https://ganbro.github.io/2023/11/13/JavaScript/"/>
+    <id>https://ganbro.github.io/2023/11/13/JavaScript/</id>
+    <published>2023-11-13T06:40:06.000Z</published>
+    <updated>2023-11-13T07:45:20.277Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;javascript-基础-第1天&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#javascript-基础-第1天&quot;&gt;&lt;/a&gt; JavaScript 基础 -</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://ganbro.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>密码</title>
@@ -36,7 +59,7 @@
     <link href="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
     <id>https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</id>
     <published>2023-11-09T08:17:54.000Z</published>
-    <updated>2023-11-10T09:01:01.551Z</updated>
+    <updated>2023-11-13T06:35:47.395Z</updated>
     
     
       
@@ -440,32 +463,6 @@
     
     
     <category term="redis" scheme="https://ganbro.github.io/tags/redis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux</title>
-    <link href="https://ganbro.github.io/2023/04/29/2023-Linux/"/>
-    <id>https://ganbro.github.io/2023/04/29/2023-Linux/</id>
-    <published>2023-04-29T08:40:05.000Z</published>
-    <updated>2023-11-02T02:29:29.866Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;finalshell&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#finalshell&quot;&gt;&lt;/a&gt; FinalShell&lt;/h1&gt;
-&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Linux" scheme="https://ganbro.github.io/categories/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
     
   </entry>
   
