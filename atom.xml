@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-13T08:47:19.631Z</updated>
+  <updated>2023-11-16T02:41:30.530Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://ganbro.github.io/2023/11/16/Linux/"/>
+    <id>https://ganbro.github.io/2023/11/16/Linux/</id>
+    <published>2023-11-16T02:34:03.000Z</published>
+    <updated>2023-11-16T02:41:30.530Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;linux基础命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#linux基础命令&quot;&gt;&lt;/a&gt; Linux基础命令&lt;/h1&gt;
+&lt;h2 id=&quot;linux的目录结构&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript</title>
@@ -273,7 +297,7 @@
     <link href="https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/"/>
     <id>https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/</id>
     <published>2023-09-05T15:19:13.000Z</published>
-    <updated>2023-11-13T14:52:24.299Z</updated>
+    <updated>2023-11-14T11:29:28.601Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -312,7 +336,7 @@
     <link href="https://ganbro.github.io/2023/08/25/2023-%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E5%8D%95%E8%AF%8D/"/>
     <id>https://ganbro.github.io/2023/08/25/2023-%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A7%E5%8D%95%E8%AF%8D/</id>
     <published>2023-08-25T02:46:55.000Z</published>
-    <updated>2023-10-17T15:13:06.791Z</updated>
+    <updated>2023-11-15T06:45:09.347Z</updated>
     
     
       
@@ -442,30 +466,6 @@
     
     
     <category term="Docker" scheme="https://ganbro.github.io/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>redis</title>
-    <link href="https://ganbro.github.io/2023/05/01/2023-redis/"/>
-    <id>https://ganbro.github.io/2023/05/01/2023-redis/</id>
-    <published>2023-05-01T01:03:52.000Z</published>
-    <updated>2023-05-01T01:18:07.567Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;redis常用命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#redis常用命令&quot;&gt;&lt;/a&gt; Redis常用命令&lt;/h1&gt;
-&lt;h2 id=&quot;字符创string操作命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="redis" scheme="https://ganbro.github.io/tags/redis/"/>
     
   </entry>
   
