@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-16T02:41:30.530Z</updated>
+  <updated>2023-11-17T08:25:18.427Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -17,19 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MQ</title>
+    <link href="https://ganbro.github.io/2023/11/16/MQ/"/>
+    <id>https://ganbro.github.io/2023/11/16/MQ/</id>
+    <published>2023-11-16T07:52:49.000Z</published>
+    <updated>2023-11-17T08:25:18.427Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;微服务一旦拆分，必然涉及到服务之间的相互调用，目前我们服务之间调用采用的都是基于OpenFeign的调用。这种调用中，调用者发起请求后需要&lt;strong&gt;等待&lt;/strong&gt;服务提供者执行业务返回结果后，才能继续执行后面的业务。也就是说调用者在调用过程中处于阻塞状态，因此</summary>
+        
+      
+    
+    
+    
+    
+    <category term="MQ" scheme="https://ganbro.github.io/tags/MQ/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux</title>
     <link href="https://ganbro.github.io/2023/11/16/Linux/"/>
     <id>https://ganbro.github.io/2023/11/16/Linux/</id>
     <published>2023-11-16T02:34:03.000Z</published>
-    <updated>2023-11-16T02:41:30.530Z</updated>
+    <updated>2023-11-16T03:06:44.894Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;linux基础命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#linux基础命令&quot;&gt;&lt;/a&gt; Linux基础命令&lt;/h1&gt;
-&lt;h2 id=&quot;linux的目录结构&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;linux基础命令&quot;&gt; Linux基础命令&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;linux的目录结构&quot;&gt; Linux的目录结构&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -45,7 +69,7 @@
     <link href="https://ganbro.github.io/2023/11/13/JavaScript/"/>
     <id>https://ganbro.github.io/2023/11/13/JavaScript/</id>
     <published>2023-11-13T06:40:06.000Z</published>
-    <updated>2023-11-13T08:47:19.631Z</updated>
+    <updated>2023-11-17T09:36:58.252Z</updated>
     
     
       
@@ -55,7 +79,7 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;JavaScript 基础 - 第4天&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&quot;javascript-基础-第1天&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+&lt;h1&gt;&lt;span id=&quot;javascript-基础-第1天&quot;&gt; JavaScript 基础 -</summary>
         
       
     
@@ -71,7 +95,7 @@
     <link href="https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/"/>
     <id>https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/</id>
     <published>2023-11-09T08:18:14.000Z</published>
-    <updated>2023-11-10T08:57:01.968Z</updated>
+    <updated>2023-11-20T08:58:01.759Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -93,7 +117,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;基础信息&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#基础信息&quot;&gt;&lt;/a&gt; 基础信息&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;基础信息&quot;&gt; 基础信息&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://b11et3un53m.feishu.cn/wiki/FJAnwOhpIihMkLkOKQocdWZ7nUc&quot;&gt;参考文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a</summary>
         
       
@@ -121,8 +146,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;插件作用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#插件作用&quot;&gt;&lt;/a&gt; 插件作用&lt;/h1&gt;
-&lt;h2 id=&quot;live-server&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;插件作用&quot;&gt; 插件作用&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;live-server&quot;&gt; Live Server&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;快速保存&lt;/p&gt;
+&lt;h3&gt;&lt;span id=&quot;github-theme&quot;&gt; Github</summary>
         
       
     
@@ -138,7 +165,7 @@
     <link href="https://ganbro.github.io/2023/11/06/hello-world/"/>
     <id>https://ganbro.github.io/2023/11/06/hello-world/</id>
     <published>2023-11-06T13:54:16.493Z</published>
-    <updated>2023-11-13T12:45:57.042Z</updated>
+    <updated>2023-11-16T03:28:35.369Z</updated>
     
     
       
@@ -168,7 +195,7 @@
         
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://cn.vuejs.org/&quot;&gt;Vue2官网&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue3官网&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;快速上手&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+&lt;h1&gt;&lt;span id=&quot;快速上手&quot;&gt;</summary>
         
       
     
@@ -189,8 +216,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;服务器&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#服务器&quot;&gt;&lt;/a&gt; 服务器&lt;/h1&gt;
-&lt;h2 id=&quot;公网ip&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#公网ip&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;服务器&quot;&gt; 服务器&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;公网ip&quot;&gt; 公网IP&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;116.205.231.93&lt;/p&gt;
+&lt;h2&gt;&lt;span id=&quot;密码&quot;&gt;</summary>
         
       
     
@@ -206,15 +235,15 @@
     <link href="https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/"/>
     <id>https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/</id>
     <published>2023-10-27T07:28:51.000Z</published>
-    <updated>2023-11-14T07:36:51.922Z</updated>
+    <updated>2023-11-22T08:50:19.023Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;进度&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#进度&quot;&gt;&lt;/a&gt; 进度&lt;/h1&gt;
-&lt;h2 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;进度&quot;&gt; 进度&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;高数&quot;&gt;</summary>
         
       
     
@@ -278,8 +307,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;好句&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#好句&quot;&gt;&lt;/a&gt; 好句&lt;/h1&gt;
-&lt;p&gt;1.&lt;img</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;好句&quot;&gt; 好句&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;1.&lt;img src=&quot;https://raw.githubusercontent.com/GanBro/imgs/main/202310041035654.png&quot;</summary>
         
       
     
@@ -297,7 +326,7 @@
     <link href="https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/"/>
     <id>https://ganbro.github.io/2023/09/05/2023-%E9%A1%B9%E7%9B%AE/</id>
     <published>2023-09-05T15:19:13.000Z</published>
-    <updated>2023-11-14T11:29:28.601Z</updated>
+    <updated>2023-11-20T08:29:27.663Z</updated>
     
     
     <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
@@ -321,8 +350,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;spring&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#spring&quot;&gt;&lt;/a&gt; Spring&lt;/h1&gt;
-&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#环境配置&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;spring&quot;&gt; Spring&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;环境配置&quot;&gt;</summary>
         
       
     
@@ -343,7 +372,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;名词&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#名词&quot;&gt;&lt;/a&gt; 名词&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;名词&quot;&gt; 名词&lt;/span&gt;&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;offspring 后代，子女&lt;/li&gt;
 &lt;li&gt;commitment 承诺&lt;/li&gt;
@@ -370,9 +399,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;高数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#高数&quot;&gt;&lt;/a&gt; 高数&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;高数&quot;&gt; 高数&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;第4讲&lt;/strong&gt;4.10&lt;/p&gt;
-&lt;h1 id=&quot;计算机三级&quot;&gt;&lt;a</summary>
+&lt;h1&gt;&lt;span id=&quot;计算机三级&quot;&gt; 计算机三级&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;进度&quot;&gt;</summary>
         
       
     
@@ -395,8 +425,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;虚拟机centos配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#虚拟机centos配置&quot;&gt;&lt;/a&gt; 虚拟机Centos配置&lt;/h1&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;虚拟机centos配置&quot;&gt; 虚拟机Centos配置&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/GanBro/imgs/main/202307072108107.png&quot;</summary>
         
       
     
@@ -417,8 +447,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;redis&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#redis&quot;&gt;&lt;/a&gt; Redis&lt;/h1&gt;
-&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#使用场景&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;redis&quot;&gt; Redis&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;使用场景&quot;&gt; 使用场景&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;span id=&quot;缓存穿透&quot;&gt; 缓存穿透&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -441,31 +473,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Docker</title>
-    <link href="https://ganbro.github.io/2023/05/11/2023-Docker/"/>
-    <id>https://ganbro.github.io/2023/05/11/2023-Docker/</id>
-    <published>2023-05-11T02:56:58.000Z</published>
-    <updated>2023-05-11T13:24:38.892Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;docker基本操作命令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#docker基本操作命令&quot;&gt;&lt;/a&gt; Docker基本操作命令&lt;/h1&gt;
-&lt;p&gt;其实没什么记录必要，只需查看帮助文档就行了&lt;/p&gt;
-&lt;p&gt;不知道的命令，可以去&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Docker" scheme="https://ganbro.github.io/tags/Docker/"/>
     
   </entry>
   

@@ -201,60 +201,60 @@
 
         <div class="e-content article-entry" itemprop="articleBody">
             
-                <h1 id="基础信息"><a class="markdownIt-Anchor" href="#基础信息"></a> 基础信息</h1>
+                <h1><span id="基础信息"> 基础信息</span></h1>
 <p><a target="_blank" rel="noopener" href="https://b11et3un53m.feishu.cn/wiki/FJAnwOhpIihMkLkOKQocdWZ7nUc">参考文档</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1kH4y1S7wz/?p=2&amp;spm_id_from=pageDriver&amp;vd_source=a76b9df816154c5c105a543f1d93bb5b">视频链接</a></p>
-<h2 id="前端配置"><a class="markdownIt-Anchor" href="#前端配置"></a> 前端配置</h2>
+<h2><span id="前端配置"> 前端配置</span></h2>
 <p>nginx目录在F:\nginxDocument\hmall-nginx</p>
-<h1 id="笔记"><a class="markdownIt-Anchor" href="#笔记"></a> 笔记</h1>
+<h1><span id="笔记"> 笔记</span></h1>
 <ol>
 <li>此视频中dps等价于docker ps</li>
 </ol>
-<h1 id="服务器"><a class="markdownIt-Anchor" href="#服务器"></a> 服务器</h1>
-<h2 id="基础信息-2"><a class="markdownIt-Anchor" href="#基础信息-2"></a> 基础信息</h2>
-<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091631628.png" alt="image-20231109161850880" /></p>
-<h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> docker</h1>
+<h1><span id="服务器"> 服务器</span></h1>
+<h2><span id="基础信息"> 基础信息</span></h2>
+<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091631628.png" alt="image-20231109161850880"></p>
+<h1><span id="docker"> docker</span></h1>
 <p>本安装教程参考Docker官方文档，地址如下：</p>
 <p><a target="_blank" rel="noopener" href="https://docs.docker.com/engine/install/centos/">https://docs.docker.com/engine/install/centos/</a></p>
-<h2 id="安装docker"><a class="markdownIt-Anchor" href="#安装docker"></a> 安装docker</h2>
-<h3 id="1卸载旧版"><a class="markdownIt-Anchor" href="#1卸载旧版"></a> 1.卸载旧版</h3>
+<h2><span id="安装docker"> 安装docker</span></h2>
+<h3><span id="1卸载旧版"> 1.卸载旧版</span></h3>
 <p>首先如果系统中已经存在旧的Docker，则先卸载：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">yum remove docker \</span><br><span class="line">    docker-client \</span><br><span class="line">    docker-client-latest \</span><br><span class="line">    docker-common \</span><br><span class="line">    docker-latest \</span><br><span class="line">    docker-latest-logrotate \</span><br><span class="line">    docker-logrotate \</span><br><span class="line">    docker-engine</span><br></pre></td></tr></table></figure>
-<h3 id="2配置docker的yum库"><a class="markdownIt-Anchor" href="#2配置docker的yum库"></a> 2.配置Docker的yum库</h3>
+<h3><span id="2配置docker的yum库"> 2.配置Docker的yum库</span></h3>
 <p>首先要安装一个yum工具</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y yum-utils</span><br></pre></td></tr></table></figure>
 <p>安装成功后，执行命令，配置Docker的yum源：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</span><br></pre></td></tr></table></figure>
-<h3 id="3安装docker"><a class="markdownIt-Anchor" href="#3安装docker"></a> 3.安装Docker</h3>
+<h3><span id="3安装docker"> 3.安装Docker</span></h3>
 <p>最后，执行命令，安装Docker</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
-<h3 id="4启动和校验"><a class="markdownIt-Anchor" href="#4启动和校验"></a> 4.启动和校验</h3>
+<h3><span id="4启动和校验"> 4.启动和校验</span></h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
-<h3 id="5配置镜像加速"><a class="markdownIt-Anchor" href="#5配置镜像加速"></a> 5.配置镜像加速</h3>
+<h3><span id="5配置镜像加速"> 5.配置镜像加速</span></h3>
 <p>这里以阿里云镜像加速为例。</p>
-<h4 id="51注册阿里云账号"><a class="markdownIt-Anchor" href="#51注册阿里云账号"></a> 5.1.注册阿里云账号</h4>
+<h4><span id="51注册阿里云账号"> 5.1.注册阿里云账号</span></h4>
 <p>首先访问阿里云网站:</p>
 <p><a target="_blank" rel="noopener" href="https://www.aliyun.com/">https://www.aliyun.com/</a></p>
 <p>注册一个账号。</p>
-<h4 id="52开通镜像服务"><a class="markdownIt-Anchor" href="#52开通镜像服务"></a> 5.2.开通镜像服务</h4>
+<h4><span id="52开通镜像服务"> 5.2.开通镜像服务</span></h4>
 <p>在首页的产品中，找到阿里云的<strong>容器镜像服务</strong>：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643402.png" alt="img" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643402.png" alt="img"></p>
 <p>点击后进入控制台：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643610.png" alt="img" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643610.png" alt="img"></p>
 <p>首次可能需要选择立刻开通，然后进入控制台。</p>
-<h4 id="53配置镜像加速"><a class="markdownIt-Anchor" href="#53配置镜像加速"></a> 5.3.配置镜像加速</h4>
+<h4><span id="53配置镜像加速"> 5.3.配置镜像加速</span></h4>
 <p>找到<strong>镜像工具</strong>下的<strong>镜像加速器</strong>：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643455.png" alt="img" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643455.png" alt="img"></p>
 <p>具体命令如下：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建目录</span></span><br><span class="line"><span class="built_in">mkdir</span> -p /etc/docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 复制内容，注意把其中的镜像加速地址改成你自己的</span></span><br><span class="line"><span class="built_in">tee</span> /etc/docker/daemon.json &lt;&lt;-<span class="string">&#x27;EOF&#x27;</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [<span class="string">&quot;https://hq9hunxv.mirror.aliyuncs.com&quot;</span>]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新加载配置</span></span><br><span class="line">systemctl daemon-reload</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启Docker</span></span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
-<h2 id="命令"><a class="markdownIt-Anchor" href="#命令"></a> 命令</h2>
+<h2><span id="命令"> 命令</span></h2>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
-<h1 id="nacos"><a class="markdownIt-Anchor" href="#nacos"></a> nacos</h1>
+<h1><span id="nacos"> nacos</span></h1>
 
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" data-id="clp0lbb6g0006qssq9639faoe" data-title="微服务"
+            <a data-url="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" data-id="clpag96e6000a5ssq0vio9tdi" data-title="微服务"
                class="article-share-link">Share</a>
             
                 <a href="/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/#comments" class="article-comment-link">
@@ -296,7 +296,7 @@
                 
                     
                     
-                        <img data-src="\covers\4a38846b4a7948a99d7e6720ba314585.jpg" data-sizes="auto" alt="vscode配置" class="lazyload">
+                        <img data-src="\covers\022c217b03f745f38f50c88ffa8de6a2.png" data-sizes="auto" alt="vscode配置" class="lazyload">
                     
                 
                 <a href="/2023/11/09/vscode%E9%85%8D%E7%BD%AE/"></a>
@@ -340,7 +340,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">42</div>
+                <div class="sidebar-state-number">43</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -348,7 +348,7 @@
             </div>
             <div class="sidebar-state-tag">
                 <div>Tags</div>
-                <div class="sidebar-state-number">37</div>
+                <div class="sidebar-state-number">38</div>
             </div>
         </div>
         <div class="sidebar-social">
@@ -413,7 +413,7 @@
     <div class="widget-wrap wow fadeInRight">
         <h3 class="widget-title">Tag Cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/Docker/" style="font-size: 10px;">Docker</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/MakeDown/" style="font-size: 10px;">MakeDown</a> <a href="/tags/Mysql/" style="font-size: 10px;">Mysql</a> <a href="/tags/codeforces/" style="font-size: 20px;">codeforces</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ipad/" style="font-size: 10px;">ipad</a> <a href="/tags/others/" style="font-size: 10px;">others</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/springboot/" style="font-size: 10px;">springboot</a> <a href="/tags/vscode/" style="font-size: 10px;">vscode</a> <a href="/tags/%E5%85%AD%E7%BA%A7/" style="font-size: 10px;">六级</a> <a href="/tags/%E5%8D%95%E8%AF%8D/" style="font-size: 10px;">单词</a> <a href="/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/" style="font-size: 10px;">天梯赛</a> <a href="/tags/%E5%AE%9E%E9%AA%8C/" style="font-size: 10px;">实验</a> <a href="/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" style="font-size: 10px;">微服务</a> <a href="/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/" style="font-size: 10px;">快捷键</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 10px;">数据库</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%97%A5%E7%A8%8B%E8%A1%A8/" style="font-size: 10px;">日程表</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 10px;">服务器</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 10px;">爬虫</a> <a href="/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">程序设计</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 20px;">考研</a> <a href="/tags/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/" style="font-size: 10px;">考研英语</a> <a href="/tags/%E8%8B%B1%E8%AF%AD/" style="font-size: 10px;">英语</a> <a href="/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/" style="font-size: 10px;">蓝桥杯</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/tags/%E8%BD%AF%E8%80%83/" style="font-size: 10px;">软考</a> <a href="/tags/%E9%94%AE%E7%9B%98/" style="font-size: 10px;">键盘</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 10px;">面试题</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a> <a href="/tags/%E9%A2%98%E8%A7%A3/" style="font-size: 10px;">题解</a> <a href="/tags/%E9%AB%98%E6%95%B0/" style="font-size: 10px;">高数</a>
+            <a href="/tags/Docker/" style="font-size: 10px;">Docker</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Linux/" style="font-size: 20px;">Linux</a> <a href="/tags/MQ/" style="font-size: 10px;">MQ</a> <a href="/tags/MakeDown/" style="font-size: 10px;">MakeDown</a> <a href="/tags/Mysql/" style="font-size: 10px;">Mysql</a> <a href="/tags/codeforces/" style="font-size: 20px;">codeforces</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ipad/" style="font-size: 10px;">ipad</a> <a href="/tags/others/" style="font-size: 10px;">others</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/springboot/" style="font-size: 10px;">springboot</a> <a href="/tags/vscode/" style="font-size: 10px;">vscode</a> <a href="/tags/%E5%85%AD%E7%BA%A7/" style="font-size: 10px;">六级</a> <a href="/tags/%E5%8D%95%E8%AF%8D/" style="font-size: 10px;">单词</a> <a href="/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/" style="font-size: 10px;">天梯赛</a> <a href="/tags/%E5%AE%9E%E9%AA%8C/" style="font-size: 10px;">实验</a> <a href="/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" style="font-size: 10px;">微服务</a> <a href="/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/" style="font-size: 10px;">快捷键</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 10px;">数据库</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%97%A5%E7%A8%8B%E8%A1%A8/" style="font-size: 10px;">日程表</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 10px;">服务器</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 10px;">爬虫</a> <a href="/tags/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">程序设计</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 20px;">考研</a> <a href="/tags/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD/" style="font-size: 10px;">考研英语</a> <a href="/tags/%E8%8B%B1%E8%AF%AD/" style="font-size: 10px;">英语</a> <a href="/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/" style="font-size: 10px;">蓝桥杯</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">计算机网络</a> <a href="/tags/%E8%BD%AF%E8%80%83/" style="font-size: 10px;">软考</a> <a href="/tags/%E9%94%AE%E7%9B%98/" style="font-size: 10px;">键盘</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 10px;">面试题</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a> <a href="/tags/%E9%A2%98%E8%A7%A3/" style="font-size: 10px;">题解</a> <a href="/tags/%E9%AB%98%E6%95%B0/" style="font-size: 10px;">高数</a>
         </div>
     </div>
 
@@ -448,10 +448,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    54.3k
+                    91.1k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    04:25
+                    06:58
                 </div>
             
             
@@ -505,7 +505,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">42</div>
+                <div class="sidebar-state-number">43</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -513,7 +513,7 @@
             </div>
             <div class="sidebar-state-tag">
                 <div>Tags</div>
-                <div class="sidebar-state-number">37</div>
+                <div class="sidebar-state-number">38</div>
             </div>
         </div>
         <div class="sidebar-social">
