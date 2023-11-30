@@ -6,7 +6,7 @@
   <link href="https://ganbro.github.io/atom.xml" rel="self"/>
   
   <link href="https://ganbro.github.io/"/>
-  <updated>2023-11-17T08:25:18.427Z</updated>
+  <updated>2023-11-23T09:29:40.332Z</updated>
   <id>https://ganbro.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ganbro.github.io/2023/11/16/MQ/"/>
     <id>https://ganbro.github.io/2023/11/16/MQ/</id>
     <published>2023-11-16T07:52:49.000Z</published>
-    <updated>2023-11-17T08:25:18.427Z</updated>
+    <updated>2023-11-23T09:29:40.332Z</updated>
     
     
       
@@ -69,7 +69,7 @@
     <link href="https://ganbro.github.io/2023/11/13/JavaScript/"/>
     <id>https://ganbro.github.io/2023/11/13/JavaScript/</id>
     <published>2023-11-13T06:40:06.000Z</published>
-    <updated>2023-11-17T09:36:58.252Z</updated>
+    <updated>2023-11-23T01:47:33.225Z</updated>
     
     
       
@@ -87,21 +87,6 @@
     
     
     <category term="JavaScript" scheme="https://ganbro.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>密码</title>
-    <link href="https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/"/>
-    <id>https://ganbro.github.io/2023/11/09/%E5%AF%86%E7%A0%81/</id>
-    <published>2023-11-09T08:18:14.000Z</published>
-    <updated>2023-11-20T08:58:01.759Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
     
   </entry>
   
@@ -205,37 +190,11 @@
   </entry>
   
   <entry>
-    <title>服务器</title>
-    <link href="https://ganbro.github.io/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>https://ganbro.github.io/2023/10/29/2023-%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
-    <published>2023-10-29T08:44:03.000Z</published>
-    <updated>2023-11-10T09:52:34.731Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;&lt;span id=&quot;服务器&quot;&gt; 服务器&lt;/span&gt;&lt;/h1&gt;
-&lt;h2&gt;&lt;span id=&quot;公网ip&quot;&gt; 公网IP&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;116.205.231.93&lt;/p&gt;
-&lt;h2&gt;&lt;span id=&quot;密码&quot;&gt;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="服务器" scheme="https://ganbro.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
     <title>2025考研</title>
     <link href="https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/"/>
     <id>https://ganbro.github.io/2023/10/27/2023-2025%E8%80%83%E7%A0%94/</id>
     <published>2023-10-27T07:28:51.000Z</published>
-    <updated>2023-11-22T08:50:19.023Z</updated>
+    <updated>2023-11-24T01:34:58.681Z</updated>
     
     
       
@@ -277,21 +236,6 @@
     
     
     <category term="springboot" scheme="https://ganbro.github.io/tags/springboot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>密码</title>
-    <link href="https://ganbro.github.io/2023/10/19/2023-%E5%AF%86%E7%A0%81/"/>
-    <id>https://ganbro.github.io/2023/10/19/2023-%E5%AF%86%E7%A0%81/</id>
-    <published>2023-10-19T06:26:14.000Z</published>
-    <updated>2023-10-19T06:29:22.330Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
     
   </entry>
   
@@ -473,6 +417,84 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>Docker</title>
+    <link href="https://ganbro.github.io/2023/05/11/2023-Docker/"/>
+    <id>https://ganbro.github.io/2023/05/11/2023-Docker/</id>
+    <published>2023-05-11T02:56:58.000Z</published>
+    <updated>2023-05-11T13:24:38.892Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;docker基本操作命令&quot;&gt; Docker基本操作命令&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;其实没什么记录必要，只需查看帮助文档就行了&lt;/p&gt;
+&lt;p&gt;不知道的命令，可以去&lt;a href&gt;docker hub&lt;/a&gt;查看命令&lt;/p&gt;
+&lt;h2&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Docker" scheme="https://ganbro.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis</title>
+    <link href="https://ganbro.github.io/2023/05/01/2023-redis/"/>
+    <id>https://ganbro.github.io/2023/05/01/2023-redis/</id>
+    <published>2023-05-01T01:03:52.000Z</published>
+    <updated>2023-05-01T01:18:07.567Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;redis常用命令&quot;&gt; Redis常用命令&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;字符创string操作命令&quot;&gt; 字符创string操作命令&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="redis" scheme="https://ganbro.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://ganbro.github.io/2023/04/29/2023-Linux/"/>
+    <id>https://ganbro.github.io/2023/04/29/2023-Linux/</id>
+    <published>2023-04-29T08:40:05.000Z</published>
+    <updated>2023-11-02T02:29:29.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;finalshell&quot;&gt; FinalShell&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;span id=&quot;准备工作&quot;&gt; 准备工作&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://ganbro.github.io/tags/Linux/"/>
     
   </entry>
   
