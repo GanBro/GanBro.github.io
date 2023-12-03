@@ -23,12 +23,12 @@
     
 <link rel="stylesheet" href="/css/loader.css">
 
-    <meta name="description" content="基础信息 参考文档 视频链接  前端配置 nginx目录在F:\nginxDocument\hmall-nginx  笔记  此视频中dps等价于docker ps   服务器  基础信息   docker 本安装教程参考Docker官方文档，地址如下： https:&#x2F;&#x2F;docs.docker.com&#x2F;engine&#x2F;install&#x2F;centos&#x2F;  安装docker  1.卸载旧版 首先如果系统">
+    <meta name="description" content="基础信息参考文档 视频链接 前端配置nginx目录在F:\nginxDocument\hmall-nginx 笔记 此视频中dps等价于docker ps  服务器基础信息 docker本安装教程参考Docker官方文档，地址如下： https:&#x2F;&#x2F;docs.docker.com&#x2F;engine&#x2F;install&#x2F;centos&#x2F; 安装docker1.卸载旧版首先如果系统中已经存在旧的Docker，则先">
 <meta property="og:type" content="article">
 <meta property="og:title" content="微服务">
 <meta property="og:url" content="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="基础信息 参考文档 视频链接  前端配置 nginx目录在F:\nginxDocument\hmall-nginx  笔记  此视频中dps等价于docker ps   服务器  基础信息   docker 本安装教程参考Docker官方文档，地址如下： https:&#x2F;&#x2F;docs.docker.com&#x2F;engine&#x2F;install&#x2F;centos&#x2F;  安装docker  1.卸载旧版 首先如果系统">
+<meta property="og:description" content="基础信息参考文档 视频链接 前端配置nginx目录在F:\nginxDocument\hmall-nginx 笔记 此视频中dps等价于docker ps  服务器基础信息 docker本安装教程参考Docker官方文档，地址如下： https:&#x2F;&#x2F;docs.docker.com&#x2F;engine&#x2F;install&#x2F;centos&#x2F; 安装docker1.卸载旧版首先如果系统中已经存在旧的Docker，则先">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091631628.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643402.png">
@@ -201,60 +201,43 @@
 
         <div class="e-content article-entry" itemprop="articleBody">
             
-                <h1><span id="基础信息"> 基础信息</span></h1>
-<p><a target="_blank" rel="noopener" href="https://b11et3un53m.feishu.cn/wiki/FJAnwOhpIihMkLkOKQocdWZ7nUc">参考文档</a></p>
+                <h1><span id="基础信息">基础信息</span></h1><p><a target="_blank" rel="noopener" href="https://b11et3un53m.feishu.cn/wiki/FJAnwOhpIihMkLkOKQocdWZ7nUc">参考文档</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1kH4y1S7wz/?p=2&amp;spm_id_from=pageDriver&amp;vd_source=a76b9df816154c5c105a543f1d93bb5b">视频链接</a></p>
-<h2><span id="前端配置"> 前端配置</span></h2>
-<p>nginx目录在F:\nginxDocument\hmall-nginx</p>
-<h1><span id="笔记"> 笔记</span></h1>
-<ol>
+<h2><span id="前端配置">前端配置</span></h2><p>nginx目录在F:\nginxDocument\hmall-nginx</p>
+<h1><span id="笔记">笔记</span></h1><ol>
 <li>此视频中dps等价于docker ps</li>
 </ol>
-<h1><span id="服务器"> 服务器</span></h1>
-<h2><span id="基础信息"> 基础信息</span></h2>
-<p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091631628.png" alt="image-20231109161850880"></p>
-<h1><span id="docker"> docker</span></h1>
-<p>本安装教程参考Docker官方文档，地址如下：</p>
+<h1><span id="服务器">服务器</span></h1><h2><span id="基础信息">基础信息</span></h2><p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091631628.png" alt="image-20231109161850880"></p>
+<h1><span id="docker">docker</span></h1><p>本安装教程参考Docker官方文档，地址如下：</p>
 <p><a target="_blank" rel="noopener" href="https://docs.docker.com/engine/install/centos/">https://docs.docker.com/engine/install/centos/</a></p>
-<h2><span id="安装docker"> 安装docker</span></h2>
-<h3><span id="1卸载旧版"> 1.卸载旧版</span></h3>
-<p>首先如果系统中已经存在旧的Docker，则先卸载：</p>
+<h2><span id="安装docker">安装docker</span></h2><h3><span id="1卸载旧版">1.卸载旧版</span></h3><p>首先如果系统中已经存在旧的Docker，则先卸载：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">yum remove docker \</span><br><span class="line">    docker-client \</span><br><span class="line">    docker-client-latest \</span><br><span class="line">    docker-common \</span><br><span class="line">    docker-latest \</span><br><span class="line">    docker-latest-logrotate \</span><br><span class="line">    docker-logrotate \</span><br><span class="line">    docker-engine</span><br></pre></td></tr></table></figure>
-<h3><span id="2配置docker的yum库"> 2.配置Docker的yum库</span></h3>
-<p>首先要安装一个yum工具</p>
+<h3><span id="2配置docker的yum库">2.配置Docker的yum库</span></h3><p>首先要安装一个yum工具</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y yum-utils</span><br></pre></td></tr></table></figure>
 <p>安装成功后，执行命令，配置Docker的yum源：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</span><br></pre></td></tr></table></figure>
-<h3><span id="3安装docker"> 3.安装Docker</span></h3>
-<p>最后，执行命令，安装Docker</p>
+<h3><span id="3安装docker">3.安装Docker</span></h3><p>最后，执行命令，安装Docker</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
-<h3><span id="4启动和校验"> 4.启动和校验</span></h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
-<h3><span id="5配置镜像加速"> 5.配置镜像加速</span></h3>
-<p>这里以阿里云镜像加速为例。</p>
-<h4><span id="51注册阿里云账号"> 5.1.注册阿里云账号</span></h4>
-<p>首先访问阿里云网站:</p>
+<h3><span id="4启动和校验">4.启动和校验</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+<h3><span id="5配置镜像加速">5.配置镜像加速</span></h3><p>这里以阿里云镜像加速为例。</p>
+<h4><span id="51注册阿里云账号">5.1.注册阿里云账号</span></h4><p>首先访问阿里云网站:</p>
 <p><a target="_blank" rel="noopener" href="https://www.aliyun.com/">https://www.aliyun.com/</a></p>
 <p>注册一个账号。</p>
-<h4><span id="52开通镜像服务"> 5.2.开通镜像服务</span></h4>
-<p>在首页的产品中，找到阿里云的<strong>容器镜像服务</strong>：</p>
+<h4><span id="52开通镜像服务">5.2.开通镜像服务</span></h4><p>在首页的产品中，找到阿里云的<strong>容器镜像服务</strong>：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643402.png" alt="img"></p>
 <p>点击后进入控制台：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643610.png" alt="img"></p>
 <p>首次可能需要选择立刻开通，然后进入控制台。</p>
-<h4><span id="53配置镜像加速"> 5.3.配置镜像加速</span></h4>
-<p>找到<strong>镜像工具</strong>下的<strong>镜像加速器</strong>：</p>
+<h4><span id="53配置镜像加速">5.3.配置镜像加速</span></h4><p>找到<strong>镜像工具</strong>下的<strong>镜像加速器</strong>：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/GanBro/imgs/images/202311091643455.png" alt="img"></p>
 <p>具体命令如下：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建目录</span></span><br><span class="line"><span class="built_in">mkdir</span> -p /etc/docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 复制内容，注意把其中的镜像加速地址改成你自己的</span></span><br><span class="line"><span class="built_in">tee</span> /etc/docker/daemon.json &lt;&lt;-<span class="string">&#x27;EOF&#x27;</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [<span class="string">&quot;https://hq9hunxv.mirror.aliyuncs.com&quot;</span>]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新加载配置</span></span><br><span class="line">systemctl daemon-reload</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启Docker</span></span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
-<h2><span id="命令"> 命令</span></h2>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
-<h1><span id="nacos"> nacos</span></h1>
-
+<h2><span id="命令">命令</span></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动Docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 停止Docker</span></span><br><span class="line">systemctl stop docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">systemctl restart docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置开机自启</span></span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行docker ps命令，如果不报错，说明安装启动成功</span></span><br><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+<h1><span id="nacos">nacos</span></h1>
             
         </div>
         <footer class="article-footer">
-            <a data-url="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" data-id="clpkhhgqf000394sqa86s68zl" data-title="微服务"
+            <a data-url="https://ganbro.github.io/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" data-id="clppbo8zb00030gsq4lva7dh3" data-title="微服务"
                class="article-share-link">Share</a>
             
                 <a href="/2023/11/09/%E5%BE%AE%E6%9C%8D%E5%8A%A1/#comments" class="article-comment-link">
@@ -279,7 +262,7 @@
                 
                     
                     
-                        <img data-src="\covers\022c217b03f745f38f50c88ffa8de6a2.png" data-sizes="auto" alt="JavaScript" class="lazyload">
+                        <img data-src="\covers\4a38846b4a7948a99d7e6720ba314585.jpg" data-sizes="auto" alt="JavaScript" class="lazyload">
                     
                 
                 <a href="/2023/11/13/JavaScript/"></a>
@@ -296,7 +279,7 @@
                 
                     
                     
-                        <img data-src="\covers\fdeed94fb2284bd4b76c1fb8f097c99c.jpg" data-sizes="auto" alt="vscode配置" class="lazyload">
+                        <img data-src="\covers\022c217b03f745f38f50c88ffa8de6a2.png" data-sizes="auto" alt="vscode配置" class="lazyload">
                     
                 
                 <a href="/2023/11/09/vscode%E9%85%8D%E7%BD%AE/"></a>
@@ -448,10 +431,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    91k
+                    90.6k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    06:55
+                    06:53
                 </div>
             
             
